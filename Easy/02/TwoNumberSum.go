@@ -35,16 +35,14 @@ func TwoNumberSum1(array []int, target int) []int {
 
 func TwoNumberSum2(array []int, target int) []int {
 	memorize := make(map[int]struct{})
-	for _, x := range array {
-		memorize[x] = struct{}{}
-	}
 
 	for _, y := range array {
 		x := target - y
-		if x != y {
-			if _, ok := memorize[x]; ok {
-				return []int{target - y, y}
-			}
+
+		if _, ok := memorize[x]; ok {
+			return []int{x, y}
+		} else {
+			memorize[y] = struct{}{}
 		}
 	}
 	return []int{}
