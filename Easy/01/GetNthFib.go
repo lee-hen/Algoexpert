@@ -46,7 +46,7 @@ func GetNthFib1(n int) int {
 func GetNthFib2(n int) int {
 	var prevFirst int
 	var prevLast int
-	var this int
+	var thisValue int
 
 	for i := 1; i <= n; i++ {
 
@@ -55,10 +55,10 @@ func GetNthFib2(n int) int {
 		}
 
 		prevFirst = prevLast
-		prevLast = this
+		prevLast = thisValue
 
-		this = prevFirst + prevLast
+		thisValue = prevFirst + prevLast
 	}
 
-	return this
+	return thisValue
 }
