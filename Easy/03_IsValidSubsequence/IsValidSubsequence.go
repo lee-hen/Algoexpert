@@ -1,4 +1,4 @@
-package main
+package isvalidsubsequence
 
 func IsValidSubsequence(array []int, sequence []int) bool {
 	arrIdx := 0

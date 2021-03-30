@@ -1,4 +1,4 @@
-package main
+package nodedepths
 
 type BinaryTree struct {
 	Value       int

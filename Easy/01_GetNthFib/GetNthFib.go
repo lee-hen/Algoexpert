@@ -1,4 +1,4 @@
-package main
+package getnthfib
 
 func GetNthFib(n int) int {
 	return help(n, map[int]int{1: 0, 2: 1})

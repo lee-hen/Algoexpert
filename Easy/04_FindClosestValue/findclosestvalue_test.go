@@ -1,13 +1,15 @@
-package main
+package findclosestvalue
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
 func NewBST(value int) *BST {
 	return &BST{Value: value}
 }
 
-func main() {
-
+func TestCase1(t *testing.T) {
 	root := NewBST(10)
 	root.Left = NewBST(5)
 	root.Left.Left = NewBST(2)

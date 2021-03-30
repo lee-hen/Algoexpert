@@ -1,4 +1,4 @@
-package main
+package bubblesort
 
 func BubbleSort(array []int) []int {
 	isSorted := false

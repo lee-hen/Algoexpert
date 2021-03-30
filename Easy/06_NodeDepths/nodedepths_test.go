@@ -1,8 +1,11 @@
-package main
+package nodedepths
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
-func main() {
+func TestCase1(t *testing.T) {
 	root := &BinaryTree{Value: 1}
 	root.Left = &BinaryTree{Value: 2}
 	root.Left.Left = &BinaryTree{Value: 4}

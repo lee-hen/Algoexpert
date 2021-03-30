@@ -1,4 +1,4 @@
-package main
+package branchsums
 
 // This is the struct of the input root. Do not edit it.
 type BinaryTree struct {

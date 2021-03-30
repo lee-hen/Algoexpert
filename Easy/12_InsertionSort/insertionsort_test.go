@@ -1,8 +1,11 @@
-package main
+package insertionsort
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
-func main() {
+func TestCase1(t *testing.T) {
 	expected := []int{2, 3, 5, 5, 6, 8, 9}
 	output := InsertionSort([]int{8, 5, 2, 9, 5, 6, 3})
 	fmt.Println(output)

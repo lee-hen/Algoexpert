@@ -1,8 +1,11 @@
-package main
+package findthreelargestnumbers
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
-func main() {
+func TestCase1(t *testing.T) {
 
 	expected := []int{-2, -1, 7}
 	output := FindThreeLargestNumbers([]int{-1, -2, -3, -7, -17, -27, -18, -541, -8, -7, 7})

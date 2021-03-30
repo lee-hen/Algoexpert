@@ -1,8 +1,11 @@
-package main
+package productsum
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
-func main() {
+func TestCase1(t *testing.T) {
 	input := SpecialArray{
 		5, 2,
 		SpecialArray{7, -1},

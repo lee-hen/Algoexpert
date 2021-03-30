@@ -1,4 +1,4 @@
-package main
+package caesarcipherencryptor
 
 func CaesarCipherEncryptor(str string, key int) string {
 	key = key % 26

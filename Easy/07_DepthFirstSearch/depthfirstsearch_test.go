@@ -1,6 +1,9 @@
-package main
+package depthfirstsearch
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
 func NewNode(name string) *Node {
 	return &Node{
@@ -17,7 +20,7 @@ func (n *Node) AddChildren(names ...string) *Node {
 	return n
 }
 
-func main() {
+func TestCase1(t *testing.T) {
 	var graph = NewNode("A").AddChildren("B", "C", "D")
 	graph.Children[0].AddChildren("E").AddChildren("F")
 	graph.Children[2].AddChildren("G").AddChildren("H")

@@ -1,8 +1,11 @@
-package main
+package caesarcipherencryptor
 
-import "fmt"
+import (
+	"fmt"
+	"testing"
+)
 
-func main() {
+func TestCase1(t *testing.T) {
 	expected := "zab"
 	output := CaesarCipherEncryptor("xyz", 2)
 

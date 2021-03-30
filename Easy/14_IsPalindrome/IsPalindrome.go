@@ -1,4 +1,4 @@
-package main
+package ispalindrome
 
 func IsPalindrome(str string) bool {
 	return helper(str, 0)

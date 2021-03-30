@@ -1,4 +1,4 @@
-package main
+package depthfirstsearch
 
 // Do not edit the class below except
 // for the depthFirstSearch method.
