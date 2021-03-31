@@ -11,6 +11,10 @@ type BST struct {
 	Right *BST
 }
 
+func NewBST(value int) *BST {
+	return &BST{Value: value}
+}
+
 func (tree *BST) FindClosestValue(target int) int {
 	closest := tree.Value
 	for currentNode := tree; currentNode != nil; {

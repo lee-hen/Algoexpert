@@ -1,8 +1,9 @@
 package productsum
 
 import (
-	"fmt"
 	"testing"
+
+	"github.com/stretchr/testify/require"
 )
 
 func TestCase1(t *testing.T) {
@@ -20,6 +21,5 @@ func TestCase1(t *testing.T) {
 	}
 	output := ProductSum(input)
 	expected := 12
-	fmt.Println(output)
-	fmt.Println(expected == output)
+	require.Equal(t, expected, output)
 }

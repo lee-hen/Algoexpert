@@ -1,8 +1,9 @@
 package nodedepths
 
 import (
-	"fmt"
 	"testing"
+
+	"github.com/stretchr/testify/require"
 )
 
 func TestCase1(t *testing.T) {
@@ -16,5 +17,5 @@ func TestCase1(t *testing.T) {
 	root.Right.Left = &BinaryTree{Value: 6}
 	root.Right.Right = &BinaryTree{Value: 7}
 	actual := NodeDepths(root)
-	fmt.Println(16 == actual)
+	require.Equal(t, 16, actual)
 }

@@ -1,4 +1,4 @@
-package main
+package selectionsort
 
 func SelectionSort(array []int) []int {
 

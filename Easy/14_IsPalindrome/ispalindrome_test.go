@@ -1,13 +1,14 @@
 package ispalindrome
 
 import (
-	"fmt"
 	"testing"
+
+	"github.com/stretchr/testify/require"
 )
 
 func TestCase1(t *testing.T) {
 	expected := true
 	output := IsPalindrome("abcdcba")
 
-	fmt.Println(expected == output)
+	require.Equal(t, expected, output)
 }

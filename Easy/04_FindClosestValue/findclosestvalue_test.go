@@ -1,13 +1,10 @@
 package findclosestvalue
 
 import (
-	"fmt"
 	"testing"
-)
 
-func NewBST(value int) *BST {
-	return &BST{Value: value}
-}
+	"github.com/stretchr/testify/require"
+)
 
 func TestCase1(t *testing.T) {
 	root := NewBST(10)
@@ -22,6 +19,5 @@ func TestCase1(t *testing.T) {
 
 	expected := 13
 	actual := root.FindClosestValue(12)
-	fmt.Println(actual)
-	fmt.Println(actual == expected)
+	require.Equal(t, expected, actual)
 }

@@ -1,13 +1,13 @@
 package caesarcipherencryptor
 
 import (
-	"fmt"
 	"testing"
+
+	"github.com/stretchr/testify/require"
 )
 
 func TestCase1(t *testing.T) {
 	expected := "zab"
 	output := CaesarCipherEncryptor("xyz", 2)
-
-	fmt.Println(expected == output)
+	require.Equal(t, expected, output)
 }
