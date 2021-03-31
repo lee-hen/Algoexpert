@@ -7,8 +7,8 @@ import (
 )
 
 func TestCase1(t *testing.T) {
-	redShirtHeights := []int{5, 8, 1, 3, 4}
-	blueShirtHeights := []int{6, 9, 2, 4, 5}
+	redShirtHeights := []int{9, 8, 11, 3, 4}
+	blueShirtHeights := []int{10, 9, 12, 4, 5}
 	expected := true
 	actual := ClassPhotos(redShirtHeights, blueShirtHeights)
 	require.Equal(t, expected, actual)
