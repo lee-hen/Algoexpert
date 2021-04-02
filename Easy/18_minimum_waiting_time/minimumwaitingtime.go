@@ -23,4 +23,3 @@ func MinimumWaitingTime(queries []int) int {
 
 	return min
 }
-
