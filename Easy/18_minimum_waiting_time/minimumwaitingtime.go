@@ -5,6 +5,18 @@ import "sort"
 func MinimumWaitingTime(queries []int) int {
 	sort.Ints(queries)
 
+	var total int
+	for idx, duration := range queries {
+		queriesLeft := len(queries) - (idx + 1)
+		total += queriesLeft * duration
+	}
+	return total
+}
+
+// My Solution
+func MinimumWaitingTime1(queries []int) int {
+	sort.Ints(queries)
+
 	minWaitTime := make([]int, len(queries))
 	for i := range queries {
 		if i == 1 {
