@@ -18,7 +18,7 @@ func (linkedList *LinkedList) addMany(values []int) {
 }
 
 func (linkedList *LinkedList) getValues() []int {
-	values := []int{}
+	values := make([]int, 0)
 	current := linkedList
 	for current != nil {
 		values = append(values, current.Value)
