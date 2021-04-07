@@ -1,41 +1,5 @@
 package river_sizes
 
-// 0   2
-// 0 1 2   4
-//   1 2   4
-// 0 1   3 4
-// 0   2 3
-
-//0 [0, 1 ,3, 4]
-//1 [1, 2, 3]
-//2 [0, 1, 2, 4]
-//3 [3, 4]
-//4 [1, 2, 3]
-
-
-//{1, 0, 0, 1, 0},
-//{1, 0, 1, 0, 0},
-//{0, 0, 1, 0, 1},
-//{1, 0, 1, 0, 1},
-//{1, 0, 1, 1, 0},
-
-// 1 0 1
-// 1 0 1 0
-// 1 1 1 1
-
-//{1, 0, 0, 0, 0, 0, 1, 0},
-//{0, 0, 0, 0, 0, 0, 1, 0},
-//{1, 0, 1, 0, 1, 1, 1, 1},
-//{1, 1, 0, 0, 0, 0, 1, 0},
-//{1, 1, 1, 1, 1, 1, 1, 0},
-
-
-//0 0
-//1 0
-//2 0
-//3 0
-//4 0
-
 func RiverSizes(matrix [][]int) []int {
 	riverCoordinates := make([]map[int]struct{}, len(matrix))
 	for idxRow, matrixRow := range matrix {
@@ -47,19 +11,26 @@ func RiverSizes(matrix [][]int) []int {
 			}
 		}
 	}
+	returnValue := traverseMatrix(matrix, riverCoordinates, 0, 0)
+	riverSizes := make([]int, 0)
+	for _, riverSize := range returnValue {
+		if riverSize != 0 {
+			riverSizes = append(riverSizes, riverSize)
+		}
 
-	var idxRow int
-	var idxCol int
-	return traverseMatrix(matrix, riverCoordinates, idxRow, idxCol)
+	}
+	return returnValue
 }
 
-func traverseMatrix(matrix [][]int, riverCoordinates []map[int]struct{}, idxRow int, idxCol int) (riverSizes []int) {
+func traverseMatrix(matrix [][]int, riverCoordinates []map[int]struct{}, idxRow int, initIdxCol int) (riverSizes []int) {
 
+	out:
 	for ; idxRow < len(matrix); idxRow++  {
 		matrixRow := matrix[idxRow]
-		for ; idxCol < len(matrixRow); idxCol++ {
+		for idxCol := initIdxCol; idxCol < len(matrixRow); idxCol++ {
+
 			matrixCol := matrix[idxRow][idxCol]
-			var above, below, right int
+			var above, below, left, right int
 			if idxRow > 0 {
 				above = matrix[idxRow - 1][idxCol]
 			}
@@ -71,62 +42,58 @@ func traverseMatrix(matrix [][]int, riverCoordinates []map[int]struct{}, idxRow 
 				right = matrixRow[idxCol + 1]
 			}
 
+			if idxCol > 0 {
+				left = matrix[idxRow][idxCol-1]
+			}
+
 			if matrixCol == 1 {
 				if len(riverSizes) == 0 {
 					riverSizes = append(riverSizes, 0)
 				}
+
+				if _, ok := riverCoordinates[idxRow][idxCol]; !ok  {
+					return
+				}
+
 				riverNo := len(riverSizes) - 1
 				riverSizes[riverNo]++
 				delete(riverCoordinates[idxRow], idxCol)
 
-				if below == 0 && right == 0 {
+				if below == 0 && right == 0  {
 					riverSizes = append(riverSizes, 0)
+						break out
 				}
+
 
 				if above == 1  {
-					riverSizes[riverNo] += traverseBackRowMatrix(matrix, riverCoordinates, idxRow-1, idxCol)
+					riverSizes[riverNo] += traverseBackMatrix(matrix, riverCoordinates, idxRow-1, idxCol)
 				}
 
+				if left == 1 {
+					riverSizes[riverNo] += traverseBackMatrix(matrix, riverCoordinates, idxRow, idxCol-1)
+				}
 			}
 
 			if right == 0 {
-				idxCol = 0
+				idxCol = initIdxCol
 				break
 			}
 		}
-
-		//fmt.Println("^-^^^^^^^^^^^^^^-0-000---------------------------")
-		//fmt.Println(riverSizes)
-		//fmt.Println("^-^^^^^^^^^^^^^^-0-000---------------------------")
-		//fmt.Println(riverSizes)
-		//fmt.Println(idxRow)
-		//fmt.Println(idxCol)
-
-		//if idxRow == len(matrix) - 1  {
-		//	idxRow = 0
-		//	idxCol++
-		//
-		//	if len(riverCoordinates[idxRow]) == 0 {
-		//		idxRow++
-		//	}
-		//
-		//	if ok {
-		//		riverSizes = traverseMatrix(matrix, riverCoordinates, idxRow, idxCol)
-		//		riverSizes = append(riverSizes, riverSizes...)
-		//	}
-		//
-		//
-		//}
-
 	}
 
 
-	return
+	for idxR, riverCoordinate := range riverCoordinates {
+		for idxC := range  riverCoordinate {
+			x := traverseMatrix(matrix, riverCoordinates, idxR, idxC)
+			riverSizes = append(riverSizes, x...)
+		}
+	}
 
+	return
 }
 
-func traverseBackRowMatrix(matrix [][]int, riverCoordinates []map[int]struct{}, idxRow int, idxCol int) (riverSize int) {
-	if _, ok := riverCoordinates[idxRow][idxCol]; !ok || idxRow < 0 || idxCol > len(matrix[idxRow])  {
+func traverseBackMatrix(matrix [][]int, riverCoordinates []map[int]struct{}, idxRow int, idxCol int) (riverSize int) {
+	if _, ok := riverCoordinates[idxRow][idxCol]; !ok || idxRow < 0  {
 		return
 	}
 
@@ -135,10 +102,20 @@ func traverseBackRowMatrix(matrix [][]int, riverCoordinates []map[int]struct{}, 
 		delete(riverCoordinates[idxRow], idxCol)
 	}
 
+	var above, left, right int
 
-	above := matrix[idxRow-1][idxCol]
-	left := matrix[idxRow][idxCol-1]
-	right := matrix[idxRow][idxCol+1]
+	if idxRow > 1 {
+		above = matrix[idxRow-1][idxCol]
+	}
+
+	if idxCol > 0 {
+		left = matrix[idxRow][idxCol-1]
+	}
+
+	if idxCol < len(matrix[idxRow]) - 1 {
+		right = matrix[idxRow][idxCol+1]
+	}
+
 	if above == 1 {
 		idxRow--
 	}
@@ -152,7 +129,7 @@ func traverseBackRowMatrix(matrix [][]int, riverCoordinates []map[int]struct{}, 
 	}
 
 	if above == 1 || left == 1 || right == 1 {
-		riverSize += traverseBackRowMatrix(matrix, riverCoordinates, idxRow, idxCol)
+		riverSize += traverseBackMatrix(matrix, riverCoordinates, idxRow, idxCol)
 	}
 
 	return
