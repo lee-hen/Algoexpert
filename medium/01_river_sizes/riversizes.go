@@ -94,7 +94,7 @@ func traverseMatrix(matrix [][]int, riverCoordinates []map[int]struct{}) (riverS
 	for idxR, riverCoordinate := range riverCoordinates {
 		for idxC := range  riverCoordinate {
 			var riverSize int
-			riverSize += traverseRiverSize(matrix, riverCoordinates, idxR, idxC)
+			riverSize += traverseRiverSize(idxR, idxC, riverCoordinates, matrix)
 			riverSizes = append(riverSizes, riverSize)
 		}
 	}
@@ -102,7 +102,7 @@ func traverseMatrix(matrix [][]int, riverCoordinates []map[int]struct{}) (riverS
 	return
 }
 
-func traverseRiverSize(matrix [][]int, riverCoordinates []map[int]struct{}, idxRow int, idxCol int) (riverSize int) {
+func traverseRiverSize(idxRow, idxCol int, riverCoordinates []map[int]struct{}, matrix [][]int) (riverSize int) {
 
 	var above, below, left, right int
 
@@ -132,19 +132,19 @@ func traverseRiverSize(matrix [][]int, riverCoordinates []map[int]struct{}, idxR
 	}
 
 	if below == 1 {
-		riverSize += traverseRiverSize(matrix, riverCoordinates, idxRow+1, idxCol)
+		riverSize += traverseRiverSize(idxRow+1, idxCol, riverCoordinates, matrix)
 	}
 
 	if right == 1 {
-		riverSize += traverseRiverSize(matrix, riverCoordinates, idxRow, idxCol+1)
+		riverSize += traverseRiverSize(idxRow, idxCol+1, riverCoordinates, matrix)
 	}
 
 	if above == 1 {
-		riverSize += traverseRiverSize(matrix, riverCoordinates, idxRow-1, idxCol)
+		riverSize += traverseRiverSize(idxRow-1, idxCol, riverCoordinates,  matrix)
 	}
 
 	if  left == 1  {
-		riverSize += traverseRiverSize(matrix, riverCoordinates, idxRow, idxCol-1)
+		riverSize += traverseRiverSize(idxRow, idxCol-1, riverCoordinates, matrix)
 	}
 
 	return
