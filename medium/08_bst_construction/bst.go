@@ -74,12 +74,12 @@ func (tree *BST) remove(value int, parent *BST) {
 				current.Value = getMinValue(current.Right)
 				current.Right.remove(current.Value, current)
 			} else if parent == nil {
-				if current.Left != nil {
+				if current.Left != nil { // root node only has left side
 					current.Value = current.Left.Value
 					// First set to right then left
 					current.Right = current.Left.Right
 					current.Left = current.Left.Left
-				} else if current.Right != nil {
+				} else if current.Right != nil { // root node only has right side
 					current.Value = current.Right.Value
 					// First set to Left then right
 					current.Left = current.Right.Left
@@ -87,13 +87,13 @@ func (tree *BST) remove(value int, parent *BST) {
 				} else {
 
 				}
-			} else if parent.Left == current {
+			} else if parent.Left == current { // left side
 				if current.Left != nil {
 					parent.Left = current.Left
 				} else { // when left is nil or right is nil or right is not nil
 					parent.Left = current.Right
 				}
-			} else if parent.Right == current {
+			} else if parent.Right == current { // right side
 				if current.Left != nil {
 					parent.Right = current.Left
 				} else { // when left is nil or right is nil or right is not nil
