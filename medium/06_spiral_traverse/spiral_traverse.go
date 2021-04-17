@@ -94,10 +94,6 @@ func spiralTraverse1(array [][]int) []int {
 }
 
 
-
-
-
-
 // my solution
 func spiralTraverse(array [][]int) []int {
 	var rowSize, colSize int
