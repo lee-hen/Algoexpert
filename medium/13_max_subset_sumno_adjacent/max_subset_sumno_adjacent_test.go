@@ -7,5 +7,5 @@ import (
 
 func TestCase1(t *testing.T) {
 	res := MaxSubsetSumNoAdjacent([]int{75, 105, 120, 75, 90, 135})
-	require.Equal(t, res, 330)
+	require.Equal(t, 330, res)
 }
