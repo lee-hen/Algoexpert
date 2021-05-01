@@ -23,34 +23,34 @@ func TestCase1(t *testing.T) {
 	linkedList.Tail = five
 
 	linkedList.SetHead(four)
-	require.Equal(t, getNodeValuesHeadToTail(linkedList), []int{4, 1, 2, 3, 5})
-	require.Equal(t, getNodeValuesTailToHead(linkedList), []int{5, 3, 2, 1, 4})
+	require.Equal(t, []int{4, 1, 2, 3, 5}, getNodeValuesHeadToTail(linkedList))
+	require.Equal(t, []int{5, 3, 2, 1, 4}, getNodeValuesTailToHead(linkedList))
 
 	linkedList.SetTail(six)
-	require.Equal(t, getNodeValuesHeadToTail(linkedList), []int{4, 1, 2, 3, 5, 6})
-	require.Equal(t, getNodeValuesTailToHead(linkedList), []int{6, 5, 3, 2, 1, 4})
+	require.Equal(t, []int{4, 1, 2, 3, 5, 6}, getNodeValuesHeadToTail(linkedList))
+	require.Equal(t, []int{6, 5, 3, 2, 1, 4}, getNodeValuesTailToHead(linkedList))
 
 	linkedList.InsertBefore(six, three)
-	require.Equal(t, getNodeValuesHeadToTail(linkedList), []int{4, 1, 2, 5, 3, 6})
-	require.Equal(t, getNodeValuesTailToHead(linkedList), []int{6, 3, 5, 2, 1, 4})
+	require.Equal(t, []int{4, 1, 2, 5, 3, 6}, getNodeValuesHeadToTail(linkedList))
+	require.Equal(t, []int{6, 3, 5, 2, 1, 4}, getNodeValuesTailToHead(linkedList))
 
 	linkedList.InsertAfter(six, three2)
-	require.Equal(t, getNodeValuesHeadToTail(linkedList), []int{4, 1, 2, 5, 3, 6, 3})
-	require.Equal(t, getNodeValuesTailToHead(linkedList), []int{3, 6, 3, 5, 2, 1, 4})
+	require.Equal(t, []int{4, 1, 2, 5, 3, 6, 3}, getNodeValuesHeadToTail(linkedList))
+	require.Equal(t, []int{3, 6, 3, 5, 2, 1, 4}, getNodeValuesTailToHead(linkedList))
 
 	linkedList.InsertAtPosition(1, three3)
-	require.Equal(t, getNodeValuesHeadToTail(linkedList), []int{3, 4, 1, 2, 5, 3, 6, 3})
-	require.Equal(t, getNodeValuesTailToHead(linkedList), []int{3, 6, 3, 5, 2, 1, 4, 3})
+	require.Equal(t, []int{3, 4, 1, 2, 5, 3, 6, 3}, getNodeValuesHeadToTail(linkedList))
+	require.Equal(t, []int{3, 6, 3, 5, 2, 1, 4, 3}, getNodeValuesTailToHead(linkedList))
 
 	linkedList.RemoveNodesWithValue(3)
-	require.Equal(t, getNodeValuesHeadToTail(linkedList), []int{4, 1, 2, 5, 6})
-	require.Equal(t, getNodeValuesTailToHead(linkedList), []int{6, 5, 2, 1, 4})
+	require.Equal(t, []int{4, 1, 2, 5, 6}, getNodeValuesHeadToTail(linkedList))
+	require.Equal(t, []int{6, 5, 2, 1, 4}, getNodeValuesTailToHead(linkedList))
 
 	linkedList.Remove(two)
-	require.Equal(t, getNodeValuesHeadToTail(linkedList), []int{4, 1, 5, 6})
-	require.Equal(t, getNodeValuesTailToHead(linkedList), []int{6, 5, 1, 4})
+	require.Equal(t, []int{4, 1, 5, 6}, getNodeValuesHeadToTail(linkedList))
+	require.Equal(t, []int{6, 5, 1, 4}, getNodeValuesTailToHead(linkedList))
 
-	require.Equal(t, linkedList.ContainsNodeWithValue(5), true)
+	require.Equal(t, true, linkedList.ContainsNodeWithValue(5))
 }
 
 func NewNode(value int) *Node { return &Node{Value: value} }
