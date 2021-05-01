@@ -1,6 +1,5 @@
 package levenshtein_distance
 
-
 import (
 	"github.com/stretchr/testify/require"
 	"testing"
