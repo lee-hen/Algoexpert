@@ -6,7 +6,7 @@ import (
 	"testing"
 )
 
-func  TestCase1(t *testing.T) {
+func TestCase1(t *testing.T) {
 	words := []string{"yo", "act", "flop", "tac", "foo", "cat", "oy", "olfp"}
 	expected := [][]string{{"yo", "oy"}, {"flop", "olfp"}, {"act", "tac", "cat"}, {"foo"}}
 	output := GroupAnagrams(words)
