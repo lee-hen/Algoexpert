@@ -7,45 +7,38 @@ type BST struct {
 	Right *BST
 }
 
-func (tree *BST) InOrderTraverse(array []int) []int {
+func (tree *BST) InOrderTraverse(arr []int) []int {
 	current := tree
-	if current.Left != nil {
-		array = current.Left.InOrderTraverse(array)
-	}
-	if current != nil {
-		array = append(array, current.Value)
+	if current == nil {
+		return arr
 	}
 
-	if current.Right != nil {
-		array = current.Right.InOrderTraverse(array)
-	}
-	return array
+	arr = current.Left.InOrderTraverse(arr)
+	arr = append(arr, current.Value)
+	arr = current.Right.InOrderTraverse(arr)
+	return arr
 }
 
-func (tree *BST) PreOrderTraverse(array []int) []int {
+func (tree *BST) PreOrderTraverse(arr []int) []int {
 	current := tree
-	if current != nil {
-		array = append(array, current.Value)
+	if current == nil {
+		return arr
 	}
-	if current.Left != nil {
-		array = current.Left.PreOrderTraverse(array)
-	}
-	if current.Right != nil {
-		array = current.Right.PreOrderTraverse(array)
-	}
-	return array
+
+	arr = append(arr, current.Value)
+	arr = current.Left.PreOrderTraverse(arr)
+	arr = current.Right.PreOrderTraverse(arr)
+	return arr
 }
 
-func (tree *BST) PostOrderTraverse(array []int) []int {
+func (tree *BST) PostOrderTraverse(arr []int) []int {
 	current := tree
-	if current.Left != nil {
-		array = current.Left.PostOrderTraverse(array)
+	if current == nil {
+		return arr
 	}
-	if current.Right != nil {
-		array = current.Right.PostOrderTraverse(array)
-	}
-	if current != nil {
-		array = append(array, current.Value)
-	}
-	return array
+
+	arr = current.Left.PostOrderTraverse(arr)
+	arr = current.Right.PostOrderTraverse(arr)
+	arr = append(arr, current.Value)
+	return arr
 }
