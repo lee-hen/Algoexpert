@@ -6,8 +6,8 @@ import (
 )
 
 func  TestCase1(t *testing.T) {
-	input := []int{2, 1, 5, 2, 3, 3, 4}
-	expected := 2
+	input := []int{7, 6, 5, 3, 6, 4, 3, 5, 2}
+	expected := 6
 	actual := FirstDuplicateValue(input)
 	require.Equal(t, expected, actual)
 }
