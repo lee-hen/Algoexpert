@@ -111,9 +111,13 @@ func nextPermutation(arr []int) []int{
 	return arr
 }
 
-func ReverseSlice(arr []int) []int {
-	for i, j := 0, len(arr)-1; i < j; i, j = i+1, j-1 {
-		arr[i], arr[j] = arr[j], arr[i]
+func ReverseSlice(slice []int) {
+	start := 0
+	end := len(slice) -1
+
+	for start < end {
+		slice[start], slice[end] = slice[end], slice[start]
+		start += 1
+		end -= 1
 	}
-	return arr
 }

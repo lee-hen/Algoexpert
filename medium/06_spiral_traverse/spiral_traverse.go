@@ -1,5 +1,6 @@
 package spiral_traverse
 
+// SpiralTraverse
 // better solution
 func SpiralTraverse(array [][]int) []int {
 	if len(array) == 0 {
@@ -12,7 +13,6 @@ func SpiralTraverse(array [][]int) []int {
 }
 
 func spiralFill(array [][]int, startRow, endRow, startCol, endCol int, result *[]int) {
-
 	if startRow > endRow || startCol > endCol {
 
 		return

@@ -7,7 +7,6 @@ type BinaryTree struct {
 	Right *BinaryTree
 }
 
-
 type TreeInfo struct {
 	diameter int
 	height   int
@@ -44,7 +43,7 @@ func binaryTreeDiameter(tree *BinaryTree) int {
 	}
 
 	currentDiameter := Height(tree.Left) + Height(tree.Right)
-	return max(max(currentDiameter, BinaryTreeDiameter(tree.Left)), BinaryTreeDiameter(tree.Right))
+	return max(max(currentDiameter, binaryTreeDiameter(tree.Left)), binaryTreeDiameter(tree.Right))
 }
 
 func Height(tree *BinaryTree) int {
