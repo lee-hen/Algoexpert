@@ -1,40 +1,119 @@
 package valid_ip_addresses
 
+import (
+	"strconv"
+	"strings"
+)
+
+func ValidIPAddresses(str string) []string {
+	ipAddressesFound := make([]string, 0)
+	for i := 1; i < min(len(str), 4); i++ {
+		currentIPAddressParts := []string{"", "", "", ""}
+		currentIPAddressParts[0] = str[:i]
+		if !isValidPart(currentIPAddressParts[0]) {
+			continue
+		}
+		for j := i + 1; j < i+min(len(str)-i, 4); j++ {
+			currentIPAddressParts[1] = str[i:j]
+			if !isValidPart(currentIPAddressParts[1]) {
+				continue
+			}
+			for k := j + 1; k < j+min(len(str)-j, 4); k++ {
+				currentIPAddressParts[2] = str[j:k]
+				currentIPAddressParts[3] = str[k:]
+
+				if isValidPart(currentIPAddressParts[2]) && isValidPart(currentIPAddressParts[3]) {
+					ipAddressesFound = append(ipAddressesFound, strings.Join(currentIPAddressParts, "."))
+				}
+			}
+		}
+	}
+	return ipAddressesFound
+}
+
+func min(a, b int) int {
+	if a < b {
+		return a
+	}
+	return b
+}
+
+
+func isValidPart(str string) bool {
+	i, err := strconv.Atoi(str)
+	if err != nil {
+		return false
+	}
+	if i > 255 {
+		return false
+	}
+	return len(str) == len(strconv.Itoa(i))
+}
+
 // str length 12 or smaller
 // insert .
-
 // separated by . four positive integer between 0-255
-
-//0.0.0.0
-//255.255.255.255
-
-// 0. 10. 2. 3
-
-// ValidIPAddresses
-// 1921680
-//"1.9.216.80",
-//"1.92.16.80",
-//"1.92.168.0",
-//"19.2.16.80",
-//"19.2.168.0",
-//"19.21.6.80",
-//"19.21.68.0",
-//"19.216.8.0",
-//"192.1.6.80",
-//"192.1.68.0",
-//"192.16.8.0",
-func ValidIPAddresses(str string) []string {
+// my solution
+func validIPAddresses(str string) []string {
 	if len(str) < 4 {
 		return []string{}
 	}
-	return validIPAddressesHelper(0, []byte{}, []byte(str))
+	ips := validIPAddressesHelper(1, 2, 3, []byte(str))
+	if ips == nil {
+		return []string{}
+	}
+	return ips
 }
 
-func validIPAddressesHelper(idx int, chars, bytes []byte) (ips []string) {
-	for i := idx; i < len(bytes); i++ {
-		chars = append(chars, bytes[i])
-		validIPAddressesHelper(idx+1, chars, bytes)
+func validIPAddressesHelper(first, second, third int, bytes []byte) (ips []string) {
+	if third > len(bytes)-1 {
+		return
 	}
 
-	return
+	if second >= third {
+		return
+	}
+
+	if first >= second {
+		return
+	}
+
+	partFour := bytes[third:]
+	partThree := bytes[second:third]
+	partTwo := bytes[first:second]
+	partOne := bytes[:first]
+
+	if validPartOfIp(partOne) && validPartOfIp(partTwo) &&
+		validPartOfIp(partThree) && validPartOfIp(partFour) {
+		ip := make([]byte, 0)
+		ip = append(ip, partOne...)
+		ip = append(ip, '.')
+		ip = append(ip, partTwo...)
+		ip = append(ip, '.')
+		ip = append(ip, partThree...)
+		ip = append(ip, '.')
+		ip = append(ip, partFour...)
+		ips = append(ips, string(ip))
+	}
+
+	if first == 1 && second == 2 {
+		ips = append(ips, validIPAddressesHelper(first, second, third+1, bytes)...)
+	}
+	if first == 1 {
+		ips = append(ips, validIPAddressesHelper(first, second+1, third, bytes)...)
+	}
+	return append(ips, validIPAddressesHelper(first+1, second, third, bytes)...)
+}
+
+func validPartOfIp(section []byte) bool{
+	if len(section) > 1 && section[0] == '0'{
+		return false
+	}
+
+	number, _ := strconv.Atoi(string(section))
+	if number < 0 || number > 255 {
+		return false
+	}
+
+	return true
 }
