@@ -9,8 +9,24 @@ func InsertionSort(array []int) []int {
 	return array
 }
 
-// My solution
+// InsertionSort1
+// easy to understand
+// best case does compare n-1 compares
 func InsertionSort1(array []int) []int {
+	for i := 0; i < len(array); i++ {
+		for j := i; j > 0; j-- {
+			if array[j] < array[j-1] {
+				array[j], array[j-1] = array[j-1], array[j]
+			}
+		}
+	}
+
+	return array
+}
+
+// My solution
+// well best case is not valuable
+func insertionSort2(array []int) []int {
 	for i := 1; i < len(array); i++ {
 		for j := 0; j < i+1; j++ {
 			if array[j] > array[i] {
@@ -20,4 +36,5 @@ func InsertionSort1(array []int) []int {
 	}
 
 	return array
+
 }
