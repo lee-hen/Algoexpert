@@ -22,11 +22,14 @@ func SelectionSort(array []int) []int {
 func SelectionSort1(array []int) []int {
 
 	for i := 0; i < len(array); i++ {
+		k := i
 		for j := i + 1; j < len(array); j++ {
-			if array[i] > array[j] {
-				array[i], array[j] = array[j], array[i]
+			if array[k] > array[j] {
+				k = i
 			}
 		}
+
+		array[i], array[k] = array[k], array[i]
 	}
 
 	return array
