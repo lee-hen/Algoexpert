@@ -27,6 +27,6 @@ func doTest(t *testing.T, expected, output [][]int) {
 
 func TestCase1(t *testing.T) {
 	expected := [][]int{{7, 6, 4, -1}, {7, 6, 1, 2}}
-	output := FourNumberSum([]int{7, 6, 4, -1, 1, 2}, 16)
+	output := FourNumberSum([]int{-1, 1, 2, 4, 6, 7}, 16)
 	doTest(t, expected, output)
 }
