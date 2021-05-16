@@ -57,32 +57,28 @@ func largestRange(slice []int) []int {
 		}
 	}
 
-	var seconds []int
+	maxCounter := math.MinInt32
+	var first, second int
 	for _, num := range slice {
 		if _, found := ranges[num+1]; found {
 			ranges[num] = num+1
 		} else {
-			seconds = append(seconds, num)
+			temp, current, counter := num, num, 0
+			for {
+				if _, found = ranges[current]; found {
+					current--
+					counter++
+				} else {
+					break
+				}
+			}
+			if counter > maxCounter {
+				maxCounter = counter
+				first = current+1
+				second = temp
+			}
 		}
 	}
 
-	maxCounter := math.MinInt32
-	var first, second int
-	for i := 0; i < len(seconds); i++ {
-		temp, current, counter := seconds[i], seconds[i], 0
-		for {
-			if _, found := ranges[current]; found {
-				current--
-				counter++
-			} else {
-				break
-			}
-		}
-		if counter > maxCounter {
-			maxCounter = counter
-			first = current+1
-			second = temp
-		}
-	}
 	return []int{first, second}
 }
