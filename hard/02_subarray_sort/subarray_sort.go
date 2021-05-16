@@ -85,14 +85,12 @@ func subarraySort(slice []int) []int {
 		if rightIdx == -1 && slice[j-1] > slice[j] {
 			rightIdx = j
 		}
-	}
 
-	for i, j := leftIdx+1, rightIdx-1; i < len(slice) && j >= 0; i, j = i+1, j-1 {
-		if slice[i] < minVal  {
+		if leftIdx != -1 && i > leftIdx && slice[i] < minVal  {
 			minVal = slice[i]
 		}
 
-		if slice[j] > maxVal {
+		if rightIdx != -1 && j < rightIdx &&  slice[j] > maxVal {
 			maxVal = slice[j]
 		}
 	}
