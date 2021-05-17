@@ -96,56 +96,56 @@ func minRewards(scores []int) int {
 		return 1
 	}
 
-	peeks := make(map[int][]int)
+	peaks := make(map[int][]int)
 	var i int
 	for i < len(scores)-1 {
 		if scores[i] < scores[i+1] {
-			left, peek := i, i
-			for peek < len(scores)-1 && scores[peek] < scores[peek+1] {
-				peek++
+			left, peak := i, i
+			for peak < len(scores)-1 && scores[peak] < scores[peak+1] {
+				peak++
 			}
 
-			right := peek
+			right := peak
 			for right < len(scores)-1 && scores[right] > scores[right+1] {
 				right++
 			}
 			i = right
 
-			peeks[peek] = append([]int{}, []int{left, right}...)
+			peaks[peak] = append([]int{}, []int{left, right}...)
 		} else {
-			peek, right := i, i
+			peak, right := i, i
 			for right < len(scores)-1 && scores[right] > scores[right+1] {
 				right++
 			}
 			i = right
-			peeks[peek] = append([]int{}, []int{peek, right}...)
+			peaks[peak] = append([]int{}, []int{peak, right}...)
 		}
 	}
 
 	ranges := make(map[int]int)
 	var minRewards int
-	for k, val := range peeks {
+	for k, val := range peaks {
 		left := val[0]
-		peek := k
+		peak := k
 		right := val[1]
 
 		ranges[left]++
 		ranges[right]++
 
-		if right-peek > peek-left {
-			peekReward := right - peek + 1
+		if right-peak > peak-left {
+			peakReward := right - peak + 1
 			rightReward := 1
-			minRewards += (peekReward + rightReward) * peekReward / 2
+			minRewards += (peakReward + rightReward) * peakReward / 2
 
-			maxLeftReward := peek - left
+			maxLeftReward := peak - left
 			leftReward := 1
 			minRewards += (leftReward + maxLeftReward) * maxLeftReward / 2
 		} else {
-			peekReward := peek - left + 1
+			peakReward := peak - left + 1
 			leftReward := 1
-			minRewards += (peekReward + leftReward) * peekReward / 2
+			minRewards += (peakReward + leftReward) * peakReward / 2
 
-			maxRightReward := right - peek
+			maxRightReward := right - peak
 			rightReward := 1
 			minRewards += (rightReward + maxRightReward) * maxRightReward / 2
 		}
