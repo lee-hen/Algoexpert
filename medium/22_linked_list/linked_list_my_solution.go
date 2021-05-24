@@ -1,6 +1,5 @@
 package linked_list
 
-
 func (ll *DoublyLinkedList) setHead(node *Node) {
 	if ll.Head == nil {
 		ll.Head = node
