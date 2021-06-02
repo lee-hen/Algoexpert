@@ -4,6 +4,8 @@ import (
 	"math"
 )
 
+// MaxSumIncreasingSubsequence
+// I can understand it but it's difficult to come up this idea
 func MaxSumIncreasingSubsequence(array []int) (int, []int) {
 	sequences := make([]int, len(array))
 	sums := make([]int, len(array))
@@ -16,8 +18,7 @@ func MaxSumIncreasingSubsequence(array []int) (int, []int) {
 	maxSumIndex := 0
 	for i, currentNum := range array {
 		for j := 0; j < i; j++ {
-			otherNum := array[j]
-			if otherNum < currentNum && sums[j]+currentNum >= sums[i] {
+			if array[j] < currentNum && sums[j]+currentNum >= sums[i] {
 				sums[i] = sums[j] + currentNum
 				// sequences store the previous index
 				sequences[i] = j
@@ -48,6 +49,7 @@ func reverse(numbers []int) {
 	}
 }
 
+// maxSumIncreasingSubsequence well my solution not work very well
 // O(n^3) time O(n^3) space because of traverse back the slice
 func maxSumIncreasingSubsequence(slice []int) (int, []int) {
 	var maxVal = math.MinInt32

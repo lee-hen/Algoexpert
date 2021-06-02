@@ -7,6 +7,13 @@ import (
 
 func TestCase1(t *testing.T) {
 	expected := []byte("XYZW")
-	output := LongestCommonSubsequence("ZXVVYZW", "XKYKZPW")
+	output := longestCommonSubsequence("ZXVVYZW", "XKYKZPW")
+	require.Equal(t, expected, output)
+}
+
+
+func TestCase2(t *testing.T) {
+	expected := []byte("CDEGHJKLTUV")
+	output := longestCommonSubsequence("CCCDDEGDHAGKGLWAJWKJAWGKGWJAKLGGWAFWLFFWAGJWKAGTUV", "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 	require.Equal(t, expected, output)
 }

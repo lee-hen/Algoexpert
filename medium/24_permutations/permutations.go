@@ -13,6 +13,7 @@ func permutationsHelper(i int, array []int, permutations *[][]int) {
 		*permutations = append(*permutations, newPerm)
 		return
 	}
+
 	for j := i; j < len(array); j++ {
 		// [1, 2, 3] i is first index
 		swap(array, i, j)
