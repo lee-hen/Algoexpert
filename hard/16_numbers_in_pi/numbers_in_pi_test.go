@@ -20,7 +20,6 @@ func TestCase3(t *testing.T) {
 	require.Equal(t,2, NumbersInPi("3141592653589793238462643383279", numbers))
 }
 
-
 func TestCase4(t *testing.T) {
 	numbers := []string{"3", "1", "4", "592", "65", "55", "35", "8", "9793", "2384626", "83279"}
 	require.Equal(t,13, NumbersInPi("3141592653589793238462643383279", numbers))
