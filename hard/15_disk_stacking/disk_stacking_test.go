@@ -11,3 +11,18 @@ func TestCase1(t *testing.T) {
 	output := DiskStacking(input)
 	require.Equal(t, expected, output)
 }
+
+func TestCase2(t *testing.T) {
+	expected := [][]int{{1, 1, 4}, {2, 2, 8}}
+	input := [][]int{
+		{2, 1, 2},
+		{3, 2, 3},
+		{2, 2, 8},
+		{2, 3, 4},
+		{1, 2, 1},
+		{4, 4, 5},
+		{1, 1, 4},
+	}
+	output := DiskStacking(input)
+	require.Equal(t, expected, output)
+}
