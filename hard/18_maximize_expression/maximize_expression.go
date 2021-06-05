@@ -25,14 +25,12 @@ func MaximizeExpression(array []int) int {
 	}
 
 	for idx := 2; idx < len(array); idx++ {
-		currentMax := max(
-		maxOfAMinusBPlusC[idx-1], maxOfAMinusB[idx-1]+array[idx])
+		currentMax := max(maxOfAMinusBPlusC[idx-1], maxOfAMinusB[idx-1]+array[idx])
 		maxOfAMinusBPlusC = append(maxOfAMinusBPlusC, currentMax)
 	}
 
 	for idx := 3; idx < len(array); idx++ {
-		currentMax := max(
-		maxOfAMinusBPlusCMinusD[idx-1], maxOfAMinusBPlusC[idx-1]-array[idx])
+		currentMax := max(maxOfAMinusBPlusCMinusD[idx-1], maxOfAMinusBPlusC[idx-1]-array[idx])
 		maxOfAMinusBPlusCMinusD = append(maxOfAMinusBPlusCMinusD, currentMax)
 	}
 
@@ -81,7 +79,6 @@ func evaluateExpression(a, b, c, d int) int {
 //  0  4  2  4  5 -1 -1 9
 // -7 -3 -5 -3 -2 -8 -9 0
 
-
 // MaximizeExpression well i think my solution is better
 // array[a]-array[b]+array[c]-array[d]
 // array[a]-array[b]-(array[d]-array[c])
@@ -92,7 +89,7 @@ func maximizeExpression(array []int) int {
 	}
 
 	if len(array) == 4 {
-		return array[0]-array[1]+array[2]-array[3]
+		return array[0] - array[1] + array[2] - array[3]
 	}
 
 	maxSoFar := make([]int, len(array), len(array))
@@ -103,9 +100,9 @@ func maximizeExpression(array []int) int {
 
 	minValSoFar := math.MaxInt32
 
-	for i, j := 1, len(array)-2; i < len(array) && j >=0 ; i,j = i+1, j-1 {
+	for i, j := 1, len(array)-2; i < len(array) && j >= 0; i, j = i+1, j-1 {
 		maxVal = max(maxVal, array[i-1])
-		maxSoFar[i] = maxVal-array[i]
+		maxSoFar[i] = maxVal - array[i]
 
 		minVal = min(minVal, array[j+1])
 		minValSoFar = min(minValSoFar, minVal-array[j])
@@ -114,7 +111,7 @@ func maximizeExpression(array []int) int {
 
 	maxVal = math.MinInt32
 	for i := 1; i < len(array)-1; i++ {
-		maxVal = max(maxVal, maxSoFar[i] - minSoFar[i+1])
+		maxVal = max(maxVal, maxSoFar[i]-minSoFar[i+1])
 	}
 	return maxVal
 }
