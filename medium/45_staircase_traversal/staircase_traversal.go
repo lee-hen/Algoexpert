@@ -1,6 +1,5 @@
 package staircase_traversal
 
-
 // maxSteps  2
 // height    4
 
@@ -10,15 +9,15 @@ package staircase_traversal
 
 // StaircaseTraversal
 // waysToTop[currentHeight] =
-//	waysToTop[currentHeight-1]-waysToTop[currentHeight-maxSteps-1]+waysToTop[currentHeight-1]
+// waysToTop[currentHeight-1]-waysToTop[currentHeight-maxSteps-1]+waysToTop[currentHeight-1]
 func StaircaseTraversal(height int, maxSteps int) int {
 	currentNumberOfWays := 0
 	waysToTop := []int{1}
 
 	// ex currentHeight = 4 currentNumberOfWays = 3
 	for currentHeight := 1; currentHeight < height+1; currentHeight++ {
-		startOfWindow := currentHeight - maxSteps - 1  // 4 - 2 - 1  = 1
-		endOfWindow := currentHeight - 1 // 3
+		startOfWindow := currentHeight - maxSteps - 1 // 4 - 2 - 1  = 1
+		endOfWindow := currentHeight - 1              // 3
 
 		if startOfWindow >= 0 {
 			currentNumberOfWays -= waysToTop[startOfWindow] // 3-1= 2
@@ -115,7 +114,7 @@ func staircaseTraversal(height int, maxSteps int) int {
 	return staircaseTraversalHelper(maxSteps, 0, height, map[int]int{height: 1})
 }
 
-func staircaseTraversalHelper (maxSteps, currentHeight, height int, memoize map[int]int) (ways int) {
+func staircaseTraversalHelper(maxSteps, currentHeight, height int, memoize map[int]int) (ways int) {
 	if currentHeight > height {
 		return 0
 	}
@@ -126,7 +125,7 @@ func staircaseTraversalHelper (maxSteps, currentHeight, height int, memoize map[
 
 	// why do not use min(maxSteps, height) because maxSteps is always less than height
 	for step := 1; step <= maxSteps; step++ {
-		ways+=staircaseTraversalHelper(maxSteps, step+currentHeight, height, memoize)
+		ways += staircaseTraversalHelper(maxSteps, step+currentHeight, height, memoize)
 	}
 
 	memoize[currentHeight] = ways
