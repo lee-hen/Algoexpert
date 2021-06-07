@@ -11,3 +11,11 @@ func TestCase1(t *testing.T) {
 	actual := MaximizeExpression(input)
 	require.Equal(t, expected, actual)
 }
+
+
+func TestCase2(t *testing.T) {
+	input := []int{3, -1, 1, -1, -2, 4, 5, -4}
+	expected := 14
+	actual := MaximizeExpression(input)
+	require.Equal(t, expected, actual)
+}
