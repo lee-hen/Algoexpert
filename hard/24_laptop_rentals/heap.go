@@ -1,19 +1,16 @@
-package heap_construction
+package laptop_rentals
 
 type Heap struct {
 	comp   HeapFunc
-	values []int
+	values [][]int
 }
 
-type HeapFunc func(int, int) bool
-
-var MinHeapFunc = func(a, b int) bool { return a < b }
-var MaxHeapFunc = func(a, b int) bool { return a > b }
+type HeapFunc func([]int, []int) bool
 
 func NewHeap(fn HeapFunc) *Heap {
 	return &Heap{
 		comp:   fn,
-		values: []int{},
+		values: [][]int{},
 	}
 }
 
@@ -21,19 +18,28 @@ func (h *Heap) Length() int {
 	return len(h.values)
 }
 
-func (h *Heap) Peek() int {
+func (h *Heap) IsEmpty() bool {
+	return len(h.values) == 0
+}
+
+func (h *Heap) Peek() []int {
 	if len(h.values) == 0 {
-		return -1
+		return nil
 	}
 	return h.values[0]
 }
 
-func (h *Heap) Insert(value int) {
+func (h *Heap) Insert(value []int) {
 	h.values = append(h.values, value)
 	h.siftUp()
 }
 
-func (h *Heap) Remove() int {
+func (h *Heap) Update(value []int) {
+	h.values[0] = value
+	h.siftDown()
+}
+
+func (h *Heap) Remove() []int {
 	l := h.Length()
 	h.swap(0, l-1)
 	peeked := h.values[l-1]

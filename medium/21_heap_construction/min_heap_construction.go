@@ -93,3 +93,7 @@ func (h MinHeap) swap(i, j int) {
 func (h MinHeap) length() int {
 	return len(h)
 }
+
+func (h MinHeap) IsEmpty() bool {
+	return h.length() == 0
+}
