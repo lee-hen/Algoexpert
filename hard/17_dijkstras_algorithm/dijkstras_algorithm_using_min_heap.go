@@ -18,7 +18,7 @@ func NewMinHeap(array []Item) *MinHeap {
 	vertexMap := map[int]int{}
 
 	// Holds the position in the heap that each vertex is at
-	// There is new item to insert into the heap we keep remove the vertex that has already visited
+	// There is no new item to insert into the heap we keep remove the vertex that has already visited
 	// and instead of insert new item into the heap we use vertexMap to update for the current node's destination(item)
 	// and then sift the item up
 	for _, item := range array {
