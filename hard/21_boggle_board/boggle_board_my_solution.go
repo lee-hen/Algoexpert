@@ -15,15 +15,14 @@ type LetterNode struct {
 }
 
 type LetterKey struct {
-	i,j int
+	i, j int
 }
 
 type LetterGraph struct {
 	LetterNodes []*LetterNode
 
-	Graph       map[LetterKey]*LetterNode
+	Graph map[LetterKey]*LetterNode
 }
-
 
 //   0     1    2    3    4     5    6
 // ['t', 'h', 'i', 's', 'i', 's', 'a'], 0
@@ -57,7 +56,7 @@ func boggleBoard(board [][]rune, words []string) []string {
 
 				seen := make(map[*LetterNode]struct{})
 				foundLetter := make(map[int]struct{})
-				marchedWord := traverseLetters(node, seen,0, foundLetter, []rune(searchWord))
+				marchedWord := traverseLetters(node, seen, 0, foundLetter, []rune(searchWord))
 
 				searchWords = searchWords[:len(searchWords)-1]
 				firstWordMap[node.Letter] = searchWords
@@ -72,7 +71,6 @@ func boggleBoard(board [][]rune, words []string) []string {
 			firstWordMap[node.Letter] = append(firstWordMap[node.Letter], notFoundWords...)
 		}
 	}
-
 
 	return boggleBoardWords
 }
@@ -157,10 +155,10 @@ func createLetterGraph(board [][]rune) *LetterGraph {
 				j: j,
 			}
 
-			left := j-1
-			right := j+1
-			up := i-1
-			down := i+1
+			left := j - 1
+			right := j + 1
+			up := i - 1
+			down := i + 1
 
 			touchedLeftBorder := isOutOfBounds(i, left, len(board)-1, len(board[i])-1)
 			touchedRightBorder := isOutOfBounds(i, right, len(board)-1, len(board[i])-1)
@@ -199,12 +197,12 @@ func createLetterGraph(board [][]rune) *LetterGraph {
 
 			if !touchedLeftBorder && !touchedDownBorder {
 				diagonalLeftDownLetter := board[down][left]
-				graph.Graph[key].diagonalLeftDownNode  = graph.GetNode(diagonalLeftDownLetter, down, left)
+				graph.Graph[key].diagonalLeftDownNode = graph.GetNode(diagonalLeftDownLetter, down, left)
 			}
 
 			if !touchedRightBorder && !touchedDownBorder {
 				diagonalRightDownLetter := board[down][right]
-				graph.Graph[key].diagonalRightDownNode  = graph.GetNode(diagonalRightDownLetter, down, right)
+				graph.Graph[key].diagonalRightDownNode = graph.GetNode(diagonalRightDownLetter, down, right)
 			}
 		}
 	}

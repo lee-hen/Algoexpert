@@ -1,4 +1,4 @@
-package min_heap_construction
+package heap_construction
 
 type MinHeap []int
 

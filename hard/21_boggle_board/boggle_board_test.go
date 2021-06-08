@@ -36,11 +36,10 @@ func TestCase2(t *testing.T) {
 	}
 
 	words := []string{"frozen", "rotten", "teleport", "city", "zutgatz", "kappa", "before", "rope", "obligate", "annoying"}
-	expected := []string{"rotten", "obligate", "before", "frozen", "kappa",  "rope",  "teleport"}
+	expected := []string{"rotten", "obligate", "before", "frozen", "kappa", "rope", "teleport"}
 	output := BoggleBoard(board, words)
 	require.ElementsMatch(t, expected, output)
 }
-
 
 func TestCase3(t *testing.T) {
 	board := [][]rune{
@@ -62,4 +61,3 @@ func TestCase3(t *testing.T) {
 	output := BoggleBoard(board, words)
 	require.ElementsMatch(t, expected, output)
 }
-
