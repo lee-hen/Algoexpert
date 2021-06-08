@@ -1,15 +1,13 @@
-package min_heap_construction
+package heap_construction
 
 import (
 	"math"
 )
 
-
 //			  48
 //		12                       24
 //	7           8           -5            24
 //391   24   56    2      6     8      41
-
 
 //			  -5
 //		2                       48
@@ -34,7 +32,6 @@ func (h *MinHeap) buildHeap() {
 	}
 }
 
-
 // left = 2i+1
 // right = 2i+2
 //  0  1   2   3  4   5  6   7    8   9  10  11  12  13
@@ -42,8 +39,8 @@ func (h *MinHeap) buildHeap() {
 func (h *MinHeap) siftDown(currentIdx, endIdx int) {
 	minHeap := *h
 	for {
-		left := 2 * currentIdx + 1
-		right := 2 * currentIdx + 2
+		left := 2*currentIdx + 1
+		right := 2*currentIdx + 2
 		if left > endIdx || right > endIdx {
 			break
 		}
@@ -61,7 +58,6 @@ func (h *MinHeap) siftDown(currentIdx, endIdx int) {
 	}
 }
 
-
 // (endIndex-2)/2 == (endIndex-1)/2 has right node
 // because left is always exist
 // left parent is same as right parent
@@ -70,10 +66,10 @@ func (h *MinHeap) siftDown(currentIdx, endIdx int) {
 //  48, 12, 24, 7, 8, -5, 24, 391, 24, 56, 2, 6, 8, 41
 func (h *MinHeap) siftUp() {
 	left, right := len(*h)-1, len(*h)-1
-	parentIdx := (left-1)/2
+	parentIdx := (left - 1) / 2
 	if (right-2)/2 == parentIdx {
 		right = left
-		left = right-1
+		left = right - 1
 	}
 
 	minHeap := *h
@@ -87,16 +83,15 @@ func (h *MinHeap) siftUp() {
 			minHeap[parentIdx], minHeap[currentIdx] = minHeap[currentIdx], minHeap[parentIdx]
 		}
 
-		right = left-1
-		left = right-1
-		parentIdx = (left-1)/2
+		right = left - 1
+		left = right - 1
+		parentIdx = (left - 1) / 2
 	}
 }
 
 func (h MinHeap) peek() int {
 	return h[0]
 }
-
 
 // 		    	      2
 // 		    7                        6

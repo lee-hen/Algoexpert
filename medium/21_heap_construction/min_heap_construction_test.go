@@ -1,8 +1,9 @@
-package min_heap_construction
+package heap_construction
 
 import (
-	"github.com/stretchr/testify/require"
 	"testing"
+
+	"github.com/stretchr/testify/require"
 )
 
 func isMinHeapPropertySatisfied(heap MinHeap) bool {
@@ -33,7 +34,6 @@ func TestCase1(t *testing.T) {
 	minHeap.Insert(87)
 	require.Equal(t, true, isMinHeapPropertySatisfied(*minHeap))
 }
-
 
 func TestCase2(t *testing.T) {
 	var minHeap = NewMinHeap([]int{-4, 5, 10, 8, -10, -6, -4, -2, -5, 3, 5, -4, -5, -1, 1, 6, -7, -6, -7, 8})
