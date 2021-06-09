@@ -17,13 +17,13 @@ func NewLinkedList(val int, others ...int) *LinkedList {
 }
 
 func (ll *LinkedList) ToArray() []int {
-	vals := []int{}
+	values := make([]int, 0)
 	current := ll
 	for current != nil {
-		vals = append(vals, current.Value)
+		values = append(values, current.Value)
 		current = current.Next
 	}
-	return vals
+	return values
 }
 
 func TestCase1(t *testing.T) {
@@ -31,5 +31,13 @@ func TestCase1(t *testing.T) {
 	list2 := NewLinkedList(1, 3, 4, 5, 9, 10)
 	output := MergeLinkedLists(list1, list2)
 	expectedNodes := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
-	require.Equal(t, output.ToArray(), expectedNodes)
+	require.Equal(t, expectedNodes, output.ToArray())
+}
+
+func TestCase2(t *testing.T) {
+	list1 := NewLinkedList(1, 2, 3, 4, 5)
+	list2 := NewLinkedList(6, 7, 8, 9, 10)
+	output := MergeLinkedLists(list1, list2)
+	expectedNodes := []int{1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
+	require.Equal(t, expectedNodes, output.ToArray())
 }

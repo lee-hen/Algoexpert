@@ -17,13 +17,13 @@ func NewLinkedList(val int, others ...int) *LinkedList {
 }
 
 func (ll *LinkedList) ToArray() []int {
-	vals := []int{}
+	values := make([]int, 0)
 	current := ll
 	for current != nil {
-		vals = append(vals, current.Value)
+		values = append(values, current.Value)
 		current = current.Next
 	}
-	return vals
+	return values
 }
 
 func TestCase1(t *testing.T) {

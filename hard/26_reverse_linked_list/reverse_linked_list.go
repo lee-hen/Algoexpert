@@ -6,5 +6,15 @@ type LinkedList struct {
 }
 
 func ReverseLinkedList(head *LinkedList) *LinkedList {
-	return nil
+	prev := head
+	current := prev.Next
+	prev.Next = nil
+
+	for current != nil {
+		next := current.Next
+		current.Next = prev
+		prev = current
+		current = next
+	}
+	return prev
 }
