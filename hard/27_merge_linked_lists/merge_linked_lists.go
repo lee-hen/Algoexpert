@@ -13,6 +13,7 @@ type LinkedList struct {
 
 // MergeLinkedLists
 //  O(n + m) time | O(1) space
+// simple loop (my) solution is better
 func MergeLinkedLists(headOne *LinkedList, headTwo *LinkedList) *LinkedList {
 	var mergedList *LinkedList
 

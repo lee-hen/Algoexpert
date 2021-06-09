@@ -5,6 +5,8 @@ type LinkedList struct {
 	Next  *LinkedList
 }
 
+// FindLoop
+// better solution
 func FindLoop(head *LinkedList) *LinkedList {
 	first := head.Next
 	second := head.Next.Next
@@ -24,6 +26,7 @@ func FindLoop(head *LinkedList) *LinkedList {
 	return first // or second
 }
 
+// my solution is the bad one
 func findLoop1(head *LinkedList) *LinkedList {
 	visited := make(map[*LinkedList]struct{})
 

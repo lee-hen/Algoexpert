@@ -5,6 +5,8 @@ type LinkedList struct {
 	Next  *LinkedList
 }
 
+// ReverseLinkedList
+// my solution is the better
 func ReverseLinkedList(head *LinkedList) *LinkedList {
 	prev := head
 	current := prev.Next
