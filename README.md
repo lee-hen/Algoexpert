@@ -1,3 +1,3 @@
 # algoexpert
 
-176 Coding Interview Questions
+176 Coding Questions
