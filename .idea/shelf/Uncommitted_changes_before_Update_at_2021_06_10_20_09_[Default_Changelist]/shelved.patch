@@ -1,0 +1,56 @@
+Index: .idea/algoexpert.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/algoexpert.iml b/.idea/algoexpert.iml
+deleted file mode 100644
+--- a/.idea/algoexpert.iml	(revision 12c7c937ab6d9584bd4049144f53d439b5b2c34e)
++++ /dev/null	(revision 12c7c937ab6d9584bd4049144f53d439b5b2c34e)
+@@ -1,9 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="WEB_MODULE" version="4">
+-  <component name="Go" enabled="true" />
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$" />
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	(revision 12c7c937ab6d9584bd4049144f53d439b5b2c34e)
++++ /dev/null	(revision 12c7c937ab6d9584bd4049144f53d439b5b2c34e)
+@@ -1,8 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/.idea/algoexpert.iml" filepath="$PROJECT_DIR$/.idea/algoexpert.iml" />
+-    </modules>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	(revision 12c7c937ab6d9584bd4049144f53d439b5b2c34e)
++++ /dev/null	(revision 12c7c937ab6d9584bd4049144f53d439b5b2c34e)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file

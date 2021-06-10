@@ -94,9 +94,9 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/17_dijkstras_algorithm" />
       <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/29_lowest_common_manager" />
       <item itemvalue="Go Test.TestCase2 in " />
-      <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/17_dijkstras_algorithm" />
       <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/18_maximize_expression" />
     </list>
     <recent_temporary>
