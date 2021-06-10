@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb620fdc-4380-43a1-985b-196d303f4de1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hard/29_lowest_common_manager/lowest_common_manager.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/29_lowest_common_manager/lowest_common_manager_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/17_generate_document/generatedocument_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/17_generate_document/generatedocument_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/22_continuous_median/continuous_median.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/22_continuous_median/continuous_median.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/23_sort_k_sorted_array/sort_k_sorted_array.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/23_sort_k_sorted_array/sort_k_sorted_array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/36_find_successor/find_successor.go" beforeDir="false" afterPath="$PROJECT_DIR$/medium/36_find_successor/find_successor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/44_reverse_words_in_string/reverse_words_in_string_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/medium/44_reverse_words_in_string/reverse_words_in_string_test.go" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="GOROOT" url="file:///usr/local/Cellar/go/1.15.6/libexec" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="showPreview" value="true" />
+    <option name="sortByName" value="true" />
+  </component>
+  <component name="ProjectId" id="1tkowZnvzlA0yOh55DkDQuM5UjG" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RunManager" selected="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/18_maximize_expression">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/17_dijkstras_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/hard/17_dijkstras_algorithm" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/hard/17_dijkstras_algorithm" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/29_lowest_common_manager" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/hard/29_lowest_common_manager" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/hard/29_lowest_common_manager" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/18_maximize_expression" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/hard/18_maximize_expression" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/hard/18_maximize_expression" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase2\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase2 in " type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/hard/17_dijkstras_algorithm" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase2\E$" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/29_lowest_common_manager" />
+      <item itemvalue="Go Test.TestCase2 in " />
+      <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/17_dijkstras_algorithm" />
+      <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/18_maximize_expression" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/18_maximize_expression" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/17_dijkstras_algorithm" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/29_lowest_common_manager" />
+        <item itemvalue="Go Test.TestCase2 in " />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
+  </component>
+</project>

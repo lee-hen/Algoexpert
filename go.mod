@@ -1,4 +1,4 @@
-module github.com/lee-hen/algoexpert
+module github.com/lee-hen/Algoexpert
 
 go 1.15
 

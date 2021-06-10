@@ -31,10 +31,9 @@ func getRightmostParent(node *BinaryTree) *BinaryTree {
 	return currentNode.Parent
 }
 
-
 func FindSuccessor1(tree *BinaryTree, node *BinaryTree) *BinaryTree {
 	visited := map[*BinaryTree]struct{}{}
-	// https://github.com/lee-hen/algoexpert/blob/master/medium/10_bst_traversal/bst_traversal.go
+	// https://github.com/lee-hen/Algoexpert/blob/master/medium/10_bst_traversal/bst_traversal.go
 	return tree.inOrderTraverse(node, visited)
 }
 
@@ -51,7 +50,7 @@ func (tree *BinaryTree) inOrderTraverse(node *BinaryTree, visited map[*BinaryTre
 		return successor
 	}
 
-	successor = tree.Left.inOrderTraverse(node,  visited)
+	successor = tree.Left.inOrderTraverse(node, visited)
 	if successor != nil {
 		return
 	}
@@ -62,7 +61,7 @@ func (tree *BinaryTree) inOrderTraverse(node *BinaryTree, visited map[*BinaryTre
 			for successor.Left != nil {
 				successor = successor.Left
 			}
-		} else  {
+		} else {
 			successor = tree.Parent
 			_, found := visited[successor]
 			for successor != nil && found {
