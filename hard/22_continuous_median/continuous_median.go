@@ -1,6 +1,6 @@
 package continuous_median
 
-import heap "github.com/lee-hen/algoexpert/medium/21_heap_construction"
+import heap "github.com/lee-hen/Algoexpert/medium/21_heap_construction"
 
 type ContinuousMedianHandler struct {
 	Median float64

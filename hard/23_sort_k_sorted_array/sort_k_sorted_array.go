@@ -1,7 +1,7 @@
 package sort_k_sorted_array
 
 import (
-	heap "github.com/lee-hen/algoexpert/medium/21_heap_construction"
+	heap "github.com/lee-hen/Algoexpert/medium/21_heap_construction"
 )
 
 // SortKSortedArray
@@ -51,10 +51,10 @@ func sortKSortedArray(array []int, k int) []int {
 	}
 
 	for i := 0; i+k < len(array); i++ {
-		heap.NewMinHeap(array[i:i+k+1])
+		heap.NewMinHeap(array[i : i+k+1])
 	}
 
-	kth := len(array)-k
+	kth := len(array) - k
 	if k > len(array) {
 		kth = k - len(array)
 	}
@@ -83,10 +83,10 @@ func sortKSortedArray1(array []int, k int) []int {
 	}
 
 	for i := 0; i+k < len(array); i++ {
-		heap.NewMinHeap(array[i:i+k+1])
+		heap.NewMinHeap(array[i : i+k+1])
 	}
 
-	for i := len(array)-k; i< len(array); i++ {
+	for i := len(array) - k; i < len(array); i++ {
 		heap.NewMinHeap(array[i:])
 	}
 
@@ -96,7 +96,7 @@ func sortKSortedArray1(array []int, k int) []int {
 func rotation(array []int, k int) []int {
 	result := make([]int, len(array), len(array))
 	for idx := range array {
-		jumpIdx := (idx+k)%len(array)
+		jumpIdx := (idx + k) % len(array)
 		result[jumpIdx] = array[idx]
 	}
 	return result
