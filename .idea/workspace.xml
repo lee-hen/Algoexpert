@@ -2,22 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hard/29_lowest_common_manager/answer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/29_lowest_common_manager/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/29_lowest_common_manager/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/30_interweaving_strings/answer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/30_interweaving_strings/answer1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/30_interweaving_strings/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/30_interweaving_strings/interweaving_strings.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/30_interweaving_strings/interweaving_strings_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/30_interweaving_strings/question.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_06_10_20_09_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021_06_10_20_09__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_06_10_20_09_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_06_10_20_09__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/29_lowest_common_manager/lowest_common_manager.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/29_lowest_common_manager/lowest_common_manager.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/29_lowest_common_manager/lowest_common_manager_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/29_lowest_common_manager/lowest_common_manager_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/30_interweaving_strings/interweaving_strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/30_interweaving_strings/interweaving_strings.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/30_interweaving_strings/interweaving_strings_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/30_interweaving_strings/interweaving_strings_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,19 +72,19 @@
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/medium/52_sort_stack" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/30_interweaving_strings" />
+      <working_directory value="$PROJECT_DIR$/medium/52_sort_stack" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
+      <package value="github.com/lee-hen/Algoexpert/medium/52_sort_stack" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/hard/30_interweaving_strings" />
       <root_directory value="$PROJECT_DIR$" />
@@ -106,10 +93,10 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase3\E$" />
+      <pattern value="^\QTestCase6\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase7 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/hard/30_interweaving_strings" />
       <root_directory value="$PROJECT_DIR$" />
@@ -118,7 +105,7 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase4\E$" />
+      <pattern value="^\QTestCase7\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCase8 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -136,10 +123,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Test.TestCase8 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
+        <item itemvalue="Go Test.TestCase7 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
+        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/medium/52_sort_stack" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
-        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
       </list>
     </recent_temporary>
   </component>
@@ -162,16 +149,6 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="NONE" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/hard/30_interweaving_strings/interweaving_strings.go</url>
-          <line>52</line>
-          <log-expression expression="&#10;func areInterwoven1(one, two, three string, i, j int) bool {&#10;&#9;k := i + j&#10;&#9;if k == len(three) {&#10;&#9;&#9;return true&#10;&#9;}&#10;&#10;&#9;if i &lt; len(one) &amp;&amp; one[i] == three[k] {&#10;&#9;&#9;if areInterwoven1(one, two, three, i+1, j) {&#10;&#9;&#9;&#9;return true&#10;&#9;&#9;}&#10;&#9;}&#10;&#10;&#9;if j &lt; len(two) &amp;&amp; two[j] == three[k] {&#10;&#9;&#9;if areInterwoven1(one, two, three, i, j+1) {&#10;&#9;&#9;&#9;return true&#10;&#9;&#9;}&#10;&#9;}&#10;&#9;return false&#10;}&#10;" language="go" />
-          <option name="timeStamp" value="85" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
         <watch expression="reportOneDirectManger" />

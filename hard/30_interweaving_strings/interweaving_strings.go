@@ -96,7 +96,7 @@ func areInterwoven1(one, two, three string, i, j int) bool {
 // o g
 // o g o
 // true
-
+// i think this one is better because it's time complexity is O(2(n+m))
 func interweavingStrings(one, two, three string) bool {
 	if len(one)+len(two) != len(three) {
 		return false
@@ -108,10 +108,15 @@ func interweavingStrings(one, two, three string) bool {
 	trie2 := Trie{children: map[byte]Trie{}}
 	trie2.Add(two)
 
-	return explore(trie1, trie2, 0, []byte(three))
+	cache := make(map[int]*bool)
+	return explore(trie1, trie2, cache, 0, []byte(three))
 }
 
-func explore(ptr1, ptr2 Trie, i int, target []byte) bool {
+func explore(ptr1, ptr2 Trie, cache map[int]*bool, i int, target []byte) bool {
+	if cache[i] != nil {
+		return *cache[i]
+	}
+
 	_, isEndOfOne := ptr1.children['*']
 	_, isEndOfTwo := ptr2.children['*']
 
@@ -123,15 +128,25 @@ func explore(ptr1, ptr2 Trie, i int, target []byte) bool {
 	trie1, found1 := ptr1.children[letter]
 	trie2, found2 := ptr2.children[letter]
 
+	if !found1 && !found2 {
+		return false
+	}
+
 	if found1 && found2 {
 		if _, found := trie1.children[target[i+1]]; found {
 			ptr1 = trie1
-			if explore(ptr1, ptr2, i+1, target) {
+			result := explore(ptr1, ptr2, cache, i+1, target)
+			cache[i] = &result
+
+			if result {
 				return true
 			}
 		} else if _, found := trie2.children[target[i+1]]; found {
 			ptr2 = trie2
-			if explore(ptr1, ptr2, i+1, target) {
+			result := explore(ptr1, ptr2, cache, i+1, target)
+			cache[i] = &result
+
+			if result {
 				return true
 			}
 		}
@@ -139,16 +154,20 @@ func explore(ptr1, ptr2 Trie, i int, target []byte) bool {
 
 	if found1 {
 		ptr1 = trie1
-		if explore(ptr1, ptr2, i+1, target) {
-			return true
-		}
 	} else if found2 {
 		ptr2 = trie2
-		if explore(ptr1, ptr2, i+1, target) {
-			return true
-		}
 	}
-	return false
+
+	result := explore(ptr1, ptr2, cache, i+1, target)
+	cache[i] = &result
+
+	if result {
+		return true
+	}
+
+	result = false
+	cache[i] = &result
+	return result
 }
 
 type Trie struct {
