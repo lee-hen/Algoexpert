@@ -133,22 +133,18 @@ func explore(ptr1, ptr2 Trie, cache map[int]*bool, i int, target []byte) bool {
 	}
 
 	if found1 && found2 {
-		if _, found := trie1.children[target[i+1]]; found {
+		var found bool
+		if _, found = trie1.children[target[i+1]]; found {
 			ptr1 = trie1
-			result := explore(ptr1, ptr2, cache, i+1, target)
-			cache[i] = &result
-
-			if result {
-				return true
-			}
-		} else if _, found := trie2.children[target[i+1]]; found {
+		} else if _, found = trie2.children[target[i+1]]; found {
 			ptr2 = trie2
+		}
+
+		if found {
 			result := explore(ptr1, ptr2, cache, i+1, target)
 			cache[i] = &result
 
-			if result {
-				return true
-			}
+			return result
 		}
 	}
 
@@ -158,16 +154,7 @@ func explore(ptr1, ptr2 Trie, cache map[int]*bool, i int, target []byte) bool {
 		ptr2 = trie2
 	}
 
-	result := explore(ptr1, ptr2, cache, i+1, target)
-	cache[i] = &result
-
-	if result {
-		return true
-	}
-
-	result = false
-	cache[i] = &result
-	return result
+	return explore(ptr1, ptr2, cache, i+1, target)
 }
 
 type Trie struct {
