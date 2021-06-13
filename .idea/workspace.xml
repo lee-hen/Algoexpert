@@ -2,8 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/medium/53_minimum_characters_for_words/hint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/53_minimum_characters_for_words/minimum_characters_for_words.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/53_minimum_characters_for_words/minimum_characters_for_words_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/53_minimum_characters_for_words/note.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/53_minimum_characters_for_words/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix/hint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix/minimum_passes_of_matrix.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix/minimum_passes_of_matrix_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/answer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/answer1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/answer2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/answer3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/answer4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/hint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/next_greater_element.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/next_greater_element_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/question.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/30_interweaving_strings/interweaving_strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/30_interweaving_strings/interweaving_strings.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,78 +71,81 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix" />
+      <recent name="$PROJECT_DIR$/medium/53_minimum_characters_for_words" />
+      <recent name="$PROJECT_DIR$/medium/55_next_greater_element" />
       <recent name="$PROJECT_DIR$/hard/30_interweaving_strings" />
       <recent name="$PROJECT_DIR$/hard/29_lowest_common_manager" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/30_interweaving_strings" />
+      <working_directory value="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
+      <package value="github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/30_interweaving_strings" />
+      <working_directory value="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
+      <package value="github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/30_interweaving_strings" />
+      <working_directory value="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
+      <package value="github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/30_interweaving_strings" />
+      <working_directory value="$PROJECT_DIR$/medium/55_next_greater_element" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
+      <package value="github.com/lee-hen/Algoexpert/medium/55_next_greater_element" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase4\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase8 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/30_interweaving_strings" />
+      <working_directory value="$PROJECT_DIR$/medium/55_next_greater_element" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
+      <package value="github.com/lee-hen/Algoexpert/medium/55_next_greater_element" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase8\E$" />
+      <pattern value="^\QTestCase6\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
-        <item itemvalue="Go Test.TestCase8 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
-        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/hard/30_interweaving_strings" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
+        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
+        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element" />
+        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element" />
       </list>
     </recent_temporary>
   </component>
@@ -143,6 +163,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -171,10 +192,33 @@
         <watch expression="string(letter)" />
         <watch expression="target[i+1]" />
         <watch expression="ptr2" />
+        <watch expression="array[i]" language="go" />
+        <watch expression="nextElements[len(nextElements)-1]" language="go" />
+        <watch expression="nextElements[len(nextElements)-1]" />
+        <watch expression="result[i]" />
+        <watch expression="array[i]" />
+        <watch expression="seen" />
+        <watch expression="nextElements" />
+        <watch expression="nextElements[len(nextElements)-1" />
+        <watch expression="array" />
+        <watch expression="array[idx]" />
+        <watch expression="matrix[negative[0]][negative[1]]" />
+        <watch expression="nextNegativesToConvert" />
+        <watch expression="nextNegativeNeighbors(negative[0], negative[1], matrix)" />
+        <watch expression="negativesToConvert" />
+        <watch expression="matrix" />
+        <watch expression="neighbor[0]" />
+        <watch expression="neighbor[1]" />
+        <watch expression="matrixColor" />
+        <watch expression="nextElements[0]" />
+        <watch expression="maxVal" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/hard/29_lowest_common_manager/lowest_common_manager.go" line="66">
         <watch expression="nodesToMangers" />
       </inline-watch>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Algoexpert$TestCase1_in_github_com_lee_hen_Algoexpert_medium_55_next_greater_element.out" NAME="TestCase1 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element Coverage Results" MODIFIED="1623474222585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
