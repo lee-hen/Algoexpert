@@ -28,7 +28,7 @@ func (tree *BST) Remove(value int) *BST {
 			currentNode.Value = currentNode.Right.Value
 			currentNode.Right = currentNode.Right.Right
 		} else { // 両方側がnilじゃない時
-			// 右側最小の値を探し、削除のnodeに設定する
+			// 右側最小の値を探し、削除のnodeにその値を設定する
 			currentNode.Value = currentNode.Right.getMinNode().Value
 			// 右側最小のNodeを削除する
 			currentNode.Right = currentNode.Right.removeMin()
