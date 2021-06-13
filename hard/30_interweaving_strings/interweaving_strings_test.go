@@ -52,12 +52,12 @@ func TestCase7(t *testing.T) {
 	one := "algo"
 	two := "frog"
 	three := "fralgogo"
-	require.Equal(t, true, InterweavingStrings(one, two, three))
+	require.Equal(t, true, interweavingStrings(one, two, three))
 }
 
 func TestCase8(t *testing.T) {
-	one := "aa"
-	two := "ac"
-	three := "aaaa"
-	require.Equal(t, false, InterweavingStrings(one, two, three))
+	one := "aaaaaaaaaaaa"
+	two := "aaaaaaaaaac"
+	three := "aaaaaaaaaaaaaaaaaaaaaaa"
+	require.Equal(t, false, interweavingStrings(one, two, three))
 }
