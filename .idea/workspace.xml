@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/21_heap_construction/heap_construction.go" beforeDir="false" afterPath="$PROJECT_DIR$/medium/21_heap_construction/heap_construction.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/08_bst_construction/bst.go" beforeDir="false" afterPath="$PROJECT_DIR$/medium/08_bst_construction/bst.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/08_bst_construction/bst_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/medium/08_bst_construction/bst_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +62,19 @@
       <recent name="$PROJECT_DIR$/hard/29_lowest_common_manager" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix">
+  <component name="RunManager" selected="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/medium/08_bst_construction">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/medium/08_bst_construction" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix" />
@@ -72,6 +85,18 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/medium/08_bst_construction" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -98,37 +123,13 @@
       <pattern value="^\QTestCase3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/medium/55_next_greater_element" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/medium/55_next_greater_element" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase4\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/medium/55_next_greater_element" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/medium/55_next_greater_element" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase6\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
         <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
         <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
-        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element" />
-        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element" />
       </list>
     </recent_temporary>
   </component>
@@ -152,6 +153,15 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/medium/08_bst_construction/bst_test.go</url>
+          <line>27</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
         <watch expression="reportOneDirectManger" />
@@ -195,7 +205,16 @@
         <watch expression="matrixColor" />
         <watch expression="nextElements[0]" />
         <watch expression="maxVal" />
+        <watch expression="currentNode.Right" />
+        <watch expression="currentNode" />
+        <watch expression="currentNode.Left " />
+        <watch expression="tree" />
+        <watch expression="root" />
+        <watch expression="root.Remove(10)" />
       </configuration>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/medium/08_bst_construction/bst_test.go" line="25">
+        <watch expression="root.Remove(10)" />
+      </inline-watch>
       <inline-watch fileUrl="file://$PROJECT_DIR$/hard/29_lowest_common_manager/lowest_common_manager.go" line="66">
         <watch expression="nodesToMangers" />
       </inline-watch>
