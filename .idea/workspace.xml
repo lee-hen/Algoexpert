@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/medium/53_minimum_characters_for_words/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/53_minimum_characters_for_words/minimum_characters_for_words.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/53_minimum_characters_for_words/minimum_characters_for_words_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/53_minimum_characters_for_words/note.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/53_minimum_characters_for_words/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix/minimum_passes_of_matrix.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix/minimum_passes_of_matrix_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/answer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/answer1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/answer2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/answer3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/answer4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/next_greater_element.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/next_greater_element_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/medium/55_next_greater_element/question.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/25_tandem_bicycle/tandem_bicycle.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/25_tandem_bicycle/tandem_bicycle.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +61,7 @@
       <recent name="$PROJECT_DIR$/hard/29_lowest_common_manager" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix">
+  <component name="RunManager" selected="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix">
     <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix" />
@@ -141,8 +124,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
         <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
         <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
         <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element" />
         <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element" />
