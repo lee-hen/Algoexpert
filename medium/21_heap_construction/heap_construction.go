@@ -33,6 +33,11 @@ func (h *Heap) Insert(value int) {
 	h.siftUp()
 }
 
+func (h *Heap) Update(value int) {
+	h.values[0] = value
+	h.siftDown()
+}
+
 func (h *Heap) Remove() int {
 	l := h.Length()
 	h.swap(0, l-1)

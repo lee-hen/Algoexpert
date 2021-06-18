@@ -7,6 +7,56 @@ type BST struct {
 	Right *BST
 }
 
+// Remove
+// Better solution and easy to remember
+func (tree *BST) Remove(value int) *BST {
+	currentNode := tree
+	if currentNode == nil {
+		return nil
+	}
+	if value < currentNode.Value {
+		currentNode.Left = currentNode.Left.Remove(value)
+	} else if value > currentNode.Value {
+		currentNode.Right = currentNode.Right.Remove(value)
+	} else {
+		if currentNode.Right == nil && currentNode.Left == nil {// 左と右全部nilの場合、nilを設定する。
+			currentNode = nil
+		} else if currentNode.Right == nil && currentNode.Left != nil {// 右だけnilの場合、左の値を設定する
+			currentNode.Value = currentNode.Left.Value
+			currentNode.Left = currentNode.Left.Left
+		}  else if currentNode.Left == nil && currentNode.Right != nil {// 左だけがnilの場合、右の値を設定する
+			currentNode.Value = currentNode.Right.Value
+			currentNode.Right = currentNode.Right.Right
+		} else { // 両方側がnilじゃない時
+			// 右側最小の値を探し、削除のnodeにその値を設定する
+			currentNode.Value = currentNode.Right.getMinNode().Value
+			// 右側最小のNodeを削除する
+			currentNode.Right = currentNode.Right.removeMin()
+		}
+	}
+
+	return currentNode
+}
+
+func (tree *BST) getMinNode() *BST {
+	currentNode := tree
+	if currentNode.Left == nil {
+		return currentNode
+	}
+
+	return currentNode.Left.getMinNode()
+}
+
+func (tree *BST) removeMin() *BST {
+	currentNode := tree
+	if currentNode.Left == nil {
+		return currentNode.Right
+	}
+
+	currentNode.Left = currentNode.Left.removeMin()
+	return currentNode
+}
+
 // Insert
 // Better solution
 func (tree *BST) Insert(value int) *BST {
@@ -52,14 +102,14 @@ func (tree *BST) Contains(value int) bool {
 	return false
 }
 
-// Remove
+// Remove2
 // Better solution
-func (tree *BST) Remove(value int) *BST {
-	tree.remove(value, nil)
+func (tree *BST) Remove2(value int) *BST {
+	tree.remove2(value, nil)
 	return tree
 }
 
-func (tree *BST) remove(value int, parent *BST) {
+func (tree *BST) remove2(value int, parent *BST) {
 	current := tree
 	for current != nil {
 		if value > current.Value {
@@ -72,7 +122,7 @@ func (tree *BST) remove(value int, parent *BST) {
 			if current.Right != nil && current.Left != nil {
 				// set right min value then recursively remove that min value
 				current.Value = getMinValue(current.Right)
-				current.Right.remove(current.Value, current)
+				current.Right.remove2(current.Value, current)
 			} else if parent == nil {
 				if current.Left != nil { // root node only has left side
 					current.Value = current.Left.Value
@@ -149,7 +199,7 @@ func (tree *BST) contains1(value int) bool {
 }
 
 func (tree *BST) Remove1(value int) *BST {
-	tree.remove(value, nil)
+	tree.remove1(value, nil)
 	return tree
 }
 func (tree *BST) remove1(value int, parent *BST) {
@@ -204,7 +254,7 @@ func (tree *BST) getMinValue1() int {
 // consider if removed node has one child.
 // consider if removed node has no children,
 // consider if removed node is root node.
-func (tree *BST) remove2(value int) *BST {
+func (tree *BST) remove3(value int) *BST {
 	parentNode := tree
 	for parentNode != nil {
 		var currentNode *BST

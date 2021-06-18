@@ -185,16 +185,11 @@ func minimumPassesOfMatrix(matrix [][]int) int {
 		}
 	}
 
-
 	var numberToPass int
 	convertNegatives(&numberToPass, negativesToConvert, matrix, matrixColor)
 
-	for i := range matrix {
-		for j := range matrix[i] {
-			if matrix[i][j] < 0 {
-				return -1
-			}
-		}
+	if containsNegative(matrix) {
+		return  - 1
 	}
 
 	return numberToPass
