@@ -43,11 +43,11 @@ func solvePartialSudoku(i, j int, board [][]int) bool {
 			if isValidAtPosition(digit, i, j, board) {  // back tracking
 				board[i][j] = digit
 
-				// ex. i: row, j: col, when i is 0
-				// when j is 4, and is board[0][4] is temporarily valid, start from 4, j plus 1,
-				// then j is 5, but board[0][5] is invalid, reset the digit of board[0][5] to zero(57行目),
-				// and then return false(58行目), then the current position of j is 4
-				// than retry the digit from previous digit at the position of board[0][4](43行目)
+				// ex. i: row, j: col, if i is 0
+				// when j is 4, and it's(board[0][4]) digit is temporarily valid, start from 4, j plus 1,
+				// then j is 5, but the digit of board[0][5] is invalid, reset the digit of board[0][5] to zero(57行目),
+				// and return false(58行目), then the current position of j is 4
+				// then retry the digit from previous digit at the position of board[0][4](43行目)
 				if solvePartialSudoku(i, j+1, board) { // back tracking
 					return true
 				}

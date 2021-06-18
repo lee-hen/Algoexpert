@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hard/31_solve_sudoku/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/31_solve_sudoku/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/31_solve_sudoku/solve_sudoku.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/31_solve_sudoku/solve_sudoku_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/32_generate_div_tags/generate_div_tags.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/32_generate_div_tags/generate_div_tags_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/32_generate_div_tags/hint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/32_generate_div_tags/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/32_generate_div_tags/time.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix/minimum_passes_of_matrix.go" beforeDir="false" afterPath="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix/minimum_passes_of_matrix.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/31_solve_sudoku/solve_sudoku.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/31_solve_sudoku/solve_sudoku.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/32_generate_div_tags/generate_div_tags.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/32_generate_div_tags/generate_div_tags.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,20 +59,32 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hard/32_generate_div_tags" />
       <recent name="$PROJECT_DIR$/hard/31_solve_sudoku" />
       <recent name="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix" />
       <recent name="$PROJECT_DIR$/medium/53_minimum_characters_for_words" />
       <recent name="$PROJECT_DIR$/medium/55_next_greater_element" />
-      <recent name="$PROJECT_DIR$/hard/30_interweaving_strings" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/31_solve_sudoku">
+  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/32_generate_div_tags">
     <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/hard/31_solve_sudoku" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
       <package value="github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/32_generate_div_tags" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/hard/32_generate_div_tags" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/hard/32_generate_div_tags" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -106,37 +115,25 @@
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/32_generate_div_tags" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix" />
+      <working_directory value="$PROJECT_DIR$/hard/32_generate_div_tags" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
+      <package value="github.com/lee-hen/Algoexpert/hard/32_generate_div_tags" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase3\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/32_generate_div_tags" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/32_generate_div_tags" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" />
         <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
       </list>
     </recent_temporary>
   </component>
@@ -167,6 +164,11 @@
           <line>27</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/hard/32_generate_div_tags/generate_div_tags.go</url>
+          <line>30</line>
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -189,6 +191,24 @@
         <watch expression="backTracing" />
         <watch expression="backTracing &amp;&amp; !boardColor[i][j]" />
         <watch expression="solvePartialSudoku(i, j+1, board)" />
+        <watch expression="divTags" />
+        <watch expression="tags" language="go" />
+        <watch expression="partialWithExtraOpeningTag" />
+        <watch expression="openingTags" />
+        <watch expression="finalDivTags" />
+        <watch expression="len(partialWithExtraOpeningTag)" />
+        <watch expression="numberOfTags" />
+        <watch expression="openingTags + closingTags" />
+        <watch expression="closingTags" />
+        <watch expression="numberOfOpenTags(partialWithExtraOpeningTag) " />
+        <watch expression="numberOfOpenTags(partialWithExtraOpeningTag)" />
+        <watch expression="numberOfClosingTags(partialWithExtraOpeningTag)" />
+        <watch expression="*(*&quot;string&quot;)(824634794384)" />
+        <watch expression="newPrefix" />
+        <watch expression="result" />
+        <watch expression="prefix" />
+        <watch expression="closingTagsNeeded" />
+        <watch expression="openingTagsNeeded" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/medium/08_bst_construction/bst_test.go" line="25">
         <watch expression="root.Remove(10)" />
