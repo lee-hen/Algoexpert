@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hard/32_generate_div_tags/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/32_generate_div_tags/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/32_generate_div_tags/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/Notes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/ambiguous_measurements.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/ambiguous_measurements_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/hint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/question.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/31_solve_sudoku/solve_sudoku.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/31_solve_sudoku/solve_sudoku.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/32_generate_div_tags/generate_div_tags.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/32_generate_div_tags/generate_div_tags.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,81 +60,81 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hard/33_ambiguous_measurements" />
       <recent name="$PROJECT_DIR$/hard/32_generate_div_tags" />
       <recent name="$PROJECT_DIR$/hard/31_solve_sudoku" />
       <recent name="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix" />
       <recent name="$PROJECT_DIR$/medium/53_minimum_characters_for_words" />
-      <recent name="$PROJECT_DIR$/medium/55_next_greater_element" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/32_generate_div_tags">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/31_solve_sudoku" />
+      <working_directory value="$PROJECT_DIR$/hard/33_ambiguous_measurements" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" />
+      <package value="github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/32_generate_div_tags" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/32_generate_div_tags" />
+      <working_directory value="$PROJECT_DIR$/hard/33_ambiguous_measurements" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/32_generate_div_tags" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/31_solve_sudoku" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" />
+      <package value="github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/32_generate_div_tags" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/32_generate_div_tags" />
+      <working_directory value="$PROJECT_DIR$/hard/33_ambiguous_measurements" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/32_generate_div_tags" />
+      <package value="github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase2\E$" />
+      <pattern value="^\QTestCase3\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/hard/33_ambiguous_measurements" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase4\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/hard/33_ambiguous_measurements" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase5\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/32_generate_div_tags" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/32_generate_div_tags" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/medium/54_minimum_passes_of_matrix" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
+        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
+        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
+        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
       </list>
     </recent_temporary>
   </component>
@@ -165,60 +166,32 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/hard/32_generate_div_tags/generate_div_tags.go</url>
-          <line>30</line>
-          <option name="timeStamp" value="114" />
+          <url>file://$PROJECT_DIR$/hard/33_ambiguous_measurements/ambiguous_measurements.go</url>
+          <line>21</line>
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
-        <watch expression="board" />
-        <watch expression="digit" />
-        <watch expression="validBoard" />
-        <watch expression="board[i][m]" />
-        <watch expression="i" />
-        <watch expression="j" />
-        <watch expression="board[i][j]" />
-        <watch expression="solveSudokuHelper(i, j, board, boardColor)" />
-        <watch expression="(i, j" />
-        <watch expression="i, j" />
-        <watch expression="board[row][col]" />
-        <watch expression="row" />
-        <watch expression="col" />
-        <watch expression="boardColor[i][j]" />
-        <watch expression="board[i][j] != 0" />
-        <watch expression="backTracing" />
-        <watch expression="backTracing &amp;&amp; !boardColor[i][j]" />
-        <watch expression="solvePartialSudoku(i, j+1, board)" />
-        <watch expression="divTags" />
-        <watch expression="tags" language="go" />
-        <watch expression="partialWithExtraOpeningTag" />
-        <watch expression="openingTags" />
-        <watch expression="finalDivTags" />
-        <watch expression="len(partialWithExtraOpeningTag)" />
-        <watch expression="numberOfTags" />
-        <watch expression="openingTags + closingTags" />
-        <watch expression="closingTags" />
-        <watch expression="numberOfOpenTags(partialWithExtraOpeningTag) " />
-        <watch expression="numberOfOpenTags(partialWithExtraOpeningTag)" />
-        <watch expression="numberOfClosingTags(partialWithExtraOpeningTag)" />
-        <watch expression="*(*&quot;string&quot;)(824634794384)" />
-        <watch expression="newPrefix" />
-        <watch expression="result" />
-        <watch expression="prefix" />
-        <watch expression="closingTagsNeeded" />
-        <watch expression="openingTagsNeeded" />
+        <watch expression="measurable(currLow, currHigh, low, high)" />
+        <watch expression="ambiguousMeasure(cupIdx, currLow, currHigh, low, high, measuringCups)" />
+        <watch expression="!ambiguousMeasure(cupIdx, currLow, currHigh, low, high, measuringCups) " />
+        <watch expression="minIdx" />
+        <watch expression="cupIdx" />
+        <watch expression="ambiguousMeasure(0, currLow, currHigh, low, high, measuringCups)" />
+        <watch expression="!ambiguousMeasure(0, currLow, currHigh, low, high, measuringCups) " />
+        <watch expression="!ambiguousMeasure(0, currLow, currHigh, low, high, measuringCups)" />
+        <watch expression="currLow" />
+        <watch expression="currHigh" />
+        <watch expression="currIdx-1" />
+        <watch expression="currIdx" />
+        <watch expression="!belowSpecifiedRange(currLow, currHigh, low)" />
       </configuration>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/medium/08_bst_construction/bst_test.go" line="25">
-        <watch expression="root.Remove(10)" />
-      </inline-watch>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/hard/29_lowest_common_manager/lowest_common_manager.go" line="66">
-        <watch expression="nodesToMangers" />
-      </inline-watch>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase1_in_github_com_lee_hen_Algoexpert_medium_55_next_greater_element.out" NAME="TestCase1 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element Coverage Results" MODIFIED="1623474222585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Algoexpert$TestCase3_in_github_com_lee_hen_Algoexpert_hard_33_ambiguous_measurements.out" NAME="TestCase3 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements Coverage Results" MODIFIED="1624082014230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
