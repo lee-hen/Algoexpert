@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/Notes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/ambiguous_measurements.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/ambiguous_measurements_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/34_shifted_binary_search/hint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/34_shifted_binary_search/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/34_shifted_binary_search/shifted_binary_search.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/34_shifted_binary_search/shifted_binary_search_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,81 +58,81 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hard/34_shifted_binary_search" />
       <recent name="$PROJECT_DIR$/hard/33_ambiguous_measurements" />
       <recent name="$PROJECT_DIR$/hard/32_generate_div_tags" />
       <recent name="$PROJECT_DIR$/hard/31_solve_sudoku" />
       <recent name="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix" />
-      <recent name="$PROJECT_DIR$/medium/53_minimum_characters_for_words" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/33_ambiguous_measurements" />
+      <working_directory value="$PROJECT_DIR$/hard/34_shifted_binary_search" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
+      <package value="github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/33_ambiguous_measurements" />
+      <working_directory value="$PROJECT_DIR$/hard/34_shifted_binary_search" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase2\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/33_ambiguous_measurements" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
+      <package value="github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/33_ambiguous_measurements" />
+      <working_directory value="$PROJECT_DIR$/hard/34_shifted_binary_search" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
+      <package value="github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase4\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/33_ambiguous_measurements" />
+      <working_directory value="$PROJECT_DIR$/hard/34_shifted_binary_search" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
+      <package value="github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase5\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/hard/34_shifted_binary_search" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase6\E$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
-        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
-        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements" />
+        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
+        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
+        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
+        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
       </list>
     </recent_temporary>
   </component>
@@ -165,11 +163,6 @@
           <line>27</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/hard/33_ambiguous_measurements/ambiguous_measurements.go</url>
-          <line>21</line>
-          <option name="timeStamp" value="73" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -187,6 +180,16 @@
         <watch expression="currIdx-1" />
         <watch expression="currIdx" />
         <watch expression="!belowSpecifiedRange(currLow, currHigh, low)" />
+        <watch expression="array[middle" />
+        <watch expression="target" />
+        <watch expression="array[left]" />
+        <watch expression="array[right]" />
+        <watch expression="right" />
+        <watch expression="array[left] " />
+        <watch expression="middle" />
+        <watch expression="left" />
+        <watch expression="array[middle]" />
+        <watch expression="target &gt; array[left]" />
       </configuration>
     </watches-manager>
   </component>
