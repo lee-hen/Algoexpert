@@ -8,7 +8,7 @@ import (
 
 func TestCase1(t *testing.T) {
 	expected := []int{2, 3, 5, 5, 6, 8, 9}
-	output := QuickSort([]int{8, 5, 2, 9, 5, 5, 3})
+	output := QuickSort([]int{8, 5, 2, 9, 5, 6, 3})
 	require.Equal(t, expected, output)
 }
 
