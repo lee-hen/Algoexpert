@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/easy/23_tournament_winner/tournament_winner.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/23_tournament_winner/tournament_winner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/02_two_number_sum/two_number_sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/02_two_number_sum/two_number_sum.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
