@@ -7,21 +7,18 @@ func ShiftedBinarySearch(array []int, target int) int {
 	for left <= right {
 		middle := (left + right) / 2
 
-		potentialMatch := array[middle]
-		leftNum, rightNum := array[left], array[right]
-
-		if target == potentialMatch {
+		if target == array[middle] {
 			return middle
 		}
 
-		if leftNum <= potentialMatch {
-			if target < potentialMatch && target >= leftNum {
+		if array[left] <= array[middle] {
+			if target < array[middle] && target >= array[left] {
 				right = middle - 1
 			} else {
 				left = middle + 1
 			}
 		} else {
-			if target > potentialMatch && target <= rightNum {
+			if target > array[middle] && target <= array[right] {
 				left = middle + 1
 			} else {
 				right = middle - 1

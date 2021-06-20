@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hard/34_shifted_binary_search/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/34_shifted_binary_search/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/34_shifted_binary_search/shifted_binary_search.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/34_shifted_binary_search/shifted_binary_search_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/35_search_for_range/hint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/35_search_for_range/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/35_search_for_range/search_for_range.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/35_search_for_range/search_for_range_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/36_index_equals_value/hint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/36_index_equals_value/index_equals_value.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/36_index_equals_value/index_equals_value_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/36_index_equals_value/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/37_quick_select/hint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/37_quick_select/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/37_quick_select/quick_select.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/37_quick_select/quick_select_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/38_quick_sort/hint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/38_quick_sort/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/38_quick_sort/quick_sort.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/38_quick_sort/quick_sort_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,68 +70,68 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hard/38_quick_select" />
+      <recent name="$PROJECT_DIR$/hard/37_quick_sort" />
+      <recent name="$PROJECT_DIR$/hard/37_index_equals_value" />
+      <recent name="$PROJECT_DIR$/hard/35_search_for_range" />
       <recent name="$PROJECT_DIR$/hard/34_shifted_binary_search" />
-      <recent name="$PROJECT_DIR$/hard/33_ambiguous_measurements" />
-      <recent name="$PROJECT_DIR$/hard/32_generate_div_tags" />
-      <recent name="$PROJECT_DIR$/hard/31_solve_sudoku" />
-      <recent name="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/37_quick_select">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/38_quick_select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/34_shifted_binary_search" />
+      <working_directory value="$PROJECT_DIR$/hard/38_quick_select" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
+      <package value="github.com/lee-hen/Algoexpert/hard/38_quick_select" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/38_quick_select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/34_shifted_binary_search" />
+      <working_directory value="$PROJECT_DIR$/hard/38_quick_select" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
+      <package value="github.com/lee-hen/Algoexpert/hard/38_quick_select" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase2\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/hard/38_quick_select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/hard/38_quick_select" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/hard/38_quick_select" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/hard/37_quick_select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/34_shifted_binary_search" />
+      <working_directory value="$PROJECT_DIR$/hard/37_quick_select" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase4\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/34_shifted_binary_search" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
+      <package value="github.com/lee-hen/Algoexpert/hard/37_quick_select" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase5\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/hard/38_quick_select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/34_shifted_binary_search" />
+      <working_directory value="$PROJECT_DIR$/hard/38_quick_select" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
+      <package value="github.com/lee-hen/Algoexpert/hard/38_quick_select" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -128,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
-        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
-        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/hard/34_shifted_binary_search" />
+        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/37_quick_select" />
+        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/hard/38_quick_select" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/38_quick_select" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/38_quick_select" />
+        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/hard/38_quick_select" />
       </list>
     </recent_temporary>
   </component>
@@ -167,29 +179,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
-        <watch expression="measurable(currLow, currHigh, low, high)" />
-        <watch expression="ambiguousMeasure(cupIdx, currLow, currHigh, low, high, measuringCups)" />
-        <watch expression="!ambiguousMeasure(cupIdx, currLow, currHigh, low, high, measuringCups) " />
-        <watch expression="minIdx" />
-        <watch expression="cupIdx" />
-        <watch expression="ambiguousMeasure(0, currLow, currHigh, low, high, measuringCups)" />
-        <watch expression="!ambiguousMeasure(0, currLow, currHigh, low, high, measuringCups) " />
-        <watch expression="!ambiguousMeasure(0, currLow, currHigh, low, high, measuringCups)" />
-        <watch expression="currLow" />
-        <watch expression="currHigh" />
-        <watch expression="currIdx-1" />
-        <watch expression="currIdx" />
-        <watch expression="!belowSpecifiedRange(currLow, currHigh, low)" />
-        <watch expression="array[middle" />
-        <watch expression="target" />
-        <watch expression="array[left]" />
-        <watch expression="array[right]" />
-        <watch expression="right" />
-        <watch expression="array[left] " />
-        <watch expression="middle" />
-        <watch expression="left" />
-        <watch expression="array[middle]" />
-        <watch expression="target &gt; array[left]" />
+        <watch expression="array" />
       </configuration>
     </watches-manager>
   </component>
