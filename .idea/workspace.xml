@@ -2,7 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/hard/38_quick_sort/quick_sort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/38_quick_sort/quick_sort_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/01_get_nth_fib/getnthfib.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/01_get_nth_fib/get_nth_fib.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/01_get_nth_fib/getnthfib_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/01_get_nth_fib/get_nth_fib_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/02_two_number_sum/twonumbersum.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/02_two_number_sum/two_number_sum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/02_two_number_sum/twonumbersum_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/02_two_number_sum/two_number_sum_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/03_is_valid_subsequence/isvalidsubsequence.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/03_is_valid_subsequence/is_valid_subsequence.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/03_is_valid_subsequence/isvalidsubsequence_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/03_is_valid_subsequence/is_valid_subsequence_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/04_find_closest_value/findclosestvalue.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/04_find_closest_value/find_closest_value.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/04_find_closest_value/findclosestvalue_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/04_find_closest_value/find_closest_value_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/05_branch_sums/branchsums.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/05_branch_sums/branch_sums.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/05_branch_sums/branchsums_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/05_branch_sums/branch_sums_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/06_node_depths/nodedepths.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/06_node_depths/node_depths.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/06_node_depths/nodedepths_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/06_node_depths/node_depths_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/07_depth_first_search/depthfirstsearch.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/07_depth_first_search/depth_first_search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/07_depth_first_search/depthfirstsearch_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/07_depth_first_search/depth_first_search_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/08_product_sum/productsum.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/08_product_sum/product_sum.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/08_product_sum/productsum_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/08_product_sum/product_sum_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/09_binary_search/BinarySearch.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/09_binary_search/binary_search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/09_binary_search/binarysearch_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/09_binary_search/binary_search_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/10_find_three_largest_numbers/findthreelargestnumbers.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/10_find_three_largest_numbers/find_three_largest_numbers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/10_find_three_largest_numbers/findthreelargestnumbers_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/10_find_three_largest_numbers/find_three_largest_numbers_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/11_bubble_sort/bubblesort.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/11_bubble_sort/bubble_sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/11_bubble_sort/bubblesort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/11_bubble_sort/bubble_sort_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/12_insertion_sort/insertionsort.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/12_insertion_sort/insertion_sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/12_insertion_sort/insertionsort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/12_insertion_sort/insertion_sort_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/13_selection_sort/selectionsort.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/13_selection_sort/selection_sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/13_selection_sort/selectionsort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/13_selection_sort/selection_sort_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/14_is_palindrome/ispalindrome.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/14_is_palindrome/is_palindrome.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/14_is_palindrome/ispalindrome_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/14_is_palindrome/is_palindrome_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/15_caesar_cipher_encryptor/caesarcipherencryptor.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/15_caesar_cipher_encryptor/caesar_cipher_encryptor.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/15_caesar_cipher_encryptor/caesarcipherencryptor_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/15_caesar_cipher_encryptor/caesar_cipher_encryptor_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/16_class_photos/classphotos.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/16_class_photos/class_photos.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/16_class_photos/classphotos_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/16_class_photos/class_photos_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/17_generate_document/generatedocument.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/17_generate_document/generate_document.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/17_generate_document/generatedocument_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/17_generate_document/generate_document_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/18_minimum_waiting_time/minimumwaitingtime.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/18_minimum_waiting_time/minimum_waiting_time.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/18_minimum_waiting_time/minimumwaitingtime_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/18_minimum_waiting_time/minimum_waiting_time_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/19_non_constructible_change/nonconstructiblechange.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/19_non_constructible_change/non_constructible_change.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/19_non_constructible_change/nonconstructiblechange_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/19_non_constructible_change/non_constructible_change_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/20_remove_duplicates_from_linkedlist/removeduplicatesfromlinkedlist.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/20_remove_duplicates_from_linkedlist/remove_duplicates_from_linkedlist.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/20_remove_duplicates_from_linkedlist/removeduplicatesfromlinkedlist_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/20_remove_duplicates_from_linkedlist/remove_duplicates_from_linkedlist_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/21_run_length_encoding/runlengthencoding.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/21_run_length_encoding/run_length_encoding.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/21_run_length_encoding/runlengthencoding_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/21_run_length_encoding/run_length_encoding_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/22_sorted_squared_array/sorted_squared_array.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/22_sorted_squared_array/sorted_squared_array.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/23_tournament_winner/tournament_winner.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/23_tournament_winner/tournament_winner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/24_first_non_repeating_character/firstnonrepeatingcharacter.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/24_first_non_repeating_character/firstnonrepeatingcharacter.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +106,43 @@
       <recent name="$PROJECT_DIR$/hard/34_shifted_binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/38_quick_sort">
+  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/easy/11_bubble_sort">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/easy/02_two_number_sum" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/easy/02_two_number_sum" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/easy/02_two_number_sum" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/easy/10_find_three_largest_numbers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/easy/10_find_three_largest_numbers" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/easy/10_find_three_largest_numbers" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/easy/11_bubble_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/easy/11_bubble_sort" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/easy/11_bubble_sort" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/38_quick_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/hard/38_quick_sort" />
@@ -72,18 +153,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/38_quick_select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/38_quick_select" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/38_quick_select" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/38_quick_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -98,37 +167,13 @@
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/hard/38_quick_select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/38_quick_select" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/38_quick_select" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase3\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/hard/37_quick_select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/37_quick_select" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/37_quick_select" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase5\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/easy/11_bubble_sort" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/easy/10_find_three_largest_numbers" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/easy/02_two_number_sum" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/38_quick_sort" />
         <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/38_quick_sort" />
-        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/37_quick_select" />
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/hard/38_quick_select" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/38_quick_select" />
       </list>
     </recent_temporary>
   </component>

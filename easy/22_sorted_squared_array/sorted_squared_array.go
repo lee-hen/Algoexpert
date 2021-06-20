@@ -2,6 +2,7 @@ package sorted_squared_array
 
 import "sort"
 
+// SortedSquaredArray
 // Better solution
 func SortedSquaredArray(array []int) []int {
 	sortedSquares := make([]int, len(array))
@@ -83,7 +84,7 @@ func (stack *Stack) size() int {
 }
 
 // My Solution 1
-func SortedSquaredArray1(array []int) []int {
+func sortedSquaredArray1(array []int) []int {
 	squaredArray := make([]int, 0, len(array))
 	needSort := false
 	for _, arr := range array {
