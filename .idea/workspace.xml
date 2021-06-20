@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hard/35_search_for_range/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/35_search_for_range/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/35_search_for_range/search_for_range.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/35_search_for_range/search_for_range_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/36_index_equals_value/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/36_index_equals_value/index_equals_value.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/36_index_equals_value/index_equals_value_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/36_index_equals_value/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/37_quick_select/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/37_quick_select/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/37_quick_select/quick_select.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/37_quick_select/quick_select_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/38_quick_sort/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/38_quick_sort/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/38_quick_sort/quick_sort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/38_quick_sort/quick_sort_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/37_quick_select/quick_select.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/37_quick_select/quick_select.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

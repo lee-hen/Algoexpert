@@ -79,15 +79,16 @@ func partition(lo, hi, k int, array []int) int {
 
 	array[pivot], array[j] = array[j], array[pivot]
 
+	// put the pivot to the j, the index of j is the k-1th smallest value
 	if j == k-1 {
 		return j
 	}
 
-	if idx := partition(lo, j-1, k, array); idx != -1 {
-		return idx
+	if j < k { // this means the left is sorted and the pivot number is not kth smallest one so try to the right
+		return partition(j+1, hi, k, array)
 	}
 
-	return partition(j+1, hi, k, array)
+	return partition(lo, j-1, k, array)
 }
 
 // bad time and space complexity
