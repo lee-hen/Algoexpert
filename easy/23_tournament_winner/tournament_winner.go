@@ -59,5 +59,3 @@ func tournamentWinner(competitions [][]string, results []int) string {
 
 	return winner
 }
-
-
