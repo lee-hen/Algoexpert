@@ -1,7 +1,8 @@
 package tournament_winner
 
-const HOME_TEAM_WON = 1
+const homeTeamWon = 1
 
+// TournamentWinner
 // Better solution
 func TournamentWinner(competitions [][]string, results []int) string {
 	currentBestTeam := ""
@@ -12,7 +13,7 @@ func TournamentWinner(competitions [][]string, results []int) string {
 		homeTeam, awayTeam := competition[0], competition[1]
 
 		winningTeam := awayTeam
-		if result == HOME_TEAM_WON {
+		if result == homeTeamWon {
 			winningTeam = homeTeam
 		}
 
@@ -40,7 +41,7 @@ func tournamentWinner(competitions [][]string, results []int) string {
 
 		result := results[idx]
 
-		if result == HOME_TEAM_WON {
+		if result == homeTeamWon {
 			algoPoint[homeTeam] += 3
 		} else {
 			algoPoint[awayTeam] += 3
@@ -56,8 +57,5 @@ func tournamentWinner(competitions [][]string, results []int) string {
 		point += p
 	}
 
-
 	return winner
 }
-
-

@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hard/35_search_for_range/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/35_search_for_range/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/35_search_for_range/search_for_range.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/35_search_for_range/search_for_range_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/36_index_equals_value/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/36_index_equals_value/index_equals_value.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/36_index_equals_value/index_equals_value_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/36_index_equals_value/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/37_quick_select/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/37_quick_select/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/37_quick_select/quick_select.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/37_quick_select/quick_select_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/38_quick_sort/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/38_quick_sort/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/38_quick_sort/quick_sort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/38_quick_sort/quick_sort_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/23_tournament_winner/tournament_winner.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/23_tournament_winner/tournament_winner.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,74 +61,74 @@
       <recent name="$PROJECT_DIR$/hard/34_shifted_binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/37_quick_select">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/38_quick_select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/easy/11_bubble_sort">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/easy/02_two_number_sum" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/38_quick_select" />
+      <working_directory value="$PROJECT_DIR$/easy/02_two_number_sum" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/38_quick_select" />
+      <package value="github.com/lee-hen/Algoexpert/easy/02_two_number_sum" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/38_quick_select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/easy/10_find_three_largest_numbers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/38_quick_select" />
+      <working_directory value="$PROJECT_DIR$/easy/10_find_three_largest_numbers" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/38_quick_select" />
+      <package value="github.com/lee-hen/Algoexpert/easy/10_find_three_largest_numbers" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/easy/11_bubble_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/easy/11_bubble_sort" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/easy/11_bubble_sort" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/38_quick_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/hard/38_quick_sort" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/hard/38_quick_sort" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/38_quick_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/hard/38_quick_sort" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/hard/38_quick_sort" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/hard/38_quick_select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/38_quick_select" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/38_quick_select" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase3\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/hard/37_quick_select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/37_quick_select" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/37_quick_select" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase5\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/hard/38_quick_select" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/38_quick_select" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/38_quick_select" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase6\E$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/37_quick_select" />
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/hard/38_quick_select" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/38_quick_select" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/38_quick_select" />
-        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/hard/38_quick_select" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/easy/11_bubble_sort" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/easy/10_find_three_largest_numbers" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/easy/02_two_number_sum" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/38_quick_sort" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/38_quick_sort" />
       </list>
     </recent_temporary>
   </component>
