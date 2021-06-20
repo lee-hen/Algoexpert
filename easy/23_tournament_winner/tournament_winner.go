@@ -57,7 +57,6 @@ func tournamentWinner(competitions [][]string, results []int) string {
 		point += p
 	}
 
-
 	return winner
 }
 
