@@ -19,7 +19,6 @@ func TandemBicycle(redShirtSpeeds []int, blueShirtSpeeds []int, fastest bool) in
 		redShirtSpeed := redShirtSpeeds[idx]
 		blueShirtSpeed := blueShirtSpeeds[idx]
 
-
 		totalSpeed += int(math.Max(float64(redShirtSpeed), float64(blueShirtSpeed)))
 
 	}
