@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/easy/25_tandem_bicycle/tandem_bicycle.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/25_tandem_bicycle/tandem_bicycle.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/41_shorten_path/hint.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/41_shorten_path/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/41_shorten_path/shorten_path.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/41_shorten_path/shorten_path_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/largest_rectangle_under_skyline.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/largest_rectangle_under_skyline_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/31_solve_sudoku/solve_sudoku_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/31_solve_sudoku/solve_sudoku_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,81 +61,80 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hard/41_shorten_path" />
       <recent name="$PROJECT_DIR$/hard/40_radix_sort" />
       <recent name="$PROJECT_DIR$/hard/39_heap_sort" />
       <recent name="$PROJECT_DIR$/hard/38_quick_select" />
       <recent name="$PROJECT_DIR$/hard/37_quick_sort" />
-      <recent name="$PROJECT_DIR$/hard/37_index_equals_value" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/hard/40_radix_sort">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/39_heap_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/hard/31_solve_sudoku">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/39_heap_sort" />
+      <working_directory value="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/39_heap_sort" />
+      <package value="github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase13 in github.com/lee-hen/Algoexpert/hard/41_shorten_path" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/40_radix_sort" />
+      <working_directory value="$PROJECT_DIR$/hard/41_shorten_path" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
+      <package value="github.com/lee-hen/Algoexpert/hard/41_shorten_path" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
+      <pattern value="^\QTestCase13\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase14 in github.com/lee-hen/Algoexpert/hard/41_shorten_path" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/40_radix_sort" />
+      <working_directory value="$PROJECT_DIR$/hard/41_shorten_path" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
+      <package value="github.com/lee-hen/Algoexpert/hard/41_shorten_path" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase2\E$" />
+      <pattern value="^\QTestCase14\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/40_radix_sort" />
+      <working_directory value="$PROJECT_DIR$/hard/31_solve_sudoku" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
+      <package value="github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/40_radix_sort" />
+      <working_directory value="$PROJECT_DIR$/hard/31_solve_sudoku" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
+      <package value="github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase4\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
-        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/39_heap_sort" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" />
+        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/hard/31_solve_sudoku" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
+        <item itemvalue="Go Test.TestCase13 in github.com/lee-hen/Algoexpert/hard/41_shorten_path" />
+        <item itemvalue="Go Test.TestCase14 in github.com/lee-hen/Algoexpert/hard/41_shorten_path" />
       </list>
     </recent_temporary>
   </component>
@@ -159,11 +165,26 @@
           <line>27</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/hard/41_shorten_path/shorten_path.go</url>
+          <line>97</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/hard/41_shorten_path/shorten_path.go</url>
+          <line>94</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
         <watch expression="array" />
+        <watch expression="symbol" />
+        <watch expression="stack[len(stack)-len(symbol)-1]" />
+        <watch expression="stack" />
+        <watch expression="*(*&quot;string&quot;)(824634794368)" />
+        <watch expression="*(*&quot;[]string&quot;)(824634019288)" />
       </configuration>
     </watches-manager>
   </component>
