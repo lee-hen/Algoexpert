@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/largest_rectangle_under_skyline.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/largest_rectangle_under_skyline.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

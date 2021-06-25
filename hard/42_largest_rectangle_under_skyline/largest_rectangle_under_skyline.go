@@ -16,7 +16,7 @@ func LargestRectangleUnderSkyline(buildings []int) int {
 			if len(stack) != 0 {
 				rightBound := idx
 				// the most left bound is buildings[stack[len(stack)-1]] < height
-				// but every left bound of the topIdx might be used to the max area of the rectangle
+				// but every left bound to the topIdx might be used to the max area of the rectangle
 				leftBound := stack[len(stack)-1]
 				unit = rightBound-leftBound-1
 			} else {
