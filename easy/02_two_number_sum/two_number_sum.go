@@ -22,7 +22,6 @@ func TwoNumberSum(array []int, target int) []int {
 
 // My solution
 func twoNumberSum1(array []int, target int) []int {
-
 	for i, x := range array {
 		for _, y := range array[i+1:] {
 			if x+y == target {

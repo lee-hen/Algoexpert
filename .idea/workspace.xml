@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/easy/23_tournament_winner/tournament_winner.go" beforeDir="false" afterPath="$PROJECT_DIR$/easy/23_tournament_winner/tournament_winner.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/largest_rectangle_under_skyline.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/largest_rectangle_under_skyline.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,81 +55,79 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline" />
+      <recent name="$PROJECT_DIR$/hard/41_shorten_path" />
+      <recent name="$PROJECT_DIR$/hard/40_radix_sort" />
+      <recent name="$PROJECT_DIR$/hard/39_heap_sort" />
       <recent name="$PROJECT_DIR$/hard/38_quick_select" />
-      <recent name="$PROJECT_DIR$/hard/37_quick_sort" />
-      <recent name="$PROJECT_DIR$/hard/37_index_equals_value" />
-      <recent name="$PROJECT_DIR$/hard/35_search_for_range" />
-      <recent name="$PROJECT_DIR$/hard/34_shifted_binary_search" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/easy/11_bubble_sort">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/easy/02_two_number_sum" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/easy/02_two_number_sum" />
+      <working_directory value="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/easy/02_two_number_sum" />
+      <package value="github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/easy/10_find_three_largest_numbers" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/easy/10_find_three_largest_numbers" />
+      <working_directory value="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/easy/10_find_three_largest_numbers" />
+      <package value="github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
+      <pattern value="^\QTestCase5\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/easy/11_bubble_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/easy/11_bubble_sort" />
+      <working_directory value="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/easy/11_bubble_sort" />
+      <package value="github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
+      <pattern value="^\QTestCase6\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/38_quick_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/38_quick_sort" />
+      <working_directory value="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/38_quick_sort" />
+      <package value="github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/38_quick_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="gobench github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/38_quick_sort" />
+      <working_directory value="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/38_quick_sort" />
+      <package value="github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase2\E$" />
+      <framework value="gobench" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/easy/11_bubble_sort" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/easy/10_find_three_largest_numbers" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/easy/02_two_number_sum" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/38_quick_sort" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/38_quick_sort" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
+        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
+        <item itemvalue="Go Test.gobench github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
+        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
       </list>
     </recent_temporary>
   </component>
@@ -164,6 +163,21 @@
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
         <watch expression="array" />
+        <watch expression="symbol" />
+        <watch expression="stack[len(stack)-len(symbol)-1]" />
+        <watch expression="stack" />
+        <watch expression="*(*&quot;string&quot;)(824634794368)" />
+        <watch expression="*(*&quot;[]string&quot;)(824634019288)" />
+        <watch expression="currentArea" />
+        <watch expression="unit * top" />
+        <watch expression="stack[j]" />
+        <watch expression="buildings[topIdx]" />
+        <watch expression="height" />
+        <watch expression="topIdx" />
+        <watch expression="buildings[left]" />
+        <watch expression="right" />
+        <watch expression="left" />
+        <watch expression="buildings" />
       </configuration>
     </watches-manager>
   </component>
