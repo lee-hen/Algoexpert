@@ -1,40 +1,68 @@
 package largest_rectangle_under_skyline
 
-// 1, 3, 3, 2, 4, 1, 5, 3, 2
-
-// 2, 2, 4, 4, 4, 2, 2, 1
-
-
-
 func LargestRectangleUnderSkyline(buildings []int) int {
-	minValue := min(buildings)
-	largestArea := minValue * len(buildings)
-	//
-	//for _, hi := range buildings {
-	//
-	//}
-	//
-	//
-	//
-	//
-	//fmt.Println(minValue)
-	//
+	var currentArea int
 
-	return largestArea
+	stack := make([]int, 0)
+	buildings = append(buildings, 0)
+	for idx, height := range buildings {
+		// well the current height's idx is right bound of rectangle
+		for len(stack) > 0 && buildings[stack[len(stack)-1]] >= height {
+			topIdx := stack[len(stack)-1] // the target building to create the rectangle
+			stack = stack[:len(stack)-1]
+
+			// find left bound of the topIdx
+			var unit int
+			if len(stack) != 0 {
+				rightBound := idx
+				leftBound := stack[len(stack)-1]
+				unit = rightBound-leftBound-1
+			} else {
+				unit = idx
+			}
+
+			// well create the area
+			currentArea = max(currentArea, unit * buildings[topIdx])
+		}
+		stack = append(stack, idx)
+	}
+
+	return currentArea
 }
 
+// my solution
+func largestRectangleUnderSkyline(buildings []int) int {
+	var currentArea int
 
-func min(array []int) int {
-	currentMin := array[0]
-	for _, el := range array {
-		if el == 1 {
-			return el
+	for i := 0; i < len(buildings); i++ {
+		var unit = 1
+
+		for j := i+1; j < len(buildings); j++ {
+			if buildings[i] > buildings[j] {
+				break
+			}
+			unit++
 		}
 
-		if currentMin > el {
-			currentMin = el
+		for k := i - 1; k >= 0; k-- {
+			if buildings[i] > buildings[k] {
+				break
+			}
+			unit++
+		}
+
+		currentArea = max(currentArea, unit * buildings[i])
+	}
+
+	return currentArea
+}
+
+func max(arg1 int, rest ...int) int {
+	curr := arg1
+	for _, num := range rest {
+		if num > curr {
+			curr = num
 		}
 	}
-	return currentMin
+	return curr
 }
-
