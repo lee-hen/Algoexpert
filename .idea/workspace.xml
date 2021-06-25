@@ -2,28 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/hint.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/image1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/image2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/image3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/image4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/image5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/image6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/image7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/image8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/image9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/43_longest_substring_without_duplication/longest_substring_without_duplication.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/43_longest_substring_without_duplication/longest_substring_without_duplication_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/44_underscorify_substring/underscorify_substring.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/44_underscorify_substring/underscorify_substring_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/45_pattern_matcher/pattern_matcher.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/45_pattern_matcher/pattern_matcher_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/46_multi_string_search/multi_string_search.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/46_multi_string_search/multi_string_search_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/largest_rectangle_under_skyline.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/largest_rectangle_under_skyline.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/largest_rectangle_under_skyline_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/largest_rectangle_under_skyline_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +62,7 @@
       <recent name="$PROJECT_DIR$/hard/38_quick_select" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline">
+  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline">
     <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline" />
@@ -143,8 +123,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
         <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
         <item itemvalue="Go Test.gobench github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
         <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
@@ -177,11 +157,6 @@
           <url>file://$PROJECT_DIR$/medium/08_bst_construction/bst_test.go</url>
           <line>27</line>
           <option name="timeStamp" value="23" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/largest_rectangle_under_skyline.go</url>
-          <line>33</line>
-          <option name="timeStamp" value="58" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
