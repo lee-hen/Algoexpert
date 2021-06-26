@@ -2,8 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hard/43_underscorify_substring/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/43_underscorify_substring/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/43_underscorify_substring/time_complexity_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/56_longest_substring_without_duplication/longest_substring_without_duplication.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/56_longest_substring_without_duplication/longest_substring_without_duplication_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/medium/56_longest_substring_without_duplication/question_and_hints.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/largest_rectangle_under_skyline.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/largest_rectangle_under_skyline.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/43_longest_substring_without_duplication/longest_substring_without_duplication.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/43_longest_substring_without_duplication/longest_substring_without_duplication_test.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/44_underscorify_substring/underscorify_substring.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/43_underscorify_substring/underscorify_substring.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/44_underscorify_substring/underscorify_substring_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/43_underscorify_substring/underscorify_substring_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/45_pattern_matcher/pattern_matcher.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/44_pattern_matcher/pattern_matcher.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/45_pattern_matcher/pattern_matcher_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/44_pattern_matcher/pattern_matcher_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/46_multi_string_search/multi_string_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/46_multi_string_search/multi_string_search_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,79 +68,80 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hard/43_underscorify_substring" />
+      <recent name="$PROJECT_DIR$/medium" />
+      <recent name="$PROJECT_DIR$/hard/43_longest_substring_without_duplication" />
       <recent name="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline" />
       <recent name="$PROJECT_DIR$/hard/41_shorten_path" />
-      <recent name="$PROJECT_DIR$/hard/40_radix_sort" />
-      <recent name="$PROJECT_DIR$/hard/39_heap_sort" />
-      <recent name="$PROJECT_DIR$/hard/38_quick_select" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/43_underscorify_substring">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/43_underscorify_substring" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline" />
+      <working_directory value="$PROJECT_DIR$/hard/43_underscorify_substring" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
+      <package value="github.com/lee-hen/Algoexpert/hard/43_underscorify_substring" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/hard/43_underscorify_substring" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline" />
+      <working_directory value="$PROJECT_DIR$/hard/43_underscorify_substring" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
+      <package value="github.com/lee-hen/Algoexpert/hard/43_underscorify_substring" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase4\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/hard/43_underscorify_substring" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/hard/43_underscorify_substring" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/hard/43_underscorify_substring" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase5\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/hard/43_underscorify_substring" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline" />
+      <working_directory value="$PROJECT_DIR$/hard/43_underscorify_substring" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
+      <package value="github.com/lee-hen/Algoexpert/hard/43_underscorify_substring" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase6\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/hard/43_underscorify_substring" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline" />
+      <working_directory value="$PROJECT_DIR$/hard/43_underscorify_substring" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
+      <package value="github.com/lee-hen/Algoexpert/hard/43_underscorify_substring" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <method v="2" />
     </configuration>
-    <configuration name="gobench github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gobench" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
-        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
-        <item itemvalue="Go Test.gobench github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
-        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/42_largest_rectangle_under_skyline" />
+        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/43_underscorify_substring" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/hard/43_underscorify_substring" />
+        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/hard/43_underscorify_substring" />
+        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/hard/43_underscorify_substring" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/43_underscorify_substring" />
       </list>
     </recent_temporary>
   </component>
@@ -178,6 +192,13 @@
         <watch expression="right" />
         <watch expression="left" />
         <watch expression="buildings" />
+        <watch expression="maxIdx" />
+        <watch expression="letter" />
+        <watch expression="letters[i]" />
+        <watch expression="subString" />
+        <watch expression="leftIdx" />
+        <watch expression="seen" />
+        <watch expression="newStrs[idx]" />
       </configuration>
     </watches-manager>
   </component>
