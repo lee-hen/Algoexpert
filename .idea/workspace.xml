@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search_test.go" afterDir="false" />
-    </list>
+    <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -56,11 +52,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hard/45_multi_string_search" />
       <recent name="$PROJECT_DIR$/hard/44_pattern_matcher" />
       <recent name="$PROJECT_DIR$/hard" />
       <recent name="$PROJECT_DIR$/medium" />
       <recent name="$PROJECT_DIR$/hard/43_underscorify_substring" />
-      <recent name="$PROJECT_DIR$/hard/43_longest_substring_without_duplication" />
     </key>
   </component>
   <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/hard/45_multi_string_search">
