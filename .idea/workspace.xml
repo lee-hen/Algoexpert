@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hard/44_pattern_matcher/countIdxSolutionImage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/44_pattern_matcher/countIdxSolutionImage2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/44_pattern_matcher/finallyGotAnswer.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/44_pattern_matcher/hints.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/44_pattern_matcher/question.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/44_pattern_matcher/pattern_matcher.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/44_pattern_matcher/pattern_matcher.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/44_pattern_matcher/pattern_matcher_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/44_pattern_matcher/pattern_matcher_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,60 +63,61 @@
       <recent name="$PROJECT_DIR$/hard/43_longest_substring_without_duplication" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/hard/44_pattern_matcher">
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/44_pattern_matcher" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/hard/45_multi_string_search">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/45_multi_string_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/44_pattern_matcher" />
+      <working_directory value="$PROJECT_DIR$/hard/45_multi_string_search" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/44_pattern_matcher" />
+      <package value="github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/45_multi_string_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/hard/45_multi_string_search" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/hard/44_pattern_matcher" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/hard/45_multi_string_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/44_pattern_matcher" />
+      <working_directory value="$PROJECT_DIR$/hard/45_multi_string_search" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/44_pattern_matcher" />
+      <package value="github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase3\E$" />
+      <pattern value="^\QTestCase5\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/hard/44_pattern_matcher" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/hard/45_multi_string_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/44_pattern_matcher" />
+      <working_directory value="$PROJECT_DIR$/hard/45_multi_string_search" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/44_pattern_matcher" />
+      <package value="github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase4\E$" />
+      <pattern value="^\QTestCase6\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/hard/44_pattern_matcher" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/hard/45_multi_string_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/44_pattern_matcher" />
+      <working_directory value="$PROJECT_DIR$/hard/45_multi_string_search" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/44_pattern_matcher" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/medium/57_pattern_matcher" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/medium/57_pattern_matcher" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/medium/57_pattern_matcher" />
+      <package value="github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -129,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/hard/44_pattern_matcher" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/medium/57_pattern_matcher" />
-        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/hard/44_pattern_matcher" />
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/hard/44_pattern_matcher" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/44_pattern_matcher" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
+        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
+        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
       </list>
     </recent_temporary>
   </component>
@@ -194,7 +190,19 @@
         <watch expression="matchStrs[j] " />
         <watch expression="strs[j]" />
         <watch expression="matchStrs[j]" />
+        <watch expression="matchStr" />
+        <watch expression="next" />
+        <watch expression="trie" />
+        <watch expression="result" />
+        <watch expression="i" />
+        <watch expression="current" />
+        <watch expression="t" />
+        <watch expression="char" />
+        <watch expression="bigStringByte[j]" />
       </configuration>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search.go" line="80">
+        <watch expression="result" />
+      </inline-watch>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
