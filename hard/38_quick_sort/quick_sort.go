@@ -51,7 +51,7 @@ func sortHelper(startIdx, endIdx int, array []int) {
 	pivotElement := array[startIdx]
 	left, middle, right := startIdx, startIdx+1, endIdx
 
-	for middle <= right && left <= middle {
+	for middle <= right {
 		if array[middle] < pivotElement {
 			array[middle], array[left] = array[left], array[middle]
 			middle++

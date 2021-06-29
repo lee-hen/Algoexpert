@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/38_quick_sort/quick_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/38_quick_sort/quick_sort.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hard/39_heap_sort/heap_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/39_heap_sort/heap_sort.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +63,7 @@
       <recent name="$PROJECT_DIR$/hard/43_underscorify_substring" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/hard/45_multi_string_search">
+  <component name="RunManager" selected="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/38_quick_sort">
     <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/45_multi_string_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/hard/45_multi_string_search" />
@@ -72,6 +74,18 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/38_quick_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/hard/38_quick_sort" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/hard/38_quick_sort" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/45_multi_string_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -98,18 +112,6 @@
       <pattern value="^\QTestCase5\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/hard/45_multi_string_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/45_multi_string_search" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase6\E$" />
-      <method v="2" />
-    </configuration>
     <configuration name="go test github.com/lee-hen/Algoexpert/hard/45_multi_string_search" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/hard/45_multi_string_search" />
@@ -123,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/38_quick_sort" />
         <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
         <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
         <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
-        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/hard/45_multi_string_search" />
       </list>
     </recent_temporary>
   </component>
