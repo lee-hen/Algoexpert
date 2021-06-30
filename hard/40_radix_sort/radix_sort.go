@@ -78,15 +78,29 @@ func countSortWithKthDigit(k int, array []int,  digitNumber func(number, k int) 
 		counts[digitNumber(el, k)]++
 	}
 
-	for i := 0; i < len(counts)-1; i++ {
-		counts[i+1] += counts[i]
+	//for i := 0; i < len(counts)-1; i++ {
+	//	counts[i+1] += counts[i]
+	//}
+
+	//
+	//sorted := make([]int, len(array), len(array))
+	//for i := len(array)-1; i >= 0; i-- {
+	//	counts[digitNumber(array[i], k)]--
+	//	position := counts[digitNumber(array[i], k)]
+	//	sorted[position] = array[i]
+	//}
+
+	l := len(array)
+	for i := len(counts)-1; i >= 0; i-- {
+		l -= counts[i]
+		counts[i] = l
 	}
 
 	sorted := make([]int, len(array), len(array))
-	for i := len(array)-1; i >= 0; i-- {
-		counts[digitNumber(array[i], k)]--
+	for i := 0; i < len(array); i++{
 		position := counts[digitNumber(array[i], k)]
 		sorted[position] = array[i]
+		counts[digitNumber(array[i], k)]++
 	}
 
 	return sorted
