@@ -9,7 +9,7 @@ package heap_sort
 //[2 3 5 5 6 8 9]
 
 func HeapSort(array []int) []int {
-	for currentIdx := (len(array) - 2) / 2; currentIdx >= 0; currentIdx-- {
+	for currentIdx := len(array)/2; currentIdx >= 0; currentIdx-- {
 		siftDown(currentIdx, len(array)-1, array)
 	}
 	endIdx := len(array)-1
