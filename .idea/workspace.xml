@@ -2,9 +2,78 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/API Design.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Availability.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Caching.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Client—Server Model.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Configuration.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Hashing.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Key-Value Stores.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Latency And Throughput.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Leader Election.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Load Balancers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Logging And Monitoring.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/MapReduce.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Network Protocols.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Peer-To-Peer Networks.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Polling And Streaming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Proxies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Publish:Subscribe Pattern.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Rate Limiting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Relational Databases1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Relational Databases2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Replication And Sharding1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Replication And Sharding2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Security And HTTPS1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Security And HTTPS2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Specialized Storage Paradigms1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Specialized Storage Paradigms2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Specialized Storage Paradigms3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/Storage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/airbnb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/algoexpert.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/code_deployment.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/design-airbnb.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/design-algoexpert.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/design-facebook-news-feed.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/design-google-drive.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/design-netflix.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/design-slack.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/design-the-reddit-API.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/design-the-uber-API.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/facebook.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/glossary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/google_drive.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/netflix.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/slack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/systems_design/stockbroker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/01_apartment_hunting/apartment_hunting.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/01_apartment_hunting/apartment_hunting_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/01_apartment_hunting/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/01_apartment_hunting/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/02_calendar_matching/calendar_matching.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/02_calendar_matching/calendar_matching_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/02_calendar_matching/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/02_calendar_matching/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/03_waterfall_streams/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/03_waterfall_streams/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/03_waterfall_streams/sample.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/03_waterfall_streams/waterfall_streams.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/03_waterfall_streams/waterfall_streams_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/minimum_area_rectangle.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/minimum_area_rectangle_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/05_line_through_points/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/05_line_through_points/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/05_line_through_points/line_through_points.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/05_line_through_points/line_through_points_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/05_line_through_points/question.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/40_radix_sort/radix_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/40_radix_sort/radix_sort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/40_radix_sort/radix_sort_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/40_radix_sort/radix_sort_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/systems_design/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/systems_design/design-a-code-deployment-system.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/systems_design/design-a-stock-broker.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,14 +103,20 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1tkr9gc1tRo9U7NOciHES0R6CRL" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
@@ -56,68 +131,68 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/hard/45_multi_string_search" />
-      <recent name="$PROJECT_DIR$/hard/44_pattern_matcher" />
-      <recent name="$PROJECT_DIR$/hard" />
-      <recent name="$PROJECT_DIR$/medium" />
-      <recent name="$PROJECT_DIR$/hard/43_underscorify_substring" />
+      <recent name="$PROJECT_DIR$/very_hard/05_line_through_points" />
+      <recent name="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle" />
+      <recent name="$PROJECT_DIR$/systems_design" />
+      <recent name="$PROJECT_DIR$/very_hard/02_calendar_matching" />
+      <recent name="$PROJECT_DIR$/very_hard/01_apartment_hunting" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/hard/40_radix_sort">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/05_line_through_points">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/40_radix_sort" />
+      <working_directory value="$PROJECT_DIR$/very_hard/05_line_through_points" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/40_radix_sort" />
+      <working_directory value="$PROJECT_DIR$/very_hard/05_line_through_points" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/40_radix_sort" />
+      <working_directory value="$PROJECT_DIR$/very_hard/05_line_through_points" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/40_radix_sort" />
+      <working_directory value="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase4\E$" />
+      <pattern value="^\QTestCase5\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/hard/40_radix_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/40_radix_sort" />
+      <working_directory value="$PROJECT_DIR$/very_hard/05_line_through_points" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -125,11 +200,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
-        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/40_radix_sort" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
+        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
+        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" />
       </list>
     </recent_temporary>
   </component>
@@ -149,6 +224,9 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
@@ -164,41 +242,10 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
-        <watch expression="array" />
-        <watch expression="symbol" />
-        <watch expression="stack[len(stack)-len(symbol)-1]" />
-        <watch expression="stack" />
-        <watch expression="*(*&quot;string&quot;)(824634794368)" />
-        <watch expression="*(*&quot;[]string&quot;)(824634019288)" />
-        <watch expression="currentArea" />
-        <watch expression="unit * top" />
-        <watch expression="stack[j]" />
-        <watch expression="buildings[topIdx]" />
-        <watch expression="height" />
-        <watch expression="topIdx" />
-        <watch expression="buildings[left]" />
-        <watch expression="right" />
-        <watch expression="left" />
-        <watch expression="buildings" />
-        <watch expression="maxIdx" />
-        <watch expression="letter" />
-        <watch expression="letters[i]" />
-        <watch expression="subString" />
-        <watch expression="leftIdx" />
-        <watch expression="seen" />
-        <watch expression="newStrs[idx]" />
-        <watch expression="matchStrs[j] " />
-        <watch expression="strs[j]" />
-        <watch expression="matchStrs[j]" />
-        <watch expression="matchStr" />
-        <watch expression="next" />
-        <watch expression="trie" />
-        <watch expression="result" />
-        <watch expression="i" />
-        <watch expression="current" />
-        <watch expression="t" />
-        <watch expression="char" />
-        <watch expression="bigStringByte[j]" />
+        <watch expression="b.x" />
+        <watch expression="a.x" />
+        <watch expression="float64(b.y - a.y)" />
+        <watch expression="float64(b.x - a.x)" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search.go" line="80">
         <watch expression="result" />
