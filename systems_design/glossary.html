@@ -1,0 +1,835 @@
+<div class="_2j1SRKRBqfg-fMhfJ6qMOF"><ul class="_3vl0aL2ap07xsnnsopfzse"><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">ACID Transaction</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A type of database transaction that has four important properties:
+</p>
+    <ul>
+        <li>
+            <b>Atomicity</b>: The operations that constitute the transaction will either
+            all succeed or all fail. There is no in-between state.
+        </li>
+        <li>
+            <b>Consistency</b>: The transaction cannot bring the database to an invalid
+            state. After the transaction is committed or rolled back, the rules for each
+            record will still apply, and all future transactions will see the effect of
+            the transaction. Also named <b>Strong Consistency</b>.
+        </li>
+        <li>
+            <b>Isolation</b>: The execution of multiple transactions concurrently will
+            have the same effect as if they had been executed sequentially.
+        </li>
+        <li>
+            <b>Durability</b>: Any committed transaction is written to non-volatile
+            storage. It will not be undone by a crash, power loss, or network partition.
+        </li>
+    </ul></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">ACL</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Short for <b>Access-Control List</b>. This term is often used to refer to a
+    permissioning model: which users in a system can perform which operations. For
+    instance, APIs often come with ACLs defining which users can delete, edit, or
+    view certain entities.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">AES</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Stands for <b>Advanced Encryption Standard</b>. AES is a widely used
+    encryption standard that has three symmetric-key algorithms (AES-128, AES-192,
+    and AES-256).
+</p>
+    <p>
+        Of note, AES is considered to be the "gold standard" in encryption and is even
+        used by the U.S. National Security Agency to encrypt top secret information.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Alerting</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The process through which system administrators get notified when critical
+    system issues occur. Alerting can be set up by defining specific thresholds
+    on monitoring charts, past which alerts are sent to a communication channel
+    like Slack.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Apache Kafka  </h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A distributed messaging system created by LinkedIn. Very useful
+    when using the <b>streaming</b> paradigm as opposed to <b>polling</b>.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Asymmetric Encryption</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Also known as public-key encryption, asymmetric encryption relies on two
+    keys—a public key and a private key—to encrypt and decrypt data. The keys are
+    generated using cryptographic algorithms and are mathematically connected such
+    that data encrypted with the public key can only be decrypted with the private
+    key.
+</p>
+    <p>
+        While the private key must be kept secure to maintain the fidelity of this
+        encryption paradigm, the public key can be openly shared.
+    </p>
+    <p>
+        Asymmetric-key algorithms tend to be slower than their symmetric counterparts.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Availability</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The odds of a particular server or service being up and running at any point
+    in time, usually measured in percentages. A server that has 99% availability
+    will be operational 99% of the time (this would be described as having two
+    <b>nines</b> of availability).
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Availability Zone</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Sometimes referred to as an <b>AZ</b>, an availability zone designates a group
+    of machines that share one or more central system components (e.g., power
+    source, network connectivity, machine-cooling system). Availability zones are
+    typically located far away from each other such that no natural disaster can
+    realistically bring down two of them at once. This ensures that if you have
+    redundant storage, for instance, with data stored in two availability zones,
+    losing one <b>AZ</b> still leaves you with an operational system that abides
+    by any <b>SLA</b> that it might have.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Blob Storage</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Widely used kind of storage, in small and large scale systems. They don’t
+    really count as databases per se, partially because they only allow the user
+    to store and retrieve data based on the name of the blob. This is sort of like
+    a key-value store but usually blob stores have different guarantees. They
+    might be slower than KV stores but values can be megabytes large (or sometimes
+    gigabytes large). Usually people use this to store things like
+    <b>large binaries, database snapshots, or images</b> and other static assets
+    that a website might have.
+</p>
+    <p>
+        Blob storage is rather complicated to have on premise, and only giant
+        companies like Google and Amazon have infrastructure that supports it. So
+        usually in the context of System Design interviews you can assume that you
+        will be able to use <b>GCS</b> or <b>S3</b>. These are blob storage services
+        hosted by Google and Amazon respectively, that cost money depending on how
+        much storage you use and how often you store and retrieve blobs from that
+        storage.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Cache</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A piece of hardware or software that stores data, typically meant to retrieve
+    that data faster than otherwise.
+</p>
+    <p>
+        Caches are often used to store responses to network requests as well as
+        results of computationally-long operations.
+    </p>
+    <p>
+        Note that data in a cache can become <b>stale</b> if the main source of truth
+        for that data (i.e., the main database behind the cache) gets updated and the
+        cache doesn't.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Cache Eviction Policy</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The policy by which values get evicted or removed from a cache. Popular cache
+    eviction policies include <b>LRU</b> (least-recently used), <b>FIFO</b> (first
+    in first out), and <b>LFU</b> (least-frequently used).
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Cache Hit</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>When requested data is found in a cache.</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Cache Miss</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    When requested data could have been found in a cache but isn't. This is
+    typically used to refer to a negative consequence of a system failure or of a
+    poor design choice. For example:
+</p>
+    <p>
+        <i>
+            If a server goes down, our load balancer will have to forward requests to a
+            new server, which will result in cache misses.
+        </i>
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">CAP Theorem</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Stands for <b>Consistency</b>, <b>Availability</b>,
+    <b>Partition tolerance</b>. In a nutshell, this theorem states that any
+    distributed system can only achieve 2 of these 3 properties. Furthermore,
+    since almost all useful systems do have network-partition tolerance, it's
+    generally boiled down to: <i>Consistency vs. Availability; pick one</i>.
+</p>
+    <p>
+        One thing to keep in mind is that some levels of consistency are still
+        achievable with high availability, but <i>strong</i> consistency is much
+        harder.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Certificate Authority</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A trusted entity that signs digital certificates—namely, SSL certificates that
+    are relied on in <b>HTTPS</b> connections.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Client</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A machine or process that requests data or service from a server.
+</p>
+    <p>
+        Note that a single machine or piece of software can be both a client and a
+        server at the same time. For instance, a single machine could act as a server
+        for end users and as a client for a database.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Client—Server Model</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The paradigm by which modern systems are designed, which consists of clients
+    requesting data or service from servers and servers providing data or service
+    to clients.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Cloud Pub/Sub  </h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A highly-scalable Pub/Sub messaging service created by Google. Guarantees
+    <b>at-least-once delivery</b> of messages and supports "rewinding" in order to
+    reprocess messages.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Configuration</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A set of parameters or constants that are critical to a system. Configuration
+    is typically written in <b>JSON</b> or <b>YAML</b> and can be either <b>static</b>, meaning
+    that it's hard-coded in and shipped with your system's application code (like
+    frontend code, for instance), or <b>dynamic</b>, meaning that it lives outside
+    of your system's application code.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Consensus Algorithm</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A type of complex algorithms used to have multiple entities agree on a single
+    data value, like who the "leader" is amongst a group of machines. Two popular
+    consensus algorithms are <b>Paxos</b> and <b>Raft</b>.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Consistent Hashing</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A type of hashing that minimizes the number of keys that need to be remapped
+    when a hash table gets resized. It's often used by load balancers to
+    distribute traffic to servers; it minimizes the number of requests that get
+    forwarded to different servers when new servers are added or when existing
+    servers are brought down.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Content Delivery Network</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A <b>CDN</b> is a third-party service that acts like a cache for your servers.
+    Sometimes, web applications can be slow for users in a particular region if
+    your servers are located only in another region. A CDN has servers all around
+    the world, meaning that the latency to a CDN's servers will almost always be
+    far better than the latency to your servers. A CDN's servers are often referred
+    to as <b>PoPs</b> (Points of Presence). Two of the most popular CDNs are
+    <b>Cloudflare</b> and <b>Google Cloud CDN</b>.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">CRUD Operations</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Stands for <b>Create</b>, <b>Read</b>, <b>Update</b>,
+    <b>Delete</b> Operations. These four operations often serve as the bedrock of a
+    functioning system and therefore find themselves at the core of many APIs.
+    The term <b>CRUD</b> is very likely to come up during an API-design interview.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Cypher</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A <b>graph query language</b> that was originally developed for the Neo4j
+    graph database, but that has since been standardized to be used with other
+    graph databases in an effort to make it the "SQL for graphs."
+</p>
+    <p>
+        Cypher queries are often much simpler than their SQL counterparts. Example
+        Cypher query to find data in <b>Neo4j</b>, a popular graph database:
+    </p>
+    <pre>MATCH (some_node:SomeLabel)-[:SOME_RELATIONSHIP]-&gt;(some_other_node:SomeLabel {some_property:'value'})
+</pre></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Database Index</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A special auxiliary data structure that allows your database to perform
+    certain queries much faster. Indexes can typically only exist to reference
+    structured data, like data stored in relational databases. In practice, you
+    create an index on one or multiple columns in your database to greatly speed
+    up <b>read</b> queries that you run very often, with the downside of slightly
+    longer <b>writes</b> to your database, since writes have to also take place in
+    the relevant index.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Database Lock</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    In a relational database that provides ACID transactions, updating rows inside
+    a table will cause a <b>lock</b> to be held on that table or on the rows you
+    are updating. If a second transaction tries to update the same rows, it will
+    block before the update until the first transaction releases that lock. This
+    is one of the core mechanisms behind the <b>Atomicity</b> of ACID
+    transactions.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Databases</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Databases are programs that either use disk or memory to do 2 core things:
+    <b>record</b> data and <b>query</b> data. In general, they are themselves
+    servers that are long lived and interact with the rest of your application
+    through network calls, with protocols on top of TCP or even HTTP.
+</p>
+    <p>
+        Some databases only keep records in memory, and the users of such databases
+        are aware of the fact that those records may be lost forever if the machine or
+        process dies.
+    </p>
+    <p>
+        For the most part though, databases need persistence of those records, and
+        thus cannot use memory. This means that you have to write your data to disk.
+        Anything written to disk will remain through power loss or network partitions,
+        so that’s what is used to keep permanent records.
+    </p>
+    <p>
+        Since machines die often in a large scale system, special disk partitions or
+        volumes are used by the database processes, and those volumes can get
+        recovered even if the machine were to go down permanently.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">DDoS Attack</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Short for "distributed denial-of-service attack", a DDoS attack is a DoS
+    attack in which the traffic flooding the target system comes from many
+    different sources (like thousands of machines), making it much harder to
+    defend against.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Disk</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Usually refers to either <b>HDD (hard-disk drive)</b> or
+    <b>SSD (solid-state drive)</b>. Data written to disk will persist through
+    power failures and general machine crashes. Disk is also referred to as
+    <b>non-volatile storage</b>.
+</p>
+    <p>
+        SSD is far faster than HDD (see latencies of accessing data from SSD and HDD)
+        but also far more expensive from a financial point of view. Because of that,
+        HDD will typically be used for data that's rarely accessed or updated, but
+        that's stored for a long time, and SSD will be used for data that's frequently
+        accessed and updated.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Distributed File System</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A Distributed File System is an abstraction over a (usually large) cluster of
+    machines that allows them to act like one large file system. The two most
+    popular implementations of a DFS are the <b>Google File System</b> (GFS) and
+    the <b>Hadoop Distributed File System</b> (HDFS).
+</p>
+    <p>
+        Typically, DFSs take care of the classic <b>availability</b> and
+        <b>replication</b> guarantees that can be tricky to obtain in a
+        distributed-system setting. The overarching idea is that files are split into
+        chunks of a certain size (4MB or 64MB, for instance), and those chunks are
+        sharded across a large cluster of machines. A central control plane is in
+        charge of deciding where each chunk resides, routing reads to the right nodes,
+        and handling communication between machines.
+    </p>
+    <p>
+        Different DFS implementations have slightly different APIs and semantics, but
+        they achieve the same common goal: extremely large-scale persistent storage.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">DNS</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Short for Domain Name System, it describes the entities and protocols involved in the
+    translation from domain names to IP Addresses. Typically, machines make a DNS query to
+    a well known entity which is responsible for returning the IP address (or multiple ones)
+    of the requested domain name in the response.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">DoS Attack</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Short for "denial-of-service attack", a DoS attack is an attack in which a
+    malicious user tries to bring down or damage a system in order to render it
+    unavailable to users. Much of the time, it consists of flooding it with
+    traffic. Some DoS attacks are easily preventable with rate limiting, while
+    others can be far trickier to defend against.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Etcd  </h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Etcd is a strongly consistent and highly available key-value store that's
+    often used to implement leader election in a system.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Eventual Consistency</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A consistency model which is unlike <b>Strong Consistency</b>. In this model,
+    reads might return a view of the system that is stale. An eventually
+    consistent datastore will give guarantees that the state of the database will
+    eventually reflect writes within a time period (could be 10 seconds, or
+    minutes).
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">File System</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    An abstraction over a storage medium that defines how to manage data. While
+    there exist many different types of file systems, most follow a hierarchical
+    structure that consists of directories and files, like the
+    <b>Unix file system</b>'s structure.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Forward Proxy</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A server that sits between a client and servers and acts on behalf of the
+    client, typically used to mask the client's identity (IP address). Note that
+    forward proxies are often referred to as just proxies.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Google Cloud Storage  </h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>GCS is a blob storage service provided by Google.</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Gossip Protocol</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    When a set of machines talk to each other in a uncoordinated manner in a
+    cluster to spread information through a system without requiring a central
+    source of data.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Graph Database</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A type of database that stores data following the graph data model. Data
+    entries in a graph database can have explicitly defined relationships, much
+    like nodes in a graph can have edges.
+</p>
+    <p>
+        Graph databases take advantage of their underlying graph structure to perform
+        complex queries on deeply connected data very fast.
+    </p>
+    <p>
+        Graph databases are thus often preferred to relational databases when dealing
+        with systems where data points naturally form a graph and have multiple levels
+        of relationships—for example, social networks.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Hadoop  </h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A popular, open-source framework that supports MapReduce jobs and many
+    other kinds of data-processing pipelines. Its central component is <b>HDFS</b>
+    (Hadoop Distributed File System), on top of which other technologies have
+    been developed.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Hashing Function</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A function that takes in a specific data type (such as a string
+    or an identifier) and outputs a number. Different inputs <i>may</i>
+    have the same output, but a good hashing function attempts to
+    minimize those <b>hashing collisions</b> (which is equivalent to
+    maximizing <b>uniformity</b>).
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">High Availability</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Used to describe systems that have particularly high levels of availability,
+    typically 5 nines or more; sometimes abbreviated "HA".
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Horizontal Scaling</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Scaling a system horizontally means adding more machines to perform the same
+    task, resulting in increased throughput for the system. Typically, horizontal
+    scaling increases a system's throughput roughly linearly with the number of
+    machines performing a given task.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Hot Spot</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    When distributing a workload across a set of servers, that workload might be
+    spread unevenly. This can happen if your <b>sharding key</b> or your <b>hashing function</b>
+    are suboptimal, or if your workload is naturally skewed: some servers will
+    receive a lot more traffic than others, thus creating a "hot spot".
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">HTTP</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The <b>H</b>yper<b>T</b>ext <b>T</b>ransfer <b>P</b>rotocol is a very common network protocol implemented on top
+    of TCP. Clients make HTTP requests, and servers respond with a response.
+</p>
+    <p>
+        Requests typically have the following schema: <br>
+    </p><pre>host: string (example: algoexpert.io)
+port: integer (example: 80 or 443)
+method: string (example: GET, PUT, POST, DELETE, OPTIONS or PATCH)
+headers: <key, value=""> pair list (example: "Content-Type" =&gt; "application/json")
+body: opaque sequence of bytes</key,></pre>
+    <p></p>
+    <p>
+        Responses typically have the following schema: <br>
+    </p><pre>status code: integer (example: 200, 401)
+headers: <key, value=""> pair list (example: "Content-Length" =&gt; 1238)
+body: opaque sequence of bytes</key,></pre>
+    <p></p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">HTTPS</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The <b>H</b>yper<b>T</b>ext <b>T</b>ransfer <b>P</b>rotocol <b>S</b>ecure is
+    an extension of <b>HTTP</b> that's used for secure communication online. It
+    requires servers to have trusted certificates (usually
+    <b>SSL certificates</b>) and uses the Transport Layer Security (<b>TLS</b>), a
+    security protocol built on top of <b>TCP</b>, to encrypt data communicated
+    between a client and a server.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Idempotent Operation</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    An operation that has the same ultimate outcome regardless of how many times
+    it's performed. If an operation can be performed multiple times without
+    changing its overall effect, it's idempotent. Operations performed through a
+    <b>Pub/Sub</b> messaging system typically have to be idempotent, since Pub/Sub
+    systems tend to allow the same messages to be consumed multiple times.
+</p>
+    <p>
+        For example, increasing an integer value in a database is <i>not</i> an
+        idempotent operation, since repeating this operation will not have the same
+        effect as if it had been performed only once. Conversely, setting a value to
+        "COMPLETE" <i>is</i> an idempotent operation, since repeating this operation
+        will always yield the same result: the value will be "COMPLETE".
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">InfluxDB  </h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>A popular open-source time series database.</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">IP</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Stands for <b>Internet Protocol</b>. This network protocol outlines how almost
+    all machine-to-machine communications should happen in the world. Other
+    protocols like <b>TCP</b>, <b>UDP</b> and <b>HTTP</b> are built on top of IP.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">IP Address</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    An address given to each machine connected to the public internet. IPv4
+    addresses consist of four numbers separated by dots: <b>a.b.c.d</b> where all
+    four numbers are between 0 and 255. Special values include:
+</p>
+    <ul>
+        <li>
+            <b>127.0.0.1</b>: Your own local machine. Also referred to as
+            <b>localhost</b>.
+        </li>
+        <li>
+            <b>192.168.x.y</b>: Your private network. For instance, your machine and all
+            machines on your private wifi network will usually have the
+            <b>192.168</b> prefix.
+        </li>
+    </ul></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">IP Packet</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Sometimes more broadly referred to as just a (network) <b>packet</b>, an IP
+    packet is effectively the smallest unit used to describe data being sent over
+    <b>IP</b>, aside from bytes. An IP packet consists of:
+</p>
+    <ul>
+        <li>
+            an <b>IP header</b>, which contains the source and destination
+            <b>IP addresses</b> as well as other information related to the network
+        </li>
+        <li>a <b>payload</b>, which is just the data being sent over the network</li>
+    </ul></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">JSON</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>A file format heavily used in APIs and configuration. Stands for <b>J</b>ava<b>S</b>cript <b>O</b>bject <b>N</b>otation. Example:</p>
+    <pre>{
+   "version": 1.0,
+   "name": "AlgoExpert Configuration"
+}</pre></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Key-Value Store</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A Key-Value Store is a flexible NoSQL database that's often used for caching
+    and dynamic configuration. Popular options include DynamoDB, Etcd, Redis, and
+    ZooKeeper.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Latency</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The time it takes for a certain operation to complete in a system. Most often
+    this measure is a time duration, like milliseconds or seconds. You should know
+    these orders of magnitude:
+</p>
+    <ul>
+        <li><b>Reading 1 MB from RAM</b>: 250 μs (0.25 ms)</li>
+        <li><b>Reading 1 MB from SSD</b>: 1,000 μs (1 ms)</li>
+        <li><b>Transfer 1 MB over Network</b>: 10,000 μs (10 ms)</li>
+        <li><b>Reading 1MB from HDD</b>: 20,000 μs (20 ms)</li>
+        <li><b>Inter-Continental Round Trip</b>: 150,000 μs (150 ms)</li>
+    </ul></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Leader Election</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The process by which nodes in a cluster (for instance, servers in a set of
+    servers) elect a so-called "leader" amongst them, responsible for the primary
+    operations of the service that these nodes support. When correctly
+    implemented, leader election guarantees that all nodes in the cluster know
+    which one is the leader at any given time and can elect a new leader if the
+    leader dies for whatever reason.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Load Balancer</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A type of <b>reverse proxy</b> that distributes traffic across servers. Load
+    balancers can be found in many parts of a system, from the DNS layer all the
+    way to the database layer.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Logging</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The act of collecting and storing logs--useful information about events in
+    your system. Typically your programs will output log messages to its STDOUT
+    or STDERR pipes, which will automatically get aggregated into a <b>centralized
+    logging solution</b>.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Man-In-The-Middle Attack</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    An attack in which the attacker intercepts a line of communication that is
+    thought to be private by its two communicating parties.
+</p>
+    <p>
+        If a malicious actor intercepted and mutated an IP packet on its way from a
+        client to a server, that would be a man-in-the-middle attack.
+    </p>
+    <p>
+        MITM attacks are the primary threat that encryption and <b>HTTPS</b> aim to
+        defend against.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">MapReduce</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A popular framework for processing very large datasets in a distributed
+    setting efficiently, quickly, and in a fault-tolerant manner. A MapReduce job
+    is comprised of 3 main steps:
+</p>
+    <ul>
+        <li>
+            the <b>Map</b> step, which runs a <b>map function</b> on the various chunks
+            of the dataset and transforms these chunks into intermediate
+            <b>key-value pairs</b>.
+        </li>
+        <li>
+            the <b>Shuffle</b> step, which reorganizes the intermediate
+            <b>key-value pairs</b> such that pairs of the same key are routed
+            to the same machine in the final step.
+        </li>
+        <li>
+            the <b>Reduce</b> step, which runs a <b>reduce function</b> on the newly
+            shuffled <b>key-value pairs</b> and transforms them into more meaningful
+            data.
+        </li>
+    </ul>
+    <p>
+        The canonical example of a MapReduce use case is counting the number of
+        occurrences of words in a large text file.
+    </p>
+    <p>
+        When dealing with a MapReduce library, engineers and/or systems administrators
+        only need to worry about the map and reduce functions, as well as their inputs
+        and outputs. All other concerns, including the parallelization of tasks and
+        the fault-tolerance of the MapReduce job, are abstracted away and taken care
+        of by the MapReduce implementation.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Memory</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Short for <b>Random Access Memory (RAM)</b>. Data stored in memory will be
+    <u>lost</u> when the process that has written that data dies.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Microservice Architecture</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    When a system is made up of many small web services that can be compiled and
+    deployed independently. This is usually thought of as a counterpart of
+    <b>monoliths</b>.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">MongoDB  </h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A NoSQL database with powerful querying through a JavaScript-like language.
+    Consistency guarantees depend on the settings that the database is setup with.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Monitoring</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The process of having visibility into a system's key metrics, monitoring is
+    typically implemented by collecting important events in a system and
+    aggregating them in human-readable charts.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Monolith Architecture</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    When a system is primarily made up of a single large web application that is
+    compiled and rolled out as a unit. Typically a counterpart of
+    <b>microservices</b>. Companies sometimes try to split up this monolith into
+    microservices once it reaches a very large size in an attempt to increase
+    <b>developer productivity</b>.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">MySQL  </h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A relational database that provides ACID transactions and supports a SQL
+    dialect.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Neo4j  </h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A popular graph database that consists of <b>nodes</b>, <b>relationships</b>,
+    <b>properties</b>, and <b>labels</b>.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Nginx  </h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Pronounced "engine X"—not "N jinx", Nginx is a very popular webserver that's
+    often used as a <b>reverse proxy</b> and <b>load balancer</b>.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Nines</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Typically refers to percentages of uptime. For example, 5 nines of
+    availability means an uptime of 99.999% of the time. Below are the downtimes
+    expected per year depending on those 9s:
+</p>
+    <pre>- 99% (two 9s): 87.7 hours
+- 99.9% (three 9s): 8.8 hours
+- 99.99%: 52.6 minutes
+- 99.999%: 5.3 minutes
+</pre></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Node/Instance/Host</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    These three terms refer to the same thing most of the time: a virtual or
+    physical machine on which the developer runs processes. Sometimes the word
+    <b>server</b> also refers to this same concept.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Non-Relational Database</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    In contrast with relational database (SQL databases), a type of database that
+    is free of imposed, tabular-like structure. Non-relational databases are often
+    referred to as NoSQL databases.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">NoSQL Database</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>Any database that is not SQL-compatible is called NoSQL.</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Pagination</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    When a network request potentially warrants a really large response, the
+    relevant API might be designed to return only a single <b>page</b>
+    of that response (i.e., a limited portion of the response), accompanied by an
+    identifier or token for the client to request the next page if desired.
+</p>
+    <p>
+        Pagination is often used when designing <b>List</b> endpoints. For instance,
+        an endpoint to list videos on the YouTube Trending page could return a huge
+        list of videos. This wouldn't perform very well on mobile devices due to the
+        lower network speeds and simply wouldn't be optimal, since most users will
+        only ever scroll through the first ten or twenty videos. So, the API could be
+        designed to respond with only the first few videos of that list; in this case,
+        we would say that the API response is <b>paginated</b>.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Paxos &amp; Raft</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Two consensus algorithms that, when implemented correctly, allow for the
+    synchronization of certain operations, even in a distributed setting.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Peer-To-Peer Network</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A collection of machines referred to as peers that divide a workload between
+    themselves to presumably complete the workload faster than would otherwise be
+    possible. Peer-to-peer networks are often used in file-distribution systems.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Percentiles</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Most often used when describing a <b>latency distribution</b>. If
+    your <b>X</b>th percentile is 100 milliseconds, it means that
+    <b>X</b>% of the requests have latencies of 100ms or less. Sometimes,
+    SLAs describe their guarantees using these percentiles.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Persistent Storage</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Usually refers to disk, but in general it is any form of storage that persists
+    if the process in charge of managing it dies.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Polling</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The act of fetching a resource or piece of data regularly at an interval to
+    make sure your data is not too stale.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Port</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    In order for multiple programs to listen for new network connections on the
+    same machine without colliding, they pick a <b>port</b> to listen on. A port
+    is an integer between 0 and 65,535 (2<sup>16</sup> ports total).
+</p>
+    <p>
+        Typically, ports 0-1023 are reserved for <i>system ports</i> (also called
+        <i>well-known</i> ports) and shouldn't be used by user-level processes.
+        Certain ports have pre-defined uses, and although you usually won't be
+        required to have them memorized, they can sometimes come in handy. Below are
+        some examples:
+    </p>
+    <ul>
+        <li>22: Secure Shell</li>
+        <li>53: DNS lookup</li>
+        <li>80: HTTP</li>
+        <li>443: HTTPS</li>
+    </ul></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Postgres  </h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A relational database that uses a dialect of SQL called PostgreSQL. Provides
+    ACID transactions.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Process</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A program that is currently running on a machine. You should always assume
+    that any process may get terminated at any time in a sufficiently large
+    system.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Prometheus  </h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A popular open-source time series database, typically used for monitoring
+    purposes.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Publish/Subscribe Pattern</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Often shortened as <b>Pub/Sub</b>, the Publish/Subscribe pattern is a popular
+    messaging model that consists of <b>publishers</b> and <b>subscribers</b>.
+    Publishers publish messages to special <b>topics</b> (sometimes called
+    <b>channels</b>) without caring about or even knowing who will read those
+    messages, and subscribers subscribe to topics and read messages coming through
+    those topics.
+</p>
+    <p>
+        Pub/Sub systems often come with very powerful guarantees like
+        <b>at-least-once delivery</b>, <b>persistent storage</b>,
+        <b>ordering</b> of messages, and <b>replayability</b> of messages.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Quadtree</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A tree data structure most commonly used to index two-dimensional spatial
+    data. Each node in a quadtree has either zero children nodes (and is therefore
+    a leaf node) or exactly four children nodes.
+</p>
+    <p>
+        Typically, quadtree nodes contain some form of spatial data—for example,
+        locations on a map—with a maximum capacity of some specified number <b>n</b>.
+        So long as nodes aren't at capacity, they remain leaf nodes; once they reach
+        capacity, they're given four children nodes, and their data entries are split
+        across the four children nodes.
+    </p>
+    <p>
+        A quadtree lends itself well to storing spatial data because it can be
+        represented as a grid filled with rectangles that are recursively subdivided
+        into four sub-rectangles, where each quadtree node is represented by a
+        rectangle and each rectangle represents a spatial region. Assuming we're
+        storing locations in the world, we can imagine a quadtree with a maximum
+        node-capacity <b>n</b> as follows:
+    </p>
+    <ul>
+        <li>
+            The root node, which represents the entire world, is the outermost
+            rectangle.
+        </li>
+        <li>
+            If the entire world has more than <b>n</b> locations, the outermost
+            rectangle is divided into four quadrants, each representing a region of the
+            world.
+        </li>
+        <li>
+            So long as a region has more than <b>n</b> locations, its corresponding
+            rectangle is subdivided into four quadrants (the corresponding node in the
+            quadtree is given four children nodes).
+        </li>
+        <li>
+            Regions that have fewer than <b>n</b> locations are undivided rectangles
+            (leaf nodes).
+        </li>
+        <li>
+            The parts of the grid that have many subdivided rectangles represent densely
+            populated areas (like cities), while the parts of the grid that have few
+            subdivided rectangles represent sparsely populated areas (like rural areas).
+        </li>
+    </ul>
+    <p>
+        Finding a given location in a perfect quadtree is an extremely fast operation
+        that runs in <b>log<sub>4</sub>(x)</b> time (where <b>x</b> is the total
+        number of locations), since quadtree nodes have four children nodes.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Rate Limiting</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The act of limiting the number of requests sent to or from a system. Rate
+    limiting is most often used to limit the number of incoming requests in order
+    to prevent <b>DoS attacks</b> and can be enforced at the IP-address level, at the
+    user-account level, or at the region level, for example. Rate limiting can
+    also be implemented in tiers; for instance, a type of network request could be
+    limited to 1 per second, 5 per 10 seconds, and 10 per minute.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Redis  </h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    An in-memory key-value store. Does offer some persistent storage options but is
+    typically used as a really fast, best-effort caching solution. Redis is also often
+    used to implement <b>rate limiting</b>.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Redundancy</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The process of replicating parts of a system in an effort to make it more
+    reliable.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Relational Database</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A type of structured database in which data is stored following a tabular
+    format; often supports powerful querying using SQL.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Rendezvous Hashing</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A type of hashing also coined <b>highest random weight</b> hashing. Allows for
+    minimal re-distribution of mappings when a server goes down.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Replication</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The act of duplicating the data from one database server to others. This
+    is sometimes used to increase the redundancy of your system and
+    tolerate regional failures for instance. Other times you can use
+    replication to move data closer to your clients, thus decreasing
+    the latency of accessing specific data.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Reverse Proxy</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A server that sits between clients and servers and acts on behalf of the
+    servers, typically used for logging, load balancing, or caching.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">S3  </h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    S3 is a blob storage service provided by Amazon through
+    <b>Amazon Web Services (AWS)</b>.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Server</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A machine or process that provides data or service for a client, usually by
+    listening for incoming network calls.
+</p>
+    <p>
+        Note that a single machine or piece of software can be both a client and a
+        server at the same time. For instance, a single machine could act as a server
+        for end users and as a client for a database.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Server-Selection Strategy</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    How a <b>load balancer</b> chooses servers when distributing traffic amongst
+    multiple servers. Commonly used strategies include round-robin, random
+    selection, performance-based selection (choosing the server with the best
+    performance metrics, like the fastest response time or the least amount of
+    traffic), and IP-based routing.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">SHA</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Short for "Secure Hash Algorithms", the SHA is a collection of cryptographic
+    hash functions used in the industry. These days, SHA-3 is a popular choice to
+    use in a system.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Sharding</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Sometimes called <b>data partitioning</b>, sharding is the
+    act of splitting a database into two or more pieces called
+    <b>shards</b> and is typically done to increase the throughput
+    of your database. Popular sharding strategies include:
+</p>
+    <ul>
+        <li>Sharding based on a client's region</li>
+        <li>Sharding based on the type of data being stored (e.g: user data gets
+            stored in one shard, payments data gets stored in another
+            shard)</li>
+        <li>Sharding based on the hash of a column (only for structured
+            data)</li>
+    </ul></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">SLA</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Short for "service-level agreement", an SLA is a collection of guarantees
+    given to a customer by a service provider. SLAs typically make guarantees on a
+    system's availability, amongst other things. SLAs are made up of one or
+    multiple SLOs.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">SLO</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Short for "service-level objective", an SLO is a guarantee given to a customer
+    by a service provider. SLOs typically make guarantees on a system's
+    availability, amongst other things. SLOs constitute an SLA.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Socket</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A kind of file that acts like a stream. Processes can read and write to
+    sockets and communicate in this manner. Most of the time the sockets are
+    fronts for TCP connection.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Spatial Database</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A type of database optimized for storing and querying spatial data like
+    locations on a map. Spatial databases rely on spatial indexes like
+    <b>quadtrees</b> to quickly perform spatial queries like finding all
+    locations in the vicinity of a region.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">SQL</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Structured Query Language. Relational databases can be used using a derivative
+    of SQL such as PostgreSQL in the case of Postgres.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">SQL Database</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Any database that supports SQL. This term is often used synonymously with
+    "Relational Database", though in practice, not <i>every</i> relational
+    database supports SQL.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">SSL Certificate</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A digital certificate granted to a server by a <b>certificate authority</b>.
+    Contains the server's public key, to be used as part of the
+    <b>TLS handshake</b> process in an <b>HTTPS</b> connection.
+</p>
+    <p>
+        An SSL certificate effectively confirms that a public key belongs to the
+        server claiming it belongs to them. SSL certificates are a crucial defense
+        against <b>man-in-the-middle attacks</b>.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Stateful</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A server or process is called "stateful" when it derives its
+    functionality from storing and retrieving things from disk.
+    Databases are primary case studies for stateful servers. Because of this
+    persistence requirement, it's much more difficult to run and manage
+    stateful servers compared to <b>Stateless</b> servers because they
+    can't be stopped and restarted on any physical machine.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Stateless</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A server is usually called "stateless" if it does not <i>require</i>
+    state to be persisted to disk in order to run successfully. Although
+    many server process typically hold some state in memory including
+    caching layers for instance, this typically means that we can
+    run the server process the same way on any machine, and move
+    it around whenever we want. This contrasts with <b>Stateful</b>
+    processes.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Streaming</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    In networking, it usually refers to the act of continuously getting a feed of
+    information from a server by keeping an open connection between the two
+    machines or processes.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Strong Consistency</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Strong Consistency usually refers to the consistency of ACID transactions, as opposed to <b>Eventual Consistency</b>.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Symmetric Encryption</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A type of encryption that relies on only a single key to both encrypt and
+    decrypt data. The key must be known to all parties involved in communication
+    and must therefore typically be shared between the parties at one point or
+    another.
+</p>
+    <p>
+        Symmetric-key algorithms tend to be faster than their asymmetric counterparts.
+    </p>
+    <p>
+        The most widely used symmetric-key algorithms are part of the Advanced
+        Encryption Standard (<b>AES</b>).
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">TCP</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Network protocol built on top of the Internet Protocol (IP). Allows for
+    ordered, reliable data delivery between machines over the public internet by
+    creating a <b>connection</b>.
+</p>
+    <p>
+        TCP is usually implemented in the kernel, which exposes <b>sockets</b> to
+        applications that they can use to stream data through an open connection.
+    </p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Throughput</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The number of operations that a system can handle properly per time unit. For
+    instance the throughput of a server can often be measured in requests per
+    second (RPS or QPS).
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Time Series Database</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A <b>TSDB</b> is a special kind of database optimized for storing and
+    analyzing time-indexed data: data points that specifically occur at a given
+    moment in time. Examples of TSDBs are InfluxDB, Prometheus, and Graphite.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">TLS</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The <b>T</b>ransport <b>L</b>ayer <b>S</b>ecurity is a security protocol over
+    which <b>HTTP</b> runs in order to achieve secure communication online. "HTTP
+    over TLS" is also known as <b>HTTPS</b>.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">TLS Handshake</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    The process through which a client and a server communicating over
+    <b>HTTPS</b> exchange encryption-related information and establish a secure
+    communication. The typical steps in a TLS handshake are roughly as follows:
+</p>
+    <ul>
+        <li>
+            The client sends a <b>client hello</b>—a string of random bytes—to the
+            server.
+        </li>
+        <li>
+            The server responds with a <b>server hello</b>—another string of random
+            bytes—as well as its <b>SSL certificate</b>, which contains its
+            <b>public key</b>.
+        </li>
+        <li>
+            The client verifies that the certificate was issued by a
+            <b>certificate authority</b> and sends a <b>premaster secret</b>—yet another
+            string of random bytes, this time encrypted with the server's public key—to
+            the server.
+        </li>
+        <li>
+            The client and the server use the client hello, the server hello, and the
+            premaster secret to then generate the same <b>symmetric-encryption</b> session keys,
+            to be used to encrypt and decrypt all data communicated during the remainder
+            of the connection.
+        </li>
+    </ul></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Vertical Scaling</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Scaling a system vertically means increasing the resources (CPU / Memory)
+    available to a certain task on a single machine, so that your throughput may
+    increase.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Virtual Machine</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    A <b>VM</b> is a form of computer inside of a computer. It
+    is a program that you run on a machine that completely
+    emulates a new kernel and operating system. Very useful when
+    isolating programs from one another while having them
+    share the same physical machine.
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">Worker Pool Pattern</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    Similar to the <b>Task Queue Pattern</b>. In this design, a pool of workers,
+    usually themselves servers, take tasks off of a single shared queue and
+    process those tasks independently. In order to ensure that every task gets
+    done at least once despite potential partitions between queue and workers, the
+    workers <i>must</i> confirm the status of the task after it is done (usually
+    <b>success</b> or <b>failure</b>).
+</p></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">YAML</h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>A file format mostly used in configuration. Example:</p>
+    <pre>version: 1.0
+name: AlgoExpert Configuration
+</pre></div></li><li><h4 class="GyBtJFVn5Wz_IeSLo-24A">ZooKeeper  </h4><div class="_3EIucFs8X9vDDm7jFP0WE4"><p>
+    ZooKeeper is a strongly consistent, highly available key-value store. It's
+    often used to store important configuration or to perform leader election.
+</p></div></li></ul></div>
