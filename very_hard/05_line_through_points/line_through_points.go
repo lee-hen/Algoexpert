@@ -3,7 +3,6 @@ package line_through_points
 import (
 	"fmt"
 	"math"
-	"sort"
 )
 
 // LineThroughPoints
@@ -95,14 +94,9 @@ type LinePoint struct {
 }
 
 func lineThroughPoints(points [][]int) int {
-
 	if len(points) == 1 {
 		return 1
 	}
-
-	sort.Slice(points, func(i, j int) bool {
-		return points[i][1] < points[j][1]
-	})
 
 	slopPoints := make(map[float64]map[LinePoint]struct{})
 
