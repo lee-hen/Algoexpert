@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/very_hard/06_right_smaller_than/hints.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/06_right_smaller_than/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/06_right_smaller_than/right_smaller_than.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/06_right_smaller_than/right_smaller_than_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/07_iterative_in_order_traversal/iterative_in_order_traversal.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/07_iterative_in_order_traversal/iterative_in_order_traversal_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/08_bst_construction/bst.go" beforeDir="false" afterPath="$PROJECT_DIR$/medium/08_bst_construction/bst.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/08_bst_construction/bst_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/medium/08_bst_construction/bst_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +69,7 @@
       <recent name="$PROJECT_DIR$/very_hard/02_calendar_matching" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/06_right_smaller_than">
+  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/07_iterative_in_order_traversal">
     <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/medium/08_bst_construction" />
@@ -98,6 +94,18 @@
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/07_iterative_in_order_traversal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/07_iterative_in_order_traversal" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/07_iterative_in_order_traversal" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/medium/08_bst_construction" />
@@ -110,35 +118,25 @@
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/medium/08_bst_construction" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/07_iterative_in_order_traversal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/medium/08_bst_construction" />
+      <working_directory value="$PROJECT_DIR$/very_hard/07_iterative_in_order_traversal" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/07_iterative_in_order_traversal" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/05_line_through_points" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
+      <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/07_iterative_in_order_traversal" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/07_iterative_in_order_traversal" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/06_right_smaller_than" />
         <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +172,18 @@
         <watch expression="tree" />
         <watch expression="root" />
         <watch expression="currentNode.Right" language="go" />
+        <watch expression="current.Parent" />
+        <watch expression="current" />
+        <watch expression="current.Right" />
+        <watch expression="previousLeft" />
+        <watch expression="previous" />
+        <watch expression="current.Value" />
+        <watch expression="current.Left" />
+        <watch expression="previous.Parent" language="go" />
+        <watch expression="output" />
+        <watch expression="callback" />
+        <watch expression="current.Parent == previous" />
+        <watch expression="current.Left == previous " />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search.go" line="80">
         <watch expression="result" />
