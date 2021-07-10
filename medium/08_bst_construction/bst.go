@@ -1,115 +1,161 @@
 package bst_construction
 
 type BST struct {
-	Value int
+	Value, Size int
 
 	Left  *BST
 	Right *BST
 }
 
+func NewBST(value int) *BST {
+	return &BST{Value: value}
+}
+
+func (tree *BST) Remove(value int) *BST {
+	return remove(tree, value)
+}
+
 // Remove
 // Better solution and easy to remember
-func (tree *BST) Remove(value int) *BST {
-	currentNode := tree
-	if currentNode == nil {
+func remove(tree *BST, value int) *BST {
+	if tree == nil {
 		return nil
 	}
-	if value < currentNode.Value {
-		currentNode.Left = currentNode.Left.Remove(value)
-	} else if value > currentNode.Value {
-		currentNode.Right = currentNode.Right.Remove(value)
+	if value < tree.Value {
+		tree.Left = remove(tree.Left, value)
+	} else if value > tree.Value {
+		tree.Right = remove(tree.Right, value)
 	} else {
-		if currentNode.Right == nil && currentNode.Left == nil {// 左と右全部nilの場合、nilを設定する。
-			currentNode = nil
-		} else if currentNode.Right == nil && currentNode.Left != nil {// 右だけnilの場合、左の値を設定する
-			currentNode.Value = currentNode.Left.Value
-			currentNode.Left = currentNode.Left.Left
-		}  else if currentNode.Left == nil && currentNode.Right != nil {// 左だけがnilの場合、右の値を設定する
-			currentNode.Value = currentNode.Right.Value
-			currentNode.Right = currentNode.Right.Right
+		if tree.Right == nil && tree.Left == nil {// 左と右全部nilの場合、nilを設定する。
+			tree = nil
+		} else if tree.Right == nil && tree.Left != nil {// 右だけnilの場合、左の値を設定する
+			tree.Value = tree.Left.Value
+			tree.Right = tree.Left.Right // 先に左の右側を設定して
+			tree.Left = tree.Left.Left   // 次に左を上書きする
+		}  else if tree.Left == nil && tree.Right != nil {// 左だけがnilの場合、右の値を設定する
+			tree.Value = tree.Right.Value
+			tree.Left = tree.Right.Left // 先に右の左側を設定して
+			tree.Right = tree.Right.Right // 次に右を上書きする
 		} else { // 両方側がnilじゃない時
 			// 右側最小の値を探し、削除のnodeにその値を設定する
-			currentNode.Value = currentNode.Right.getMinNode().Value
+			tree.Value = tree.Right.getMinNode().Value
 			// 右側最小のNodeを削除する
-			currentNode.Right = currentNode.Right.removeMin()
+			tree.Right = tree.Right.removeMin()
 		}
 	}
 
-	return currentNode
+	if tree != nil {
+		tree.Size = 1 + tree.Left.size() + tree.Right.size()
+	}
+	return tree
 }
 
 func (tree *BST) getMinNode() *BST {
-	currentNode := tree
-	if currentNode.Left == nil {
-		return currentNode
+	if tree.Left == nil {
+		return tree
 	}
 
-	return currentNode.Left.getMinNode()
+	return tree.Left.getMinNode()
 }
 
 func (tree *BST) removeMin() *BST {
-	currentNode := tree
-	if currentNode.Left == nil {
-		return currentNode.Right
+	if tree.Left == nil {
+		return tree.Right
 	}
 
-	currentNode.Left = currentNode.Left.removeMin()
-	return currentNode
+	tree.Left = tree.Left.removeMin()
+	tree.Size = 1 + tree.Left.size() + tree.Right.size()
+	return tree
 }
 
 // Insert
 // Better solution
 func (tree *BST) Insert(value int) *BST {
-	currentNode := tree
-	for currentNode != nil {
-		if value >= currentNode.Value {
-			if currentNode.Right == nil {
-				currentNode.Right = &BST{
-					Value: value,
-				}
-				break
-			} else {
-				currentNode = currentNode.Right
-			}
-		} else if value < currentNode.Value {
-			if currentNode.Left == nil {
-				currentNode.Left = &BST{
-					Value: value,
-				}
-				break
-			} else {
-				currentNode = currentNode.Left
-			}
+	if value < tree.Value {
+		if tree.Left == nil {
+			tree.Left = NewBST(value)
+			tree.Left.Size = 1
+		} else {
+			tree.Left.Insert(value)
+		}
+	} else {
+		if tree.Right == nil {
+			tree.Right = NewBST(value)
+			tree.Right.Size = 1
+		} else {
+			tree.Right.Insert(value)
 		}
 	}
+
+	tree.Size = 1 + tree.Left.size() + tree.Right.size()
 	return tree
 }
 
 // Contains
 // Better solution
 func (tree *BST) Contains(value int) bool {
-	currentNode := tree
-	for currentNode != nil {
-		if value == currentNode.Value {
-			return true
-		}
-		if value > currentNode.Value {
-			currentNode = currentNode.Right
+	if value < tree.Value {
+		if tree.Left == nil {
+			return false
 		} else {
-			currentNode = currentNode.Left
+			return tree.Left.Contains(value)
+		}
+	} else if value > tree.Value {
+		if tree.Right == nil {
+			return false
+		} else {
+			return tree.Right.Contains(value)
 		}
 	}
-	return false
+	return true
 }
 
-// Remove2
+func (tree *BST) size() int {
+	if tree == nil {
+		return 0
+	}
+	return tree.Size
+}
+
+func (tree *BST) Rank(value int) int {
+	if tree == nil {
+		return 0
+	}
+
+	if value < tree.Value {
+		return tree.Left.Rank(value)
+	} else if value > tree.Value {
+		return 1 + tree.Left.size() + tree.Right.Rank(value)
+	} else {
+		return tree.Left.size()
+	}
+}
+
+func (tree *BST) Height() int {
+	if tree == nil {
+		return -1
+	}
+
+	return max(tree.Left.Height(), tree.Right.Height()) + 1
+}
+
+func max(a, b int) int {
+	if a > b {
+		return a
+	}
+	return b
+}
+
+// ----------------------------------------------------------------
+
+// Remove1
 // Better solution
-func (tree *BST) Remove2(value int) *BST {
-	tree.remove2(value, nil)
+func (tree *BST) Remove1(value int) *BST {
+	tree.remove1(value, nil)
 	return tree
 }
 
-func (tree *BST) remove2(value int, parent *BST) {
+func (tree *BST) remove1(value int, parent *BST) {
 	current := tree
 	for current != nil {
 		if value > current.Value {
@@ -122,7 +168,7 @@ func (tree *BST) remove2(value int, parent *BST) {
 			if current.Right != nil && current.Left != nil {
 				// set right min value then recursively remove that min value
 				current.Value = getMinValue(current.Right)
-				current.Right.remove2(current.Value, current)
+				current.Right.remove1(current.Value, current)
 			} else if parent == nil {
 				if current.Left != nil { // root node only has left side
 					current.Value = current.Left.Value
@@ -163,58 +209,68 @@ func getMinValue(tree *BST) int {
 	return current.Value
 }
 
+// Insert1
 // Better solution1
-func (tree *BST) insert1(value int) *BST {
-	if value < tree.Value {
-		if tree.Left == nil {
-			tree.Left = &BST{Value: value}
-		} else {
-			tree.Left.insert1(value)
-		}
-	} else {
-		if tree.Right == nil {
-			tree.Right = &BST{Value: value}
-		} else {
-			tree.Right.insert1(value)
+func (tree *BST) Insert1(value int) *BST {
+	currentNode := tree
+	for currentNode != nil {
+		if value >= currentNode.Value {
+			if currentNode.Right == nil {
+				currentNode.Right = &BST{
+					Value: value,
+				}
+				break
+			} else {
+				currentNode = currentNode.Right
+			}
+		} else if value < currentNode.Value {
+			if currentNode.Left == nil {
+				currentNode.Left = &BST{
+					Value: value,
+				}
+				break
+			} else {
+				currentNode = currentNode.Left
+			}
 		}
 	}
 	return tree
 }
 
-func (tree *BST) contains1(value int) bool {
-	if value < tree.Value {
-		if tree.Left == nil {
-			return false
-		} else {
-			return tree.Left.contains1(value)
+func (tree *BST) Contains1(value int) bool {
+	currentNode := tree
+	for currentNode != nil {
+		if value == currentNode.Value {
+			return true
 		}
-	} else if value > tree.Value {
-		if tree.Right == nil {
-			return false
+		if value > currentNode.Value {
+			currentNode = currentNode.Right
 		} else {
-			return tree.Right.contains1(value)
+			currentNode = currentNode.Left
 		}
 	}
-	return true
+	return false
 }
 
-func (tree *BST) Remove1(value int) *BST {
-	tree.remove1(value, nil)
+// ----------------------------------------------------------------
+
+func (tree *BST) Remove2(value int) *BST {
+	tree.remove2(value, nil)
 	return tree
 }
-func (tree *BST) remove1(value int, parent *BST) {
+func (tree *BST) remove2(value int, parent *BST) {
 	if value < tree.Value {
 		if tree.Left != nil {
-			tree.Left.remove1(value, tree)
+			tree.Left.remove2(value, tree)
 		}
 	} else if value > tree.Value {
 		if tree.Right != nil {
-			tree.Right.remove1(value, tree)
+			tree.Right.remove2(value, tree)
 		}
 	} else {
 		if tree.Left != nil && tree.Right != nil {
 			tree.Value = tree.Right.getMinValue1()
-			tree.Right.remove1(tree.Value, tree)
+			tree.Right.remove2(tree.Value, tree)
 		} else if parent == nil {
 			if tree.Left != nil {
 				tree.Value = tree.Left.Value

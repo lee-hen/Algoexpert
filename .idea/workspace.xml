@@ -2,8 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/very_hard/06_right_smaller_than/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/06_right_smaller_than/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/06_right_smaller_than/right_smaller_than.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/06_right_smaller_than/right_smaller_than_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/05_line_through_points/line_through_points.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/05_line_through_points/line_through_points.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/08_bst_construction/bst.go" beforeDir="false" afterPath="$PROJECT_DIR$/medium/08_bst_construction/bst.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/08_bst_construction/bst_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/medium/08_bst_construction/bst_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,60 +66,59 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/06_right_smaller_than" />
       <recent name="$PROJECT_DIR$/very_hard/05_line_through_points" />
       <recent name="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle" />
       <recent name="$PROJECT_DIR$/systems_design" />
       <recent name="$PROJECT_DIR$/very_hard/02_calendar_matching" />
-      <recent name="$PROJECT_DIR$/very_hard/01_apartment_hunting" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/05_line_through_points">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/06_right_smaller_than">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/05_line_through_points" />
+      <working_directory value="$PROJECT_DIR$/medium/08_bst_construction" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
+      <package value="github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/06_right_smaller_than" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/05_line_through_points" />
+      <working_directory value="$PROJECT_DIR$/very_hard/06_right_smaller_than" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/06_right_smaller_than" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/medium/08_bst_construction" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/medium/08_bst_construction" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/05_line_through_points" />
+      <working_directory value="$PROJECT_DIR$/medium/08_bst_construction" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
+      <package value="github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase3\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase5\E$" />
       <method v="2" />
     </configuration>
     <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -130,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/06_right_smaller_than" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
         <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
-        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" />
       </list>
     </recent_temporary>
   </component>
@@ -161,21 +165,15 @@
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/medium/08_bst_construction/bst_test.go</url>
-          <line>27</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
         <watch expression="b.x" />
         <watch expression="a.x" />
         <watch expression="float64(b.y - a.y)" />
         <watch expression="float64(b.x - a.x)" />
+        <watch expression="tree" />
+        <watch expression="root" />
+        <watch expression="currentNode.Right" language="go" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search.go" line="80">
         <watch expression="result" />
