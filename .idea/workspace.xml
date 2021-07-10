@@ -2,9 +2,139 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/very_hard/07_iterative_in_order_traversal/iterative_in_order_traversal.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/07_iterative_in_order_traversal/iterative_in_order_traversal_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/flatten_binary_tree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/flatten_binary_tree_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/01_get_nth_fib/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/01_get_nth_fib/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/02_two_number_sum/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/02_two_number_sum/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/03_is_valid_subsequence/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/03_is_valid_subsequence/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/04_find_closest_value/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/04_find_closest_value/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/05_branch_sums/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/05_branch_sums/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/06_node_depths/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/06_node_depths/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/07_depth_first_search/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/07_depth_first_search/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/08_product_sum/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/08_product_sum/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/09_binary_search/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/09_binary_search/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/10_find_three_largest_numbers/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/10_find_three_largest_numbers/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/11_bubble_sort/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/11_bubble_sort/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/12_insertion_sort/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/12_insertion_sort/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/13_selection_sort/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/13_selection_sort/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/14_is_palindrome/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/14_is_palindrome/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/15_caesar_cipher_encryptor/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/15_caesar_cipher_encryptor/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/16_class_photos/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/16_class_photos/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/17_generate_document/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/17_generate_document/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/18_minimum_waiting_time/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/18_minimum_waiting_time/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/19_non_constructible_change/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/19_non_constructible_change/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/20_remove_duplicates_from_linkedlist/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/20_remove_duplicates_from_linkedlist/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/21_run_length_encoding/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/21_run_length_encoding/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/22_sorted_squared_array/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/22_sorted_squared_array/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/23_tournament_winner/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/23_tournament_winner/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/24_first_non_repeating_character/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/24_first_non_repeating_character/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/easy/25_tandem_bicycle/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/easy/25_tandem_bicycle/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/01_four_number_sum/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/01_four_number_sum/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/02_subarray_sort/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/02_subarray_sort/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/03_largest_range/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/03_largest_range/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/04_min_rewards/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/04_min_rewards/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/05_zigzag_traverse/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/05_zigzag_traverse/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/06_same_bsts/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/06_same_bsts/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/07_validate_three_nodes/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/07_validate_three_nodes/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/08_max_path_sum/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/08_max_path_sum/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/09_find_nodes_distance_k/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/09_find_nodes_distance_k/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/10_max_sumIncreasing_subsequence/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/10_max_sumIncreasing_subsequence/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/11_longest_common_subsequence/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/11_longest_common_subsequence/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/12_min_number_of_jumps/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/12_min_number_of_jumps/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/13_water_area/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/13_water_area/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/14_knapsack_problem/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/14_knapsack_problem/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/15_disk_stacking/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/15_disk_stacking/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/16_numbers_in_pi/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/16_numbers_in_pi/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/18_maximize_expression/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/18_maximize_expression/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/19_maximum_sum_submatrix/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/19_maximum_sum_submatrix/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/20_topological_sort/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/20_topological_sort/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/21_boggle_board/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/21_boggle_board/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/22_continuous_median/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/22_continuous_median/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/23_sort_k_sorted_array/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/23_sort_k_sorted_array/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/24_laptop_rentals/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/24_laptop_rentals/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/25_find_loop/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/25_find_loop/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/26_reverse_linked_list/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/26_reverse_linked_list/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/27_merge_linked_lists/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/27_merge_linked_lists/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/28_shift_linked_list/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/28_shift_linked_list/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/29_lowest_common_manager/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/29_lowest_common_manager/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/30_interweaving_strings/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/30_interweaving_strings/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/31_solve_sudoku/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/31_solve_sudoku/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/32_generate_div_tags/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/32_generate_div_tags/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/33_ambiguous_measurements/Notes.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/notes.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/33_ambiguous_measurements/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/34_shifted_binary_search/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/34_shifted_binary_search/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/35_search_for_range/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/35_search_for_range/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/36_index_equals_value/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/36_index_equals_value/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/37_quick_select/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/37_quick_select/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/38_quick_sort/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/38_quick_sort/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/39_heap_sort/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/39_heap_sort/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/40_radix_sort/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/40_radix_sort/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/41_shorten_path/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/41_shorten_path/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/01_river_sizes/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/01_river_sizes/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/02_three_number_sum/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/02_three_number_sum/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/03_smallest_difference/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/03_smallest_difference/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/04_move_element_to_end/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/04_move_element_to_end/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/05_is_monotonic/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/05_is_monotonic/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/06_spiral_traverse/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/06_spiral_traverse/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/07_longest_peak/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/07_longest_peak/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/08_bst_construction/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/08_bst_construction/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/09_validate_bst/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/09_validate_bst/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/09_validate_bst/hint1.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/09_validate_bst/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/10_bst_traversal/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/10_bst_traversal/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/11_min_height_bst/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/11_min_height_bst/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/12_invert_binary_tree/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/12_invert_binary_tree/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/13_max_subset_sumno_adjacent/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/13_max_subset_sumno_adjacent/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/13_max_subset_sumno_adjacent/hint1.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/13_max_subset_sumno_adjacent/answer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/14_number_of_ways_to_make_change/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/14_number_of_ways_to_make_change/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/15_min_number_of_coins_for_change/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/15_min_number_of_coins_for_change/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/16_levenshtein_distance/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/16_levenshtein_distance/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/17_kadanes_algorithm/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/17_kadanes_algorithm/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/18_single_cycle_check/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/18_single_cycle_check/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/19_breadth_first_search/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/19_breadth_first_search/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/20_youngest_common_ancestor/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/20_youngest_common_ancestor/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/21_heap_construction/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/21_heap_construction/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/21_heap_construction/hint1.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/21_heap_construction/image.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/22_linked_list/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/22_linked_list/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/23_remove_kth_node_from_end/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/23_remove_kth_node_from_end/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/23_remove_kth_node_from_end/hint1.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/23_remove_kth_node_from_end/another_hint.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/24_permutations/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/24_permutations/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/25_powerset/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/25_powerset/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/26_search_in_sorted_matrix/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/26_search_in_sorted_matrix/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/27_min_max_stack/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/27_min_max_stack/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/28_balanced_brackets/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/28_balanced_brackets/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/29_longest_palindromic_substring/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/29_longest_palindromic_substring/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/30_group_anagrams/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/30_group_anagrams/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/31_suffix_trie/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/31_suffix_trie/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/32_array_of_products/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/32_array_of_products/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/33_binary_tree_diameter/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/33_binary_tree_diameter/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/34_cycle_in_graph/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/34_cycle_in_graph/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/35_find_kth_largest_valueIn_bst/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/35_find_kth_largest_valueIn_bst/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/36_find_successor/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/36_find_successor/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/37_first_duplicate_value/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/37_first_duplicate_value/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/38_height_balanced_binary_tree/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/38_height_balanced_binary_tree/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/39_merge_overlapping_intervals/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/39_merge_overlapping_intervals/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/40_number_of_ways_to_traverse_graph/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/40_number_of_ways_to_traverse_graph/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/41_phone_number_mnemonics/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/41_phone_number_mnemonics/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/42_reconstruct_bst/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/42_reconstruct_bst/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/44_reverse_words_in_string/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/44_reverse_words_in_string/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/45_staircase_traversal/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/45_staircase_traversal/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/45_staircase_traversal/solution1.0.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/45_staircase_traversal/solution1-1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/45_staircase_traversal/solution1.1.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/45_staircase_traversal/solution1-2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/45_staircase_traversal/solution1.2.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/45_staircase_traversal/solution1-3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/45_staircase_traversal/solution1.3.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/45_staircase_traversal/solution1-4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/46_sum_of_linked_lists/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/46_sum_of_linked_lists/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/47_sunset_views/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/47_sunset_views/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/48_task_assignment/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/48_task_assignment/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/49_three_number_sort/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/49_three_number_sort/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/50_valid_ip_addresses/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/50_valid_ip_addresses/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/51_valid_starting_city/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/51_valid_starting_city/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/52_sort_stack/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/52_sort_stack/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/53_minimum_characters_for_words/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/53_minimum_characters_for_words/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/54_minimum_passes_of_matrix/hints.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/55_next_greater_element/hint.png" beforeDir="false" afterPath="$PROJECT_DIR$/medium/55_next_greater_element/hints.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,11 +192,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/07_iterative_in_order_traversal" />
       <recent name="$PROJECT_DIR$/very_hard/06_right_smaller_than" />
       <recent name="$PROJECT_DIR$/very_hard/05_line_through_points" />
       <recent name="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle" />
       <recent name="$PROJECT_DIR$/systems_design" />
-      <recent name="$PROJECT_DIR$/very_hard/02_calendar_matching" />
     </key>
   </component>
   <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/07_iterative_in_order_traversal">
