@@ -2,78 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/API Design.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Availability.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Caching.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Client—Server Model.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Configuration.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Hashing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Key-Value Stores.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Latency And Throughput.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Leader Election.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Load Balancers.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Logging And Monitoring.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/MapReduce.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Network Protocols.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Peer-To-Peer Networks.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Polling And Streaming.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Proxies.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Publish:Subscribe Pattern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Rate Limiting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Relational Databases1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Relational Databases2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Replication And Sharding1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Replication And Sharding2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Security And HTTPS1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Security And HTTPS2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Specialized Storage Paradigms1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Specialized Storage Paradigms2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Specialized Storage Paradigms3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/Storage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/airbnb.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/algoexpert.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/code_deployment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/design-airbnb.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/design-algoexpert.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/design-facebook-news-feed.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/design-google-drive.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/design-netflix.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/design-slack.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/design-the-reddit-API.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/design-the-uber-API.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/facebook.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/glossary.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/google_drive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/netflix.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/slack.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/systems_design/stockbroker.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/01_apartment_hunting/apartment_hunting.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/01_apartment_hunting/apartment_hunting_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/01_apartment_hunting/hints.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/01_apartment_hunting/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/02_calendar_matching/calendar_matching.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/02_calendar_matching/calendar_matching_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/02_calendar_matching/hints.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/02_calendar_matching/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/03_waterfall_streams/hints.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/03_waterfall_streams/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/03_waterfall_streams/sample.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/03_waterfall_streams/waterfall_streams.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/03_waterfall_streams/waterfall_streams_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/hints.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/minimum_area_rectangle.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/minimum_area_rectangle_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/05_line_through_points/hints.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/05_line_through_points/image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/05_line_through_points/line_through_points.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/05_line_through_points/line_through_points_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/05_line_through_points/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/09_right_sibling_tree/right_sibling_tree.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/09_right_sibling_tree/right_sibling_tree_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/systems_design/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/systems_design/design-a-code-deployment-system.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/systems_design/design-a-stock-broker.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/flatten_binary_tree.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/flatten_binary_tree.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/flatten_binary_tree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/flatten_binary_tree_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,68 +66,68 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/08_flatten_binary_tree" />
+      <recent name="$PROJECT_DIR$/very_hard/07_iterative_in_order_traversal" />
+      <recent name="$PROJECT_DIR$/very_hard/06_right_smaller_than" />
       <recent name="$PROJECT_DIR$/very_hard/05_line_through_points" />
       <recent name="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle" />
-      <recent name="$PROJECT_DIR$/systems_design" />
-      <recent name="$PROJECT_DIR$/very_hard/02_calendar_matching" />
-      <recent name="$PROJECT_DIR$/very_hard/01_apartment_hunting" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/05_line_through_points">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/09_right_sibling_tree">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/08_flatten_binary_tree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/05_line_through_points" />
+      <working_directory value="$PROJECT_DIR$/very_hard/08_flatten_binary_tree" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/08_flatten_binary_tree" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/09_right_sibling_tree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/05_line_through_points" />
+      <working_directory value="$PROJECT_DIR$/very_hard/09_right_sibling_tree" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/09_right_sibling_tree" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/08_flatten_binary_tree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/08_flatten_binary_tree" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/08_flatten_binary_tree" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/very_hard/08_flatten_binary_tree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/05_line_through_points" />
+      <working_directory value="$PROJECT_DIR$/very_hard/08_flatten_binary_tree" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/08_flatten_binary_tree" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/08_flatten_binary_tree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle" />
+      <working_directory value="$PROJECT_DIR$/very_hard/08_flatten_binary_tree" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase5\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/05_line_through_points" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/08_flatten_binary_tree" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -200,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/05_line_through_points" />
-        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/09_right_sibling_tree" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/08_flatten_binary_tree" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/08_flatten_binary_tree" />
+        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/08_flatten_binary_tree" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/08_flatten_binary_tree" />
       </list>
     </recent_temporary>
   </component>
@@ -232,13 +167,9 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/medium/08_bst_construction/bst_test.go</url>
-          <line>27</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="DlvErrorBreakpoint" />
+      </default-breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
@@ -246,6 +177,32 @@
         <watch expression="a.x" />
         <watch expression="float64(b.y - a.y)" />
         <watch expression="float64(b.x - a.x)" />
+        <watch expression="root" />
+        <watch expression="tree" />
+        <watch expression="currentNode.Right" language="go" />
+        <watch expression="current.Parent" />
+        <watch expression="current" />
+        <watch expression="current.Right" />
+        <watch expression="previousLeft" />
+        <watch expression="previous" />
+        <watch expression="current.Value" />
+        <watch expression="current.Left" />
+        <watch expression="previous.Parent" language="go" />
+        <watch expression="output" />
+        <watch expression="callback" />
+        <watch expression="current.Parent == previous" />
+        <watch expression="current.Left == previous " />
+        <watch expression="*(*&quot;github.com/lee-hen/Algoexpert/very_hard/08_flatten_binary_tree.BinaryTree&quot;)(824633779680)" />
+        <watch expression="left" />
+        <watch expression="tree.Right" />
+        <watch expression="successor" />
+        <watch expression="right" />
+        <watch expression="root.Right" />
+        <watch expression="curr" />
+        <watch expression="predecessor" />
+        <watch expression="successor.Right" />
+        <watch expression="left.Right" />
+        <watch expression="left.Left" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search.go" line="80">
         <watch expression="result" />
