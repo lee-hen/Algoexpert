@@ -55,3 +55,36 @@ func TestCase1(t *testing.T) {
 	expected := []int{4, 2, 7, 5, 8, 1, 6, 3, 3, 6, 1, 8, 5, 7, 2, 4}
 	require.Equal(t, expected, actual)
 }
+
+func TestCase2(t *testing.T) {
+	root := NewBinaryTree(1).insertAll(2, 3)
+	root.Right.Left = NewBinaryTree(6)
+	root.Right.Right = NewBinaryTree(7)
+
+	root.Right.Left.Left = NewBinaryTree(12)
+
+	root.Left.Left = NewBinaryTree(4)
+	root.Left.Right = NewBinaryTree(5)
+
+	root.Left.Right.Left =  NewBinaryTree(10)
+	root.Left.Right.Right = NewBinaryTree(11)
+
+	root.Left.Left.Left = NewBinaryTree(8)
+	root.Left.Left.Left.Left = NewBinaryTree(13)
+	root.Left.Left.Left.Right = NewBinaryTree(14)
+
+	root.Left.Left.Right = NewBinaryTree(9)
+
+	leftMostNode := FlattenBinaryTree(root)
+	actual := leftMostNode.leftToRightToLeft()
+	expected := []int{13, 8, 14, 4, 9, 2, 10, 5, 11, 1, 12, 6, 3, 7, 7, 3, 6, 12, 1, 11, 5, 10, 2, 9, 4, 14, 8, 13}
+	require.Equal(t, expected, actual)
+}
+
+func TestCase3(t *testing.T) {
+	root := NewBinaryTree(1)
+	leftMostNode := FlattenBinaryTree(root)
+	actual := leftMostNode.leftToRightToLeft()
+	expected := []int{1, 1}
+	require.Equal(t, expected, actual)
+}
