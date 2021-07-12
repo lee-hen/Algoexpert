@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/hints.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/09_right_sibling_tree/right_sibling_tree.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/09_right_sibling_tree/right_sibling_tree_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/09_right_sibling_tree/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/09_right_sibling_tree/question.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/flatten_binary_tree.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/flatten_binary_tree.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/flatten_binary_tree_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/flatten_binary_tree_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/09_right_sibling_tree/right_sibling_tree.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/09_right_sibling_tree/right_sibling_tree.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +64,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/09_right_sibling_tree" />
       <recent name="$PROJECT_DIR$/very_hard/08_flatten_binary_tree" />
       <recent name="$PROJECT_DIR$/very_hard/07_iterative_in_order_traversal" />
       <recent name="$PROJECT_DIR$/very_hard/06_right_smaller_than" />
       <recent name="$PROJECT_DIR$/very_hard/05_line_through_points" />
-      <recent name="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle" />
     </key>
   </component>
   <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/09_right_sibling_tree">
