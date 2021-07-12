@@ -1,5 +1,12 @@
 package flatten_binary_tree
 
+type BinaryTree struct {
+	Value int
+
+	Left  *BinaryTree
+	Right *BinaryTree
+}
+
 // FlattenBinaryTree
 // O(n) time | O(d) space - where n is the number of nodes in the Binary Tree
 // and d is the depth (height) of the Binary Tree
@@ -50,15 +57,10 @@ func connectNodes(left, right *BinaryTree) {
 // 13    14
 // 13  8, 14,  4, 9, 2, 10, 5, 11, 1, 12, 6, 3, 7
 
-type BinaryTree struct {
-	Value int
-
-	Left  *BinaryTree
-	Right *BinaryTree
-}
-
+// my solution
+// flattenBinaryTree
 func flattenBinaryTree(root *BinaryTree) *BinaryTree {
-	root.InOrderTraverse()
+	root.dfs()
 	left := root
 
 	for left.Left != nil {
@@ -68,19 +70,19 @@ func flattenBinaryTree(root *BinaryTree) *BinaryTree {
 	return left
 }
 
-func (tree *BinaryTree) InOrderTraverse() {
+func (tree *BinaryTree) dfs() {
 	if tree == nil {
 		return
 	}
 
-	tree.Left.InOrderTraverse()
+	tree.Left.dfs()
 	if tree.Left != nil {
 		rightMost := getRightmostChild(tree.Left)
 		rightMost.Right = tree
 		tree.Left = rightMost
 	}
 
-	tree.Right.InOrderTraverse()
+	tree.Right.dfs()
 	if tree.Right != nil {
 		leftMost := getLeftmostChild(tree.Right)
 		tree.Right = leftMost
