@@ -131,6 +131,35 @@ func (tree *BST) Rank(value int) int {
 	}
 }
 
+// BFS
+// https://en.wikipedia.org/wiki/Iterative_deepening_depth-first_search
+func (tree *BST) BFS() []int {
+	depth := tree.Depth()
+	nums := make([]int, 0)
+	for i := 0; i < depth; i++ {
+		leaf := make([]int, 0)
+		tree.DFS(i, &leaf)
+		nums = append(nums, leaf...)
+	}
+	return nums
+}
+
+func (tree *BST) DFS(level int, arr *[]int) {
+	current := tree
+	if current == nil {
+		return
+	}
+
+	if level == 0 {
+		*arr = append(*arr, current.Value)
+		return
+	}
+
+	current.Left.DFS(level-1, arr)
+	current.Right.DFS(level-1, arr)
+	return
+}
+
 func (tree *BST) Height() int {
 	if tree == nil {
 		return -1

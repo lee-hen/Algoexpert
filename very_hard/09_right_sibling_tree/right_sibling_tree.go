@@ -60,7 +60,6 @@ func mutate(node, parent *BinaryTree, isLeftChild bool) {
 
 // my solution
 // rightSiblingTree
-// https://en.wikipedia.org/wiki/Iterative_deepening_depth-first_search
 func rightSiblingTree(root *BinaryTree) *BinaryTree {
 	depth := root.Depth()
 
