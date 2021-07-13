@@ -139,6 +139,14 @@ func (tree *BST) Height() int {
 	return max(tree.Left.Height(), tree.Right.Height()) + 1
 }
 
+func (tree *BST) Depth() int {
+	if tree == nil {
+		return 0
+	}
+
+	return max(tree.Left.Depth(), tree.Right.Depth()) + 1
+}
+
 func max(a, b int) int {
 	if a > b {
 		return a
