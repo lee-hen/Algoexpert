@@ -124,22 +124,6 @@ func compareLeafTraversal(tree1 *BinaryTree, tree2 *BinaryTree) bool {
 	return true
 }
 
-
-func (tree *BinaryTree) Depth() int {
-	if tree == nil {
-		return 0
-	}
-
-	return max(tree.Left.Depth(), tree.Right.Depth()) + 1
-}
-
-func max(a, b int) int {
-	if a > b {
-		return a
-	}
-	return b
-}
-
 func (tree *BinaryTree) dfs(arr *[]int) {
 	current := tree
 	if current == nil {
