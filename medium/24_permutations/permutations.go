@@ -1,5 +1,7 @@
 package permutations
 
+import "fmt"
+
 func GetPermutations(array []int) [][]int {
 	permutations := make([][]int, 0)
 	permutationsHelper(0, array, &permutations)
@@ -15,14 +17,15 @@ func permutationsHelper(i int, array []int, permutations *[][]int) {
 	}
 
 	for j := i; j < len(array); j++ {
+		fmt.Println(i, j)
 		// [1, 2, 3] i is first index
 		swap(array, i, j)
 		// [1, 3, 2] when i is came back to the second index this time j is increased by prev permutationsHelper(i+1 (j is third index)
-		// [2, 1, 3] after swap back to [1,2,3] j is increased by prev permutationsHelper(i+1 (j is second index)
+		// [2, 1, 3] after swap back to [1,2,3] j is increased by prev permutationsHelper(i+1 (j is second index) and i will be the first index
 		permutationsHelper(i+1, array, permutations) // just like stack
 		// [1, 2, 3] second index swap back
 		// [1, 2, 3] first index swap back
-		swap(array, i, j)
+		swap(array, i, j) // -> [2, 1, 3]
 	}
 }
 

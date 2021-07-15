@@ -17,7 +17,7 @@ func TestCase1(t *testing.T) {
 		{},
 	}
 	expected := []int{0, 7, 13, 27, 10, -1}
-	actual := DijkstrasAlgorithm(start, edges)
+	actual := dijkstrasAlgorithm(start, edges)
 	require.Equal(t, expected, actual)
 }
 
