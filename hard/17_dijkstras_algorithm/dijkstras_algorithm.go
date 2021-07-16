@@ -1,6 +1,8 @@
 package dijkstras_algorithm
 
-import "math"
+import (
+	"math"
+)
 
 //[[1, 7]],
 //[[2, 6], [3, 20], [4, 3]],
@@ -25,17 +27,9 @@ func dijkstrasHelper(shortestPaths []int, edges [][][]int) {
 
 	for len(visited) < len(edges) {
 		currNode, currShortest := findNodeWithMinWeight(shortestPaths, visited)
-
 		if currShortest == math.MaxInt32 {
-			for i, shortestPath := range shortestPaths {
-				if shortestPath == math.MaxInt32 {
-					currNode = i
-					shortestPaths[currNode] = -1
-				}
-			}
 			break
 		}
-
 
 		edge := edges[currNode]
 
@@ -46,6 +40,12 @@ func dijkstrasHelper(shortestPaths []int, edges [][][]int) {
 		}
 
 		visited[currNode] = struct{}{}
+	}
+
+	for i, shortestPath := range shortestPaths {
+		if shortestPath == math.MaxInt32 {
+			shortestPaths[i] = -1
+		}
 	}
 }
 

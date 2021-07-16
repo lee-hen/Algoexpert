@@ -56,6 +56,7 @@ func connectNodes(left, right *BinaryTree) {
 //  /   \
 // 13    14
 // 13  8, 14,  4, 9, 2, 10, 5, 11, 1, 12, 6, 3, 7
+// 11 1 12 consider root node left right most right left most
 
 // my solution
 // flattenBinaryTree
