@@ -2,57 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions/max_profit_with_k_transactions.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions/max_profit_with_k_transactions_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/13_palindrome_partitioning_min_cuts/palindrome_partitioning_min_cuts.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/13_palindrome_partitioning_min_cuts/palindrome_partitioning_min_cuts_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/14_longest_increasing_subsequence/longest_increasing_subsequence.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/14_longest_increasing_subsequence/longest_increasing_subsequence_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/15_longest_string_chain/longest_string_chain.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/15_longest_string_chain/longest_string_chain_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/square_of_zeroes.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/square_of_zeroes_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm/knuth_morris_pratt_algorithm.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm/knuth_morris_pratt_algorithm_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/a_star_algorithm.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/a_star_algorithm_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/19_rectangle_mania/rectangle_mania.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/19_rectangle_mania/rectangle_mania_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/two_edge_connected_graph.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/two_edge_connected_graph_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/22_airport_connections/airport_connections.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/22_airport_connections/airport_connections_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays/merge_sorted_arrays.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays/merge_sorted_arrays_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/24_LRU_cache/LRU_cache.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/24_LRU_cache/LRU_cache_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/rearrange_linked_list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/rearrange_linked_list_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/26_linked_list_palindrome/linked_list_palindrome.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/26_linked_list_palindrome/linked_list_palindrome_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/27_zip_linked_list/zip_linked_list.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/27_zip_linked_list/zip_linked_list_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/28_node_swap/node_swap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/28_node_swap/node_swap_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies/number_of_binary_tree_topologies.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies/number_of_binary_tree_topologies_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/non_attacking_queens.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/non_attacking_queens_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/31_merge_sort/merge_sort.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/31_merge_sort/merge_sort_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/32_count_inversions/count_inversions.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/32_count_inversions/count_inversions_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/smallest_substring_containing.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/smallest_substring_containing_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/34_longest_balanced_substring/longest_balanced_substring.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/34_longest_balanced_substring/longest_balanced_substring_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions/optimize_time_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions/question.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm_test.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/medium/24_permutations/permutations.go" beforeDir="false" afterPath="$PROJECT_DIR$/medium/24_permutations/permutations.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/flatten_binary_tree.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/flatten_binary_tree.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions/max_profit_with_k_transactions.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions/max_profit_with_k_transactions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions/max_profit_with_k_transactions_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions/max_profit_with_k_transactions_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,81 +66,80 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions" />
       <recent name="$PROJECT_DIR$/very_hard/11_compare_leaf_traversal" />
       <recent name="$PROJECT_DIR$/very_hard/10_all_kinds_of_node_depths" />
       <recent name="$PROJECT_DIR$/very_hard/09_right_sibling_tree" />
       <recent name="$PROJECT_DIR$/very_hard/08_flatten_binary_tree" />
-      <recent name="$PROJECT_DIR$/very_hard/07_iterative_in_order_traversal" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/medium/24_permutations">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/hard/17_dijkstras_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/hard/17_dijkstras_algorithm" />
+      <working_directory value="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/hard/17_dijkstras_algorithm" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/medium/24_permutations" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/medium/24_permutations" />
+      <working_directory value="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/medium/24_permutations" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
+      <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/09_right_sibling_tree" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/09_right_sibling_tree" />
+      <working_directory value="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/09_right_sibling_tree" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
+      <pattern value="^\QTestCase4\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/10_all_kinds_of_node_depths" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/10_all_kinds_of_node_depths" />
+      <working_directory value="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/10_all_kinds_of_node_depths" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
+      <pattern value="^\QTestCase5\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/11_compare_leaf_traversal" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/11_compare_leaf_traversal" />
+      <working_directory value="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/11_compare_leaf_traversal" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/medium/24_permutations" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/hard/17_dijkstras_algorithm" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/11_compare_leaf_traversal" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/10_all_kinds_of_node_depths" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/09_right_sibling_tree" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions" />
+        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions" />
+        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions" />
       </list>
     </recent_temporary>
   </component>
@@ -212,13 +167,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/medium/24_permutations/permutations.go</url>
-          <line>18</line>
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
-      </breakpoints>
       <default-breakpoints>
         <breakpoint type="DlvErrorBreakpoint" />
       </default-breakpoints>
@@ -255,6 +203,41 @@
         <watch expression="successor.Right" />
         <watch expression="left.Right" />
         <watch expression="left.Left" />
+        <watch expression="price" />
+        <watch expression="maxPrice" />
+        <watch expression="i" />
+        <watch expression="kthMinPrice[j]" />
+        <watch expression="minPrice" />
+        <watch expression="kthMinPrice" />
+        <watch expression="prices[i] - prevMinVal + prevProfit" />
+        <watch expression="prevMinVal" />
+        <watch expression="prevProfit" />
+        <watch expression="prices[i]" />
+        <watch expression="prices[i] - prevMinVal" />
+        <watch expression="prevMinIdx" />
+        <watch expression="i-1" />
+        <watch expression="newIdx" />
+        <watch expression="i-1 &gt; newIdx" />
+        <watch expression="profits[j-1][i]" />
+        <watch expression="profits[j-1][i-1] " />
+        <watch expression="i := minIdx+1" />
+        <watch expression="profits[j-1][i] &gt; profits[j-1][i-1]" />
+        <watch expression="profits[j-1][i-1]" />
+        <watch expression="currProfit" />
+        <watch expression="currMinVal" />
+        <watch expression="profits[j][i]" />
+        <watch expression="prices[i] - currMinVal" />
+        <watch expression="prices[prevMinIdx]" />
+        <watch expression="currProfit + profits[j-1][prevMinIdx]" />
+        <watch expression="profits[j-1][prevMinIdx]" />
+        <watch expression="j-1" />
+        <watch expression="j" />
+        <watch expression="currMinIdx" />
+        <watch expression="profits[j-1][minIdx]" />
+        <watch expression="minIdx" />
+        <watch expression="profits[j-1][i] " />
+        <watch expression="minVal" />
+        <watch expression="price - minVal" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search.go" line="80">
         <watch expression="result" />
@@ -262,6 +245,7 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Algoexpert$TestCase4_in_github_com_lee_hen_Algoexpert_very_hard_12_max_profit_with_k_transactions.out" NAME="TestCase4 in github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions Coverage Results" MODIFIED="1626439417779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase1_in_github_com_lee_hen_Algoexpert_medium_55_next_greater_element.out" NAME="TestCase1 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element Coverage Results" MODIFIED="1623474222585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase3_in_github_com_lee_hen_Algoexpert_hard_33_ambiguous_measurements.out" NAME="TestCase3 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements Coverage Results" MODIFIED="1624082014230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
