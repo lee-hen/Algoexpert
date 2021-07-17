@@ -43,6 +43,47 @@ import (
 //3 0 1 2 2 2
 //4 0 1 2 2 2
 
+
+// PalindromePartitioningMinCuts2
+// O(n^2) time | O(n^2) space
+func PalindromePartitioningMinCuts2(str string) int {
+	palindromes := make([][]bool, len(str))
+	for i := range palindromes {
+		palindromes[i] = make([]bool, len(str))
+	}
+	for i := range str {
+		palindromes[i][i] = true
+	}
+	// very interesting.
+	for length := 2; length <= len(str); length++ {
+		for i := 0; i < len(str)-length+1; i++ {
+			j := i + length - 1 // i start j end
+			if length == 2 {
+				palindromes[i][j] = str[i] == str[j]
+			} else {
+				palindromes[i][j] = str[i] == str[j] && palindromes[i+1][j-1]
+			}
+		}
+	}
+	cuts := make([]int, len(str))
+	for i := range cuts {
+		cuts[i] = math.MaxInt32
+	}
+	for i := range str {
+		if palindromes[0][i] {
+			cuts[i] = 0
+		} else {
+			cuts[i] = cuts[i-1] + 1
+			for j := 1; j < i; j++ {
+				if palindromes[j][i] && cuts[j-1]+1 < cuts[i] {
+					cuts[i] = cuts[j-1] + 1
+				}
+			}
+		}
+	}
+	return cuts[len(cuts)-1]
+}
+
 // PalindromePartitioningMinCuts
 // O(n^2) time | O(n) space
 func PalindromePartitioningMinCuts(str string) int {
@@ -93,45 +134,6 @@ func min(arg1 int, rest ...int) int {
 		}
 	}
 	return curr
-}
-
-// PalindromePartitioningMinCuts2
-// O(n^2) time | O(n^2) space
-func PalindromePartitioningMinCuts2(str string) int {
-	palindromes := make([][]bool, len(str))
-	for i := range palindromes {
-		palindromes[i] = make([]bool, len(str))
-	}
-	for i := range str {
-		palindromes[i][i] = true
-	}
-	for length := 2; length < len(str)+1; length++ {
-		for i := 0; i < len(str)-length+1; i++ {
-			j := i + length - 1
-			if length == 2 {
-				palindromes[i][j] = str[i] == str[j]
-			} else {
-				palindromes[i][j] = str[i] == str[j] && palindromes[i+1][j-1]
-			}
-		}
-	}
-	cuts := make([]int, len(str))
-	for i := range cuts {
-		cuts[i] = math.MaxInt32
-	}
-	for i := range str {
-		if palindromes[0][i] {
-			cuts[i] = 0
-		} else {
-			cuts[i] = cuts[i-1] + 1
-			for j := 1; j < i; j++ {
-				if palindromes[j][i] && cuts[j-1]+1 < cuts[i] {
-					cuts[i] = cuts[j-1] + 1
-				}
-			}
-		}
-	}
-	return cuts[len(cuts)-1]
 }
 
 func PalindromePartitioningMinCuts1(s string) int {

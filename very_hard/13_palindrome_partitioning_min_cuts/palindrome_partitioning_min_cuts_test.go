@@ -12,7 +12,7 @@ func TestCase1(t *testing.T) {
 }
 
 func TestCase2(t *testing.T) {
-	output := PalindromePartitioningMinCuts("noonooon")
+	output := PalindromePartitioningMinCuts2("noonooon")
 	require.Equal(t, 2, output)
 }
 
