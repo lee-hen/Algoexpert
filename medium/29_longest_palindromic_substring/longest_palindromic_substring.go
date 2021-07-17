@@ -1,5 +1,7 @@
 package longest_palindromic_substring
 
+import p "github.com/lee-hen/Algoexpert/easy/14_is_palindrome"
+
 //Notes
 //In the video explanation of this question, we mistakenly state that the optimal solution runs with constant space.
 //
@@ -8,30 +10,30 @@ package longest_palindromic_substring
 //Thus, the algorithm runs with linear space.
 
 type substring struct {
-	left  int
-	right int
+	Left  int
+	Right int
 }
-func (ss substring) length() int {
-	return ss.right - ss.left
+func (ss substring) Length() int {
+	return ss.Right - ss.Left
 }
 
 func LongestPalindromicSubstring(str string) string {
 	result := substring{0, 1}
 	for i := 1; i < len(str); i++ {
-		odd := getLongestPalindromeFrom(str, i-1, i+1)
-		even := getLongestPalindromeFrom(str, i-1, i)
+		odd := GetLongestPalindromeFrom(str, i-1, i+1)
+		even := GetLongestPalindromeFrom(str, i-1, i)
 		longest := even
-		if odd.length() > even.length() {
+		if odd.Length() > even.Length() {
 			longest = odd
 		}
-		if longest.length() > result.length() {
+		if longest.Length() > result.Length() {
 			result = longest
 		}
 	}
-	return str[result.left:result.right]
+	return str[result.Left:result.Right]
 }
 
-func getLongestPalindromeFrom(str string, leftIndex, rightIndex int) substring {
+func GetLongestPalindromeFrom(str string, leftIndex, rightIndex int) substring {
 	for leftIndex >= 0 && rightIndex < len(str) {
 		if str[leftIndex] != str[rightIndex] {
 			break
@@ -43,35 +45,15 @@ func getLongestPalindromeFrom(str string, leftIndex, rightIndex int) substring {
 }
 
 
-func LongestPalindromicSubstring1(str string) string {
-	longest := ""
-	for i := range str {
-		for j := i; j < len(str); j++ {
-			substr := str[i : j+1]
-			if len(substr) > len(longest) && IsPalindrome(substr) {
-				longest = substr
-			}
-		}
-	}
-	return longest
-}
-
-func IsPalindrome(str string) bool {
-	for i := range str {
-		j := len(str) - i - 1
-		if str[i] != str[j] {
-			return false
-		}
-	}
-	return true
-}
-
+// longestPalindromicSubstring
+// my solution
+// O(n^2) time complexity
 func longestPalindromicSubstring(str string) string {
 	var subStringLength int
 	var palindromicSubstring string
 	for idx, r := range str {
 		sub := getSubString(r, []rune(str)[:idx+1])
-		if isPalindrome(sub) && len(sub) > subStringLength {
+		if p.IsPalindromeRune(sub) && len(sub) > subStringLength {
 			subStringLength = len(sub)
 			palindromicSubstring = string(sub)
 		}
@@ -105,14 +87,17 @@ func getSubString(target rune, runes []rune) []rune {
 	return runes[left:right+1]
 }
 
-func isPalindrome(str []rune) bool {
-	for i, j := 0, len(str)-1; i <= j; {
-		if str[i] != str[j] {
-			return false
+// LongestPalindromicSubstring2
+// O(n^3) time complexity
+func LongestPalindromicSubstring2(str string) string {
+	longest := ""
+	for i := range str {
+		for j := i; j < len(str); j++ {
+			substr := str[i : j+1]
+			if len(substr) > len(longest) && p.IsPalindrome(substr) {
+				longest = substr
+			}
 		}
-
-		i++
-		j--
 	}
-	return true
+	return longest
 }
