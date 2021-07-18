@@ -4,6 +4,19 @@ import (
 	"math"
 )
 
+//  0  1    2   3   4  5  6   7  8  9  10
+//  5, 7, -24, 12, 10, 2, 3, 12, 5, 6, 35
+
+// sums
+//  0  1    2   3   4   5  6   7   8   9   10
+//  5  12  -24  24  22  2  5  34  10   16  69
+
+// traceIdx
+// -1  0   -1   1   1 -1  5   4  6  8   7
+
+// subsequence
+// 5, 7, 10, 12, 35
+
 // MaxSumIncreasingSubsequence
 // I can understand it but it's difficult to come up this idea
 func MaxSumIncreasingSubsequence(array []int) (int, []int) {

@@ -104,7 +104,7 @@ func maxProfitWithKTransactions(prices []int, k int) int {
 	for j := 1; j <= k; j++ {
 		for i, price := range prices {
 			var maxProfit int
-			if price > minIndices[0] {
+			if price > prices[minIndices[0]] {
 				for _, minIdx := range minIndices {
 					if i > minIdx {
 						currProfit := price - prices[minIdx] + profits[j-1][minIdx]
