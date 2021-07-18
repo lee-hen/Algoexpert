@@ -1,9 +1,13 @@
 package longest_increasing_subsequence
 
 // LongestIncreasingSubsequence
+// this implementation is very hard to understand.
 // O(nlogn) time | O(n) space
 func LongestIncreasingSubsequence(array []int) []int {
 	sequences := make([]int, len(array))
+
+	// represent the length of subsequence
+	// the values is the smallest value's index of subsequence from input array
 	indices := make([]int, len(array)+1)
 	for i := range array {
 		sequences[i] = -1
@@ -12,8 +16,10 @@ func LongestIncreasingSubsequence(array []int) []int {
 	length := 0
 	for i, num := range array {
 		newLength := binarySearch(1, length, indices, array, num)
-		sequences[i] = indices[newLength-1]
+		// put to the correct position
 		indices[newLength] = i
+		// store previous index
+		sequences[i] = indices[newLength-1]
 		length = max(length, newLength)
 	}
 	return buildSequence(array, sequences, indices[length])
@@ -77,7 +83,7 @@ func longestIncreasingSubsequence(input []int) []int {
 		}
 	}
 
-	return  buildSequence(input, traceSequences, longestIndex)
+	return buildSequence(input, traceSequences, longestIndex)
 }
 
 func buildSequence(array []int, sequences []int, currentIdx int) []int {
