@@ -29,7 +29,6 @@ func SquareOfZeroes(matrix [][]int) bool {
 				continue
 			}
 
-
 			if digit == 0 {
 				if i < len(matrix)-1 && j < len(matrix[i]) -1 && matrix[i][j+1] == 0 {
 					if dfs(i,j+1, i, j,-1,-1, matrix, visit) {
@@ -50,15 +49,18 @@ func dfs(i, j, rowStart, colStart, rowEnd, colEnd int, matrix [][]int, visit [][
 	}
 
 	if i < len(matrix)-1 && j < len(matrix[i]) -1 {
+		if matrix[i][j+1] == 0 && matrix[i+1][j] == 0 && matrix[i+1][j+1] == 0 {
+			return true
+		}
+
 		if !(matrix[i][j+1] == 0 && matrix[i+1][j] == 0) {
 			visit[i][j] = true
 		}
 	}
 
-
 	var nextRow, nextCol int
 	if i == rowStart {
-		if j < len(matrix[i])-1 && matrix[i][j+1] == 0 {
+		if j < len(matrix[i])-1 && matrix[i][j+1] == 0 && matrix[i+1][j] == 1 {
 			// go right
 			nextRow = i
 			nextCol = j+1
@@ -70,14 +72,23 @@ func dfs(i, j, rowStart, colStart, rowEnd, colEnd int, matrix [][]int, visit [][
 		}
 
 		if matrix[nextRow][nextCol] == 0 {
-			return dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit)
+			if !dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit) {
+				if j < len(matrix[i])-1 && matrix[i][j+1] == 0 {
+					// go right
+					nextRow = i
+					nextCol = j+1
+				}
+				return dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit)
+			} else {
+				return true
+			}
 		} else {
 			return false
 		}
 	}
 
 	if j == colEnd {
-		if i < len(matrix)-1 && matrix[i+1][j] == 0 {
+		if i < len(matrix)-1 && matrix[i+1][j] == 0 && matrix[i][j-1] == 1 {
 			// go down
 			nextRow = i+1
 			nextCol = j
@@ -89,12 +100,20 @@ func dfs(i, j, rowStart, colStart, rowEnd, colEnd int, matrix [][]int, visit [][
 		}
 
 		if matrix[nextRow][nextCol] == 0 {
-			return dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit)
+			if !dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit) {
+				if i < len(matrix)-1 && matrix[i+1][j] == 0 {
+					// go down
+					nextRow = i+1
+					nextCol = j
+				}
+				return dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit)
+			} else {
+				return true
+			}
 		} else {
 			return false
 		}
 	}
-
 
 	if i == rowEnd {
 		if j > 0 && matrix[i][j-1] == 0 && j != colStart {
