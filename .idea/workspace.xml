@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/square_of_zeroes.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/square_of_zeroes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/square_of_zeroes_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/square_of_zeroes_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/square_image3.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,76 +63,77 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/16_square_of_zeroes" />
       <recent name="$PROJECT_DIR$/very_hard/15_longest_string_chain" />
       <recent name="$PROJECT_DIR$/very_hard/14_longest_increasing_subsequence" />
       <recent name="$PROJECT_DIR$/very_hard/13_palindrome_partitioning_min_cuts" />
       <recent name="$PROJECT_DIR$/medium/29_longest_palindromic_substring" />
-      <recent name="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/15_longest_string_chain" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/15_longest_string_chain" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/15_longest_string_chain" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes">
     <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/very_hard/16_square_of_zeroes" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/15_longest_string_chain" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/15_longest_string_chain" />
       <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/15_longest_string_chain" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^\QTestCase2\E$" />
+      <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/very_hard/16_square_of_zeroes" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/very_hard/16_square_of_zeroes" />
-      <framework value="gotest" />
       <kind value="PACKAGE" />
       <package value="github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <pattern value="^\QTestCase3\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/16_square_of_zeroes" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase4\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/16_square_of_zeroes" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
+        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
         <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
         <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/15_longest_string_chain" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/15_longest_string_chain" />
       </list>
     </recent_temporary>
   </component>
@@ -239,8 +239,15 @@
         <watch expression="length" />
         <watch expression="lengthOfStringChain[i]" />
         <watch expression="lengthOfStringChain[j]" />
-        <watch expression="rowStart" />
-        <watch expression="colStart" />
+        <watch expression="matrix[i][j+1]" />
+        <watch expression="matrix[i+1][j]" />
+        <watch expression="matrix[i+1][j+1]" />
+        <watch expression="j+1" />
+        <watch expression="matrix[nextRow][nextCol]" />
+        <watch expression="nextRow" />
+        <watch expression="nextCol" />
+        <watch expression="matrix[i-1][j]" />
+        <watch expression="visit" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search.go" line="80">
         <watch expression="result" />
@@ -248,8 +255,8 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Algoexpert$TestCase1_in_github_com_lee_hen_Algoexpert_medium_55_next_greater_element.out" NAME="TestCase1 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element Coverage Results" MODIFIED="1623474222585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase4_in_github_com_lee_hen_Algoexpert_very_hard_12_max_profit_with_k_transactions.out" NAME="TestCase4 in github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions Coverage Results" MODIFIED="1626439417779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Algoexpert$TestCase1_in_github_com_lee_hen_Algoexpert_medium_55_next_greater_element.out" NAME="TestCase1 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element Coverage Results" MODIFIED="1623474222585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase3_in_github_com_lee_hen_Algoexpert_hard_33_ambiguous_measurements.out" NAME="TestCase3 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements Coverage Results" MODIFIED="1624082014230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
