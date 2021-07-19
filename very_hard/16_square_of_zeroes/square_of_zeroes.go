@@ -36,7 +36,6 @@ func SquareOfZeroes(matrix [][]int) bool {
 					}
 				}
 			}
-
 		}
 	}
 
@@ -71,20 +70,21 @@ func dfs(i, j, rowStart, colStart, rowEnd, colEnd int, matrix [][]int, visit [][
 			colEnd = j
 		}
 
-		if matrix[nextRow][nextCol] == 0 {
-			if !dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit) {
-				if j < len(matrix[i])-1 && matrix[i][j+1] == 0 {
-					// go right
-					nextRow = i
-					nextCol = j+1
-				}
-				return dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit)
-			} else {
-				return true
-			}
-		} else {
+		if matrix[nextRow][nextCol] == 1 {
 			return false
 		}
+
+		if dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit) {
+			return true
+		}
+
+		if j < len(matrix[i])-1 && matrix[i][j+1] == 0 {
+			// go right
+			nextRow = i
+			nextCol = j+1
+		}
+
+		return dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit)
 	}
 
 	if j == colEnd {
@@ -99,20 +99,21 @@ func dfs(i, j, rowStart, colStart, rowEnd, colEnd int, matrix [][]int, visit [][
 			rowEnd = i
 		}
 
-		if matrix[nextRow][nextCol] == 0 {
-			if !dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit) {
-				if i < len(matrix)-1 && matrix[i+1][j] == 0 {
-					// go down
-					nextRow = i+1
-					nextCol = j
-				}
-				return dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit)
-			} else {
-				return true
-			}
-		} else {
+		if matrix[nextRow][nextCol] == 1 {
 			return false
 		}
+
+		if dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit) {
+			return true
+		}
+
+		if i < len(matrix)-1 && matrix[i+1][j] == 0 {
+			// go down
+			nextRow = i+1
+			nextCol = j
+		}
+
+		return dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit)
 	}
 
 	if i == rowEnd {
@@ -125,11 +126,12 @@ func dfs(i, j, rowStart, colStart, rowEnd, colEnd int, matrix [][]int, visit [][
 			nextRow = i-1
 			nextCol = j
 		}
-		if matrix[nextRow][nextCol] == 0 {
-			return dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit)
-		} else {
+
+		if matrix[nextRow][nextCol] == 1 {
 			return false
 		}
+
+		return dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit)
 	}
 
 	if j == colStart {
@@ -139,11 +141,11 @@ func dfs(i, j, rowStart, colStart, rowEnd, colEnd int, matrix [][]int, visit [][
 			nextCol = j
 		}
 
-		if matrix[nextRow][nextCol] == 0 {
-			return dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit)
-		} else {
+		if matrix[nextRow][nextCol] == 1 {
 			return false
 		}
+
+		return dfs(nextRow, nextCol, rowStart, colStart, rowEnd, colEnd, matrix, visit)
 	}
 
 	return false

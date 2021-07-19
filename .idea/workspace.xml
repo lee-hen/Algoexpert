@@ -4,7 +4,6 @@
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/square_of_zeroes.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/square_of_zeroes.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/square_of_zeroes_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/square_of_zeroes_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,8 +129,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
         <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
         <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
         <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/16_square_of_zeroes" />
       </list>
