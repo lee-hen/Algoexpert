@@ -116,7 +116,7 @@ func SquareOfZeroes1(matrix [][]int) bool {
 //[0, 0, 0, 0, 0, 1],
 
 // squareOfZeroes
-// naive approach
+// naive approach  O(2n^2+2n)*n time | O(2n^2+2n)*n space
 func squareOfZeroes(matrix [][]int) bool {
 	if len(matrix) < 2 {
 		return false
@@ -153,12 +153,6 @@ func squareOfZeroes(matrix [][]int) bool {
 func dfs(i, j, rowStart, colStart, rowEnd, colEnd int, matrix [][]int) bool {
 	if i == rowStart && j == colStart {
 		return true
-	}
-
-	if i < len(matrix)-1 && j < len(matrix[i])-1 {
-		if matrix[i][j+1] == 0 && matrix[i+1][j] == 0 && matrix[i+1][j+1] == 0 {
-			return true
-		}
 	}
 
 	var nextRow, nextCol int

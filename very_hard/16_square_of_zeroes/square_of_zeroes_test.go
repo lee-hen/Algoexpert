@@ -15,7 +15,6 @@ func TestCase1(t *testing.T) {
 		{0, 1, 1, 1, 0, 1, 1},
 		{0, 1, 0, 0, 0, 1, 1},
 		{1, 1, 0, 1, 0, 1, 1},
-		{1, 1, 0, 0, 0, 1, 1},
 	}
 	require.True(t, SquareOfZeroes(input))
 }
