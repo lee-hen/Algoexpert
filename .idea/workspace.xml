@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assessments/01_glob_matching/glob_matching.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/01_glob_matching/glob_matching_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/a_star_algo_using_heap.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/hints.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/pseudo_code_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/solution_image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessments/.keep" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/a_star_algorithm.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/a_star_algorithm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/a_star_algorithm_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/a_star_algorithm_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/31_merge_sort/merge_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/31_merge_sort/merge_sort.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +69,7 @@
       <recent name="$PROJECT_DIR$/very_hard/14_longest_increasing_subsequence" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm">
+  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/31_merge_sort">
     <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
@@ -103,6 +94,18 @@
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/31_merge_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/31_merge_sort" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/31_merge_sort" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/very_hard/18_a_star_algorithm" />
@@ -113,17 +116,6 @@
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
       <method v="2" />
     </configuration>
     <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -139,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/31_merge_sort" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
         <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" />
         <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -270,6 +262,9 @@
         <watch expression="graphInfo" />
         <watch expression="neighbor[0]" />
         <watch expression="neighbor[1]" />
+        <watch expression="mid+1" />
+        <watch expression="hi" />
+        <watch expression="right[j]" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search.go" line="80">
         <watch expression="result" />
