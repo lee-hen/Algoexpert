@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/very_hard/32_count_inversions/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/32_count_inversions/question.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays/merge_sorted_arrays.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays/merge_sorted_arrays.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/32_count_inversions/count_inversions.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/32_count_inversions/count_inversions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/32_count_inversions/count_inversions_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/32_count_inversions/count_inversions_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,68 +65,68 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/32_count_inversions" />
       <recent name="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays" />
       <recent name="$PROJECT_DIR$/very_hard/18_a_star_algorithm" />
       <recent name="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
       <recent name="$PROJECT_DIR$/very_hard/16_square_of_zeroes" />
-      <recent name="$PROJECT_DIR$/very_hard/15_longest_string_chain" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/23_merge_sorted_arrays">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/32_count_inversions">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
+      <working_directory value="$PROJECT_DIR$/very_hard/32_count_inversions" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/23_merge_sorted_arrays" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays" />
+      <working_directory value="$PROJECT_DIR$/very_hard/32_count_inversions" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/23_merge_sorted_arrays" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/31_merge_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/31_merge_sort" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/31_merge_sort" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/18_a_star_algorithm" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/18_a_star_algorithm" />
+      <working_directory value="$PROJECT_DIR$/very_hard/32_count_inversions" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase3\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/32_count_inversions" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase5\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/32_count_inversions" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -131,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/23_merge_sorted_arrays" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/31_merge_sort" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
+        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
+        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
       </list>
     </recent_temporary>
   </component>
@@ -265,6 +268,14 @@
         <watch expression="mid+1" />
         <watch expression="hi" />
         <watch expression="right[j]" />
+        <watch expression="array[i]" />
+        <watch expression="array[j]" />
+        <watch expression="items" />
+        <watch expression="len(array)" />
+        <watch expression="l" />
+        <watch expression="counter" />
+        <watch expression="auxiliaryArray[m]" />
+        <watch expression="auxiliaryArray[j]" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search.go" line="80">
         <watch expression="result" />
