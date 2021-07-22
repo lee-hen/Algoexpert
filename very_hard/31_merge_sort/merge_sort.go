@@ -19,8 +19,11 @@ func mergeSortHelper(mainArray []int, startIdx, endIdx int, auxiliaryArray []int
 		return
 	}
 	middleIdx := (startIdx + endIdx) / 2
+	// sort left auxiliary array
 	mergeSortHelper(auxiliaryArray, startIdx, middleIdx, mainArray)
+	// sort right auxiliary array
 	mergeSortHelper(auxiliaryArray, middleIdx+1, endIdx, mainArray)
+	// then do merge them back to the main array
 	doMerge(mainArray, startIdx, middleIdx, endIdx, auxiliaryArray)
 }
 
