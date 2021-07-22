@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays/question.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/31_merge_sort/merge_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/31_merge_sort/merge_sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays/merge_sorted_arrays.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays/merge_sorted_arrays.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +64,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays" />
       <recent name="$PROJECT_DIR$/very_hard/18_a_star_algorithm" />
       <recent name="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
       <recent name="$PROJECT_DIR$/very_hard/16_square_of_zeroes" />
       <recent name="$PROJECT_DIR$/very_hard/15_longest_string_chain" />
-      <recent name="$PROJECT_DIR$/very_hard/14_longest_increasing_subsequence" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/31_merge_sort">
+  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/23_merge_sorted_arrays">
     <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
@@ -82,12 +84,12 @@
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/23_merge_sorted_arrays" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/18_a_star_algorithm" />
+      <working_directory value="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/23_merge_sorted_arrays" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -131,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/23_merge_sorted_arrays" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/31_merge_sort" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
         <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" />
         <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/18_a_star_algorithm" />
       </list>
     </recent_temporary>
   </component>
