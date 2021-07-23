@@ -1,9 +1,12 @@
 package linked_list
 
 type Node struct {
+	Key string
 	Value      int
 	Prev, Next *Node
 }
+
+func NewNode(key string, value int) *Node { return &Node{Key: key, Value: value} }
 
 type DoublyLinkedList struct {
 	Head, Tail *Node
@@ -116,4 +119,49 @@ func (ll *DoublyLinkedList) removeNodeBindings(node *Node) {
 	}
 	node.Prev = nil
 	node.Next = nil
+}
+
+func (ll *DoublyLinkedList) RemoveTail() {
+	if ll.Tail == nil {
+		return
+	}
+	if ll.Tail == ll.Head {
+		ll.Head, ll.Tail = nil, nil
+		return
+	}
+	ll.Tail = ll.Tail.Prev
+	ll.Tail.Next = nil
+}
+
+func (ll *DoublyLinkedList) SetHeadTo(node *Node) {
+	if ll.Head == node {
+		return
+	}
+	if ll.Head == nil {
+		ll.Head, ll.Tail = node, node
+		return
+	}
+	if ll.Head == ll.Tail {
+		ll.Tail.Prev = node
+		ll.Head = node
+		ll.Head.Next = ll.Tail
+		return
+	}
+	if ll.Tail == node {
+		ll.RemoveTail()
+	}
+	node.removeBindings()
+	ll.Head.Prev = node
+	node.Next = ll.Head
+	ll.Head = node
+}
+
+func (node *Node) removeBindings() {
+	if node.Prev != nil {
+		node.Prev.Next = node.Next
+	}
+	if node.Next != nil {
+		node.Next.Prev = node.Prev
+	}
+	node.Prev, node.Next = nil, nil
 }

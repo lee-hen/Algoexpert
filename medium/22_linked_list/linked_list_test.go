@@ -7,14 +7,14 @@ import (
 
 func TestCase1(t *testing.T) {
 	linkedList := NewDoublyLinkedList()
-	one := NewNode(1)
-	two := NewNode(2)
-	three := NewNode(3)
-	three2 := NewNode(3)
-	three3 := NewNode(3)
-	four := NewNode(4)
-	five := NewNode(5)
-	six := NewNode(6)
+	one := newNode(1)
+	two := newNode(2)
+	three := newNode(3)
+	three2 := newNode(3)
+	three3 := newNode(3)
+	four := newNode(4)
+	five := newNode(5)
+	six := newNode(6)
 	bindNodes(one, two)
 	bindNodes(two, three)
 	bindNodes(three, four)
@@ -53,8 +53,6 @@ func TestCase1(t *testing.T) {
 	require.Equal(t, true, linkedList.ContainsNodeWithValue(5))
 }
 
-func NewNode(value int) *Node { return &Node{Value: value} }
-
 func getNodeValuesHeadToTail(ll *DoublyLinkedList) []int {
 	values := []int{}
 	node := ll.Head
@@ -64,6 +62,8 @@ func getNodeValuesHeadToTail(ll *DoublyLinkedList) []int {
 	}
 	return values
 }
+
+func newNode(value int) *Node { return &Node{Value: value} }
 
 func getNodeValuesTailToHead(ll *DoublyLinkedList) []int {
 	values := []int{}

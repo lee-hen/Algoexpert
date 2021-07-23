@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/31_merge_sort/merge_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/31_merge_sort/merge_sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/rearrange_linked_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/rearrange_linked_list.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,68 +62,68 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/25_rearrange_linked_list" />
+      <recent name="$PROJECT_DIR$/very_hard/24_LRU_cache" />
       <recent name="$PROJECT_DIR$/very_hard/32_count_inversions" />
       <recent name="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays" />
       <recent name="$PROJECT_DIR$/very_hard/18_a_star_algorithm" />
-      <recent name="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
-      <recent name="$PROJECT_DIR$/very_hard/16_square_of_zeroes" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/31_merge_sort">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/31_merge_sort" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/31_merge_sort" />
+      <working_directory value="$PROJECT_DIR$/very_hard/25_rearrange_linked_list" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/31_merge_sort" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/32_count_inversions" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/32_count_inversions" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/32_count_inversions" />
+      <working_directory value="$PROJECT_DIR$/very_hard/25_rearrange_linked_list" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/32_count_inversions" />
+      <working_directory value="$PROJECT_DIR$/very_hard/25_rearrange_linked_list" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase4\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/25_rearrange_linked_list" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase5\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/25_rearrange_linked_list" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -131,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/31_merge_sort" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
+        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
+        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
+        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
       </list>
     </recent_temporary>
   </component>
@@ -164,122 +164,13 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <default-breakpoints>
-        <breakpoint type="DlvErrorBreakpoint" />
+        <breakpoint suspend="NONE" type="DlvErrorBreakpoint" />
       </default-breakpoints>
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
-        <watch expression="b.x" />
-        <watch expression="a.x" />
-        <watch expression="float64(b.y - a.y)" />
-        <watch expression="float64(b.x - a.x)" />
-        <watch expression="root" />
-        <watch expression="tree" />
-        <watch expression="currentNode.Right" language="go" />
-        <watch expression="current.Parent" />
-        <watch expression="current" />
-        <watch expression="current.Right" />
-        <watch expression="previousLeft" />
-        <watch expression="previous" />
-        <watch expression="current.Value" />
-        <watch expression="current.Left" />
-        <watch expression="previous.Parent" language="go" />
-        <watch expression="output" />
-        <watch expression="callback" />
-        <watch expression="current.Parent == previous" />
-        <watch expression="current.Left == previous " />
-        <watch expression="*(*&quot;github.com/lee-hen/Algoexpert/very_hard/08_flatten_binary_tree.BinaryTree&quot;)(824633779680)" />
-        <watch expression="left" />
-        <watch expression="tree.Right" />
-        <watch expression="successor" />
-        <watch expression="right" />
-        <watch expression="root.Right" />
-        <watch expression="curr" />
-        <watch expression="predecessor" />
-        <watch expression="successor.Right" />
-        <watch expression="left.Right" />
-        <watch expression="left.Left" />
-        <watch expression="price" />
-        <watch expression="maxPrice" />
-        <watch expression="i" />
-        <watch expression="kthMinPrice[j]" />
-        <watch expression="minPrice" />
-        <watch expression="kthMinPrice" />
-        <watch expression="prices[i] - prevMinVal + prevProfit" />
-        <watch expression="prevMinVal" />
-        <watch expression="prevProfit" />
-        <watch expression="prices[i]" />
-        <watch expression="prices[i] - prevMinVal" />
-        <watch expression="prevMinIdx" />
-        <watch expression="i-1" />
-        <watch expression="newIdx" />
-        <watch expression="i-1 &gt; newIdx" />
-        <watch expression="profits[j-1][i]" />
-        <watch expression="profits[j-1][i-1] " />
-        <watch expression="i := minIdx+1" />
-        <watch expression="profits[j-1][i] &gt; profits[j-1][i-1]" />
-        <watch expression="profits[j-1][i-1]" />
-        <watch expression="currProfit" />
-        <watch expression="currMinVal" />
-        <watch expression="profits[j][i]" />
-        <watch expression="prices[i] - currMinVal" />
-        <watch expression="prices[prevMinIdx]" />
-        <watch expression="currProfit + profits[j-1][prevMinIdx]" />
-        <watch expression="profits[j-1][prevMinIdx]" />
-        <watch expression="j-1" />
-        <watch expression="j" />
-        <watch expression="currMinIdx" />
-        <watch expression="profits[j-1][minIdx]" />
-        <watch expression="minIdx" />
-        <watch expression="profits[j-1][i] " />
-        <watch expression="minVal" />
-        <watch expression="price - minVal" />
-        <watch expression="result" />
-        <watch expression="result[palindromeLeftIdx-1]" />
-        <watch expression="depth" />
-        <watch expression="str" />
-        <watch expression="length" />
-        <watch expression="lengthOfStringChain[i]" />
-        <watch expression="lengthOfStringChain[j]" />
-        <watch expression="matrix[i][j+1]" />
-        <watch expression="matrix[i+1][j]" />
-        <watch expression="matrix[i+1][j+1]" />
-        <watch expression="j+1" />
-        <watch expression="matrix[nextRow][nextCol]" />
-        <watch expression="nextRow" />
-        <watch expression="nextCol" />
-        <watch expression="matrix[i-1][j]" />
-        <watch expression="visit" />
-        <watch expression="k" />
-        <watch expression="traceIndices[k]" />
-        <watch expression="k+1" />
-        <watch expression="substr[j]" />
-        <watch expression="substr[i]" />
-        <watch expression="substr[k+1]" />
-        <watch expression="str[i]" />
-        <watch expression="substr[i] " />
-        <watch expression="neighbors" />
-        <watch expression="graphInfo" />
-        <watch expression="neighbor[0]" />
-        <watch expression="neighbor[1]" />
-        <watch expression="mid+1" />
-        <watch expression="hi" />
-        <watch expression="right[j]" />
-        <watch expression="array[i]" />
-        <watch expression="array[j]" />
-        <watch expression="items" />
-        <watch expression="len(array)" />
-        <watch expression="l" />
-        <watch expression="counter" />
-        <watch expression="auxiliaryArray[m]" />
-        <watch expression="auxiliaryArray[j]" />
+        <watch expression="cache.ll" />
       </configuration>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/hard/45_multi_string_search/multi_string_search.go" line="80">
-        <watch expression="result" />
-      </inline-watch>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm/knuth_morris_pratt_algorithm.go" line="98">
-        <watch expression="j" />
-      </inline-watch>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
