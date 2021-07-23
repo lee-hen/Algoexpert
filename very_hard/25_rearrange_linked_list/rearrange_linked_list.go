@@ -145,3 +145,31 @@ func rearrangeLinkedList(head *LinkedList, k int) *LinkedList {
 
 	return head
 }
+
+type LinkedListInfo struct {
+	outerNodesAreEqual bool
+	leftNodeToCompare  *LinkedList
+}
+
+// LinkedListPalindrome1
+// O(n) time | O(n) space - where n is the number of nodes in the Linked List
+func LinkedListPalindrome1(head *LinkedList) bool {
+	isPalindromeResults := isPalindrome(head, head)
+	return isPalindromeResults.outerNodesAreEqual
+}
+
+func isPalindrome(leftNode *LinkedList, rightNode *LinkedList) LinkedListInfo {
+	if rightNode == nil {
+		return LinkedListInfo{true, leftNode}
+	}
+
+	recursiveCallResults := isPalindrome(leftNode, rightNode.Next)
+	leftNodeToCompare := recursiveCallResults.leftNodeToCompare
+	outerNodesAreEqual := recursiveCallResults.outerNodesAreEqual
+
+	recursiveIsEqual := outerNodesAreEqual && leftNodeToCompare.Value == rightNode.Value
+	nextLeftNodeToCompare := leftNodeToCompare.Next
+
+	return LinkedListInfo{recursiveIsEqual, nextLeftNodeToCompare}
+}
+
