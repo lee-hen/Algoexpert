@@ -172,4 +172,3 @@ func isPalindrome(leftNode *LinkedList, rightNode *LinkedList) LinkedListInfo {
 
 	return LinkedListInfo{recursiveIsEqual, nextLeftNodeToCompare}
 }
-
