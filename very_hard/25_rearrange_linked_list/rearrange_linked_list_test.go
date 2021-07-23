@@ -121,4 +121,3 @@ func TestCase5(t *testing.T) {
 	expected := []int{0, 2, 3, 3, 3, 3, 4, 5, 6, 7, 8, 9}
 	require.Equal(t, expected, array)
 }
-
