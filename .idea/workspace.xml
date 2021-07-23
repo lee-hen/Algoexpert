@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/question.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/24_LRU_cache/lru.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/24_LRU_cache/lru.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/rearrange_linked_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/rearrange_linked_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/rearrange_linked_list_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/rearrange_linked_list_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,59 +65,60 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/25_rearrange_linked_list" />
       <recent name="$PROJECT_DIR$/very_hard/24_LRU_cache" />
       <recent name="$PROJECT_DIR$/very_hard/32_count_inversions" />
       <recent name="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays" />
       <recent name="$PROJECT_DIR$/very_hard/18_a_star_algorithm" />
-      <recent name="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/24_LRU_cache">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/medium/22_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/medium/22_linked_list" />
+      <working_directory value="$PROJECT_DIR$/very_hard/25_rearrange_linked_list" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/medium/22_linked_list" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/24_LRU_cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/24_LRU_cache" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/24_LRU_cache" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/24_LRU_cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/24_LRU_cache" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/24_LRU_cache" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/24_LRU_cache" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/24_LRU_cache" />
+      <working_directory value="$PROJECT_DIR$/very_hard/25_rearrange_linked_list" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/24_LRU_cache" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
+      <pattern value="^\QTestCase3\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/25_rearrange_linked_list" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase4\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/25_rearrange_linked_list" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase5\E$" />
       <method v="2" />
     </configuration>
     <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -130,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/24_LRU_cache" />
         <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/24_LRU_cache" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/24_LRU_cache" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/medium/22_linked_list" />
+        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
+        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
+        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
       </list>
     </recent_temporary>
   </component>
