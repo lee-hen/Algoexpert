@@ -68,7 +68,7 @@ func (cache *LRUCache) evictLeastRecent() {
 }
 
 func (cache *LRUCache) updateMostRecent(node *ll.Node) {
-	cache.listOfMostRecent.SetHead(node)
+	cache.listOfMostRecent.SetHeadTo(node)
 }
 
 func (cache *LRUCache) replaceKey(key string, value int) {

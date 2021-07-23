@@ -132,3 +132,36 @@ func (ll *DoublyLinkedList) RemoveTail() {
 	ll.Tail = ll.Tail.Prev
 	ll.Tail.Next = nil
 }
+
+func (ll *DoublyLinkedList) SetHeadTo(node *Node) {
+	if ll.Head == node {
+		return
+	}
+	if ll.Head == nil {
+		ll.Head, ll.Tail = node, node
+		return
+	}
+	if ll.Head == ll.Tail {
+		ll.Tail.Prev = node
+		ll.Head = node
+		ll.Head.Next = ll.Tail
+		return
+	}
+	if ll.Tail == node {
+		ll.RemoveTail()
+	}
+	node.removeBindings()
+	ll.Head.Prev = node
+	node.Next = ll.Head
+	ll.Head = node
+}
+
+func (node *Node) removeBindings() {
+	if node.Prev != nil {
+		node.Prev.Next = node.Next
+	}
+	if node.Next != nil {
+		node.Next.Prev = node.Prev
+	}
+	node.Prev, node.Next = nil, nil
+}
