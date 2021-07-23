@@ -1,9 +1,12 @@
 package linked_list
 
 type Node struct {
+	Key string
 	Value      int
 	Prev, Next *Node
 }
+
+func NewNode(key string, value int) *Node { return &Node{Key: key, Value: value} }
 
 type DoublyLinkedList struct {
 	Head, Tail *Node
@@ -116,4 +119,16 @@ func (ll *DoublyLinkedList) removeNodeBindings(node *Node) {
 	}
 	node.Prev = nil
 	node.Next = nil
+}
+
+func (ll *DoublyLinkedList) RemoveTail() {
+	if ll.Tail == nil {
+		return
+	}
+	if ll.Tail == ll.Head {
+		ll.Head, ll.Tail = nil, nil
+		return
+	}
+	ll.Tail = ll.Tail.Prev
+	ll.Tail.Next = nil
 }
