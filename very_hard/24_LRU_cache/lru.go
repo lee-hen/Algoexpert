@@ -34,7 +34,6 @@ func (cache *lruCache) InsertKeyValuePair(key string, value int) {
 
 	if node, ok := cache.nodes[key]; ok {
 		cache.ll.Remove(node)
-		delete(cache.nodes, node.Key)
 	} else if len(cache.nodes) == cache.maxSize {
 		node = cache.ll.Tail
 		cache.ll.RemoveTail()
