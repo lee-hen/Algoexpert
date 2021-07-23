@@ -7,23 +7,27 @@ type LinkedList struct {
 
 // RearrangeLinkedList
 // O(n) time | O(1) space - where n is the number of nodes in the Linked List
+// This approach just like dynamic programming.
 func RearrangeLinkedList(head *LinkedList, k int) *LinkedList {
 	var smallerListHead, smallerListTail *LinkedList
 	var equalListHead, equalListTail *LinkedList
 	var greaterListHead, greaterListTail *LinkedList
 
-	node := head
-	for node != nil {
-		if node.Value < k {
-			smallerListHead, smallerListTail = growLinkedList(smallerListHead, smallerListTail, node)
-		} else if node.Value > k {
-			greaterListHead, greaterListTail = growLinkedList(greaterListHead, greaterListTail, node)
+	curr := head
+	for curr != nil {
+		if curr.Value < k {
+			// previous smaller node will point to the curr node
+			smallerListHead, smallerListTail = growLinkedList(smallerListHead, smallerListTail, curr)
+		} else if curr.Value > k {
+			// previous larger node will point to the curr node
+			greaterListHead, greaterListTail = growLinkedList(greaterListHead, greaterListTail, curr)
 		} else {
-			equalListHead, equalListTail = growLinkedList(equalListHead, equalListTail, node)
+			// previous equal node will point to the curr node
+			equalListHead, equalListTail = growLinkedList(equalListHead, equalListTail, curr)
 		}
 
-		prevNode := node
-		node = node.Next
+		prevNode := curr
+		curr = curr.Next
 		prevNode.Next = nil
 	}
 
@@ -32,6 +36,12 @@ func RearrangeLinkedList(head *LinkedList, k int) *LinkedList {
 	return finalHead
 }
 
+// does not change the node.next
+// ex.
+// find the smaller node when newHead (smallerListHead) is nil then change the newHead point to the node
+// and change newTail (smallerListTail) point the node and return -> caller will replace smallerListHead and smallerListTail and new's ones
+// next time change the tail's (previous node) next pointer to the new node(curr)
+// so the loop doesn't change the curr.next pointer so this implementation does require space only O(1)
 func growLinkedList(head, tail, node *LinkedList) (*LinkedList, *LinkedList) {
 	newHead, newTail := head, node
 	if newHead == nil {
