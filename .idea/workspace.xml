@@ -2,9 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/very_hard/27_zip_linked_list/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/27_zip_linked_list/question.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/rearrange_linked_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/rearrange_linked_list.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/26_linked_list_palindrome/linked_list_palindrome.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/26_linked_list_palindrome/linked_list_palindrome.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A-Z.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/a〜z.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/27_zip_linked_list/zip_linked_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/27_zip_linked_list/zip_linked_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/27_zip_linked_list/zip_linked_list_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/27_zip_linked_list/zip_linked_list_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,20 +67,20 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/27_zip_linked_list" />
       <recent name="$PROJECT_DIR$/very_hard/26_linked_list_palindrome" />
       <recent name="$PROJECT_DIR$/very_hard/25_rearrange_linked_list" />
       <recent name="$PROJECT_DIR$/very_hard/24_LRU_cache" />
       <recent name="$PROJECT_DIR$/very_hard/32_count_inversions" />
-      <recent name="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/26_linked_list_palindrome">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/26_linked_list_palindrome" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/26_linked_list_palindrome" />
+      <working_directory value="$PROJECT_DIR$/very_hard/27_zip_linked_list" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/26_linked_list_palindrome" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -95,27 +99,16 @@
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/25_rearrange_linked_list" />
+      <working_directory value="$PROJECT_DIR$/very_hard/27_zip_linked_list" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase5\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/25_rearrange_linked_list" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
+      <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
     <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/26_linked_list_palindrome" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -129,13 +122,24 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/27_zip_linked_list" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list" />
         <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/26_linked_list_palindrome" />
         <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/26_linked_list_palindrome" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/26_linked_list_palindrome" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
-        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/very_hard/25_rearrange_linked_list" />
       </list>
     </recent_temporary>
   </component>
@@ -174,6 +178,10 @@
         <watch expression="curr" />
         <watch expression="tail" />
         <watch expression="curr.Next" />
+        <watch expression="firstHalfNode" />
+        <watch expression="secondHalfNode" />
+        <watch expression="slowNode" />
+        <watch expression="fastNode" />
       </configuration>
     </watches-manager>
   </component>
