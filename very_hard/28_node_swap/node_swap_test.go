@@ -13,6 +13,13 @@ func TestCase1(t *testing.T) {
 	require.Equal(t, expected, actual.Values())
 }
 
+func TestCase2(t *testing.T) {
+	head := addMany(&LinkedList{Value: 0}, []int{1, 2, 3, 4})
+	expected := []int{1, 0, 3, 2, 4}
+	actual := NodeSwap(head)
+	require.Equal(t, expected, actual.Values())
+}
+
 func addMany(ll *LinkedList, values []int) *LinkedList {
 	current := ll
 	for _, val := range values {
