@@ -14,6 +14,14 @@ func TestCase1(t *testing.T) {
 	require.Equal(t, expected, result)
 }
 
+func TestCase2(t *testing.T) {
+	input := addMany(&LinkedList{Value: 1}, []int{2, 3, 4, 5})
+	expected := []int{1, 5, 2, 4, 3}
+	actual := ZipLinkedList(input)
+	result := getValues(actual)
+	require.Equal(t, expected, result)
+}
+
 func addMany(linkedList *LinkedList, values []int) *LinkedList {
 	current := linkedList
 	for current.Next != nil {
@@ -27,7 +35,7 @@ func addMany(linkedList *LinkedList, values []int) *LinkedList {
 }
 
 func getValues(linkedList *LinkedList) []int {
-	values := []int{}
+	values := make([]int, 0)
 	current := linkedList
 	for current != nil {
 		values = append(values, current.Value)
