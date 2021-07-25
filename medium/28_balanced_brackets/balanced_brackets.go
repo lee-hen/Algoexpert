@@ -76,3 +76,18 @@ func balancedBrackets(s string) bool {
 
 	return len(brackets) == 0
 }
+
+// if no other characters
+//func isBalanced(str string) bool {
+//	openParensStack := make([]rune, 0)
+//	for _, char := range str {
+//		if char == '(' || char == '[' || char == '{' {
+//			openParensStack = append(openParensStack, char)
+//		} else if len(openParensStack) > 0  {
+//			openParensStack = openParensStack[:len(openParensStack)-1]
+//		} else {
+//			return false
+//		}
+//	}
+//	return len(openParensStack) == 0
+//}

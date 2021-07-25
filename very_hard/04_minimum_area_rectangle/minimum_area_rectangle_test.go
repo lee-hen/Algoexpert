@@ -84,18 +84,3 @@ func TestCase5(t *testing.T) {
 	actual := MinimumAreaRectangle(input)
 	require.Equal(t, expected, actual)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

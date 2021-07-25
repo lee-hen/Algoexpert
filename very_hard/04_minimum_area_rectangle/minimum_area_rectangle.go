@@ -110,9 +110,8 @@ func initializeColumns(points [][]int) map[int][]int {
 	return columns
 }
 
-
-
-
+// minimumAreaRectangle
+// my solution
 func minimumAreaRectangle(points [][]int) int {
 	sort.Slice(points, func(i, j int) bool {
 		return points[i][0] < points[j][0]
