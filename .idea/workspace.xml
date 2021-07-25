@@ -2,7 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/solution_image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/solution_image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/solution_image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/solution_image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/solution_image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/solution_image6.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/smallest_substring_containing.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/smallest_substring_containing.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/smallest_substring_containing_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/smallest_substring_containing_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,67 +71,68 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/33_smallest_substring_containing" />
+      <recent name="$PROJECT_DIR$/very_hard/31_merge_sort" />
       <recent name="$PROJECT_DIR$/very_hard/28_node_swap" />
       <recent name="$PROJECT_DIR$/very_hard/27_zip_linked_list" />
       <recent name="$PROJECT_DIR$/very_hard/26_linked_list_palindrome" />
-      <recent name="$PROJECT_DIR$/very_hard/25_rearrange_linked_list" />
-      <recent name="$PROJECT_DIR$/very_hard/24_LRU_cache" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/28_node_swap">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/28_node_swap" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing">
+    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/28_node_swap" />
+      <working_directory value="$PROJECT_DIR$/very_hard/33_smallest_substring_containing" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/28_node_swap" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
+      <pattern value="^\QTestCase4\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/27_zip_linked_list" />
+      <working_directory value="$PROJECT_DIR$/very_hard/33_smallest_substring_containing" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase2\E$" />
+      <pattern value="^\QTestCase5\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/28_node_swap" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/28_node_swap" />
+      <working_directory value="$PROJECT_DIR$/very_hard/33_smallest_substring_containing" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/28_node_swap" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase2\E$" />
+      <pattern value="^\QTestCase6\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase7 in github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/27_zip_linked_list" />
+      <working_directory value="$PROJECT_DIR$/very_hard/33_smallest_substring_containing" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
+      <pattern value="^\QTestCase7\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/28_node_swap" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/28_node_swap" />
+      <working_directory value="$PROJECT_DIR$/very_hard/33_smallest_substring_containing" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/28_node_swap" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -129,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/28_node_swap" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/28_node_swap" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/28_node_swap" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/27_zip_linked_list" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing" />
+        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing" />
+        <item itemvalue="Go Test.TestCase7 in github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing" />
+        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing" />
+        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing" />
       </list>
     </recent_temporary>
   </component>
@@ -176,6 +187,28 @@
         <watch expression="secondHalfNode" />
         <watch expression="slowNode" />
         <watch expression="fastNode" />
+        <watch expression="rightIdx" />
+        <watch expression="leftIdx" />
+        <watch expression="indicesHeap" />
+        <watch expression="currLen" />
+        <watch expression="isMatchLeftIdx" />
+        <watch expression="matchedIdx" />
+        <watch expression="str" />
+        <watch expression="smallStr" />
+        <watch expression="i" />
+        <watch expression="smallStr[str][idx]" />
+        <watch expression="indicesHeap[0]" />
+        <watch expression="rightIdx - leftIdx" />
+        <watch expression="tempLeftIdx" />
+        <watch expression="tempRightIdx" />
+        <watch expression="firstMatch" />
+        <watch expression="indices" />
+        <watch expression="idx" />
+        <watch expression="indicesHeapPosition" />
+        <watch expression="position" />
+        <watch expression="smallStr[str][0]" />
+        <watch expression="rightIdx-leftIdx" />
+        <watch expression="nextLeftIdx" />
       </configuration>
     </watches-manager>
   </component>
@@ -183,5 +216,6 @@
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase4_in_github_com_lee_hen_Algoexpert_very_hard_12_max_profit_with_k_transactions.out" NAME="TestCase4 in github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions Coverage Results" MODIFIED="1626439417779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase1_in_github_com_lee_hen_Algoexpert_medium_55_next_greater_element.out" NAME="TestCase1 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element Coverage Results" MODIFIED="1623474222585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase3_in_github_com_lee_hen_Algoexpert_hard_33_ambiguous_measurements.out" NAME="TestCase3 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements Coverage Results" MODIFIED="1624082014230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Algoexpert$go_test_github_com_lee_hen_Algoexpert_very_hard_33_smallest_substring_containing.out" NAME="go test github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing Coverage Results" MODIFIED="1627172912752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
