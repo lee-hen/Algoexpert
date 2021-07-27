@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/notes.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/minimum_area_rectangle.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/minimum_area_rectangle.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/minimum_area_rectangle_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/minimum_area_rectangle_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/very_hard/19_rectangle_mania/rectangle_mania.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/19_rectangle_mania/rectangle_mania.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/very_hard/19_rectangle_mania/rectangle_mania_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/19_rectangle_mania/rectangle_mania_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,51 +82,51 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/20_detect_arbitrage" />
       <recent name="$PROJECT_DIR$/very_hard/34_longest_balanced_substring" />
       <recent name="$PROJECT_DIR$/very_hard/33_smallest_substring_containing" />
       <recent name="$PROJECT_DIR$/very_hard/31_merge_sort" />
       <recent name="$PROJECT_DIR$/very_hard/28_node_swap" />
-      <recent name="$PROJECT_DIR$/very_hard/27_zip_linked_list" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/19_rectangle_mania" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/34_longest_balanced_substring" />
+      <working_directory value="$PROJECT_DIR$/very_hard/19_rectangle_mania" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/19_rectangle_mania" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/34_longest_balanced_substring" />
+      <working_directory value="$PROJECT_DIR$/very_hard/20_detect_arbitrage" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/20_detect_arbitrage" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/34_longest_balanced_substring" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase3\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle" />
       <root_directory value="$PROJECT_DIR$" />
@@ -118,15 +135,14 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase6\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/34_longest_balanced_substring" />
+      <working_directory value="$PROJECT_DIR$/very_hard/20_detect_arbitrage" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -134,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" />
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/19_rectangle_mania" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" />
       </list>
     </recent_temporary>
   </component>
@@ -205,6 +221,14 @@
         <watch expression="nextLeftIdx" />
         <watch expression="str[idx]" />
         <watch expression="brackets" />
+        <watch expression="currentExchange" />
+        <watch expression="exchangeRates[idx][i]" />
+        <watch expression="exchangeRates[idx][currencyUnit]" />
+        <watch expression="currentExchange * exchangeRates[idx][currencyUnit]" />
+        <watch expression="exchangeRates[i][currencyUnit]" />
+        <watch expression="currentExchange * exchangeRates[idx][i] * exchangeRates[i][currencyUnit]" />
+        <watch expression="exchangeRates[i]" />
+        <watch expression="currentExchange * exchangeRates[idx][i]" />
       </configuration>
     </watches-manager>
   </component>

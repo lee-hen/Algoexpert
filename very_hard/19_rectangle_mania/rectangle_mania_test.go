@@ -19,5 +19,5 @@ func TestCase1(t *testing.T) {
 		{0, 2},
 		{1, 2},
 	}
-	require.Equal(t, 8, RectangleMania(coords))
+	require.Equal(t, 8, rectangleMania(coords))
 }

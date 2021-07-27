@@ -12,6 +12,7 @@ const (
 	Right
 )
 
+// RectangleMania
 // O(n^2) time | O(n) space - where n is the number of coordinates
 func RectangleMania(coords [][]int) int {
 	coordsTable := getCoordsTable(coords)
@@ -55,6 +56,7 @@ func coordToString(coord []int) string {
 	return fmt.Sprintf("%d-%d", coord[0], coord[1])
 }
 
+// RectangleMania2
 // O(n^2) time | O(n) space - where n is the number of coordinates
 func RectangleMania2(coords [][]int) int {
 	coordsTable := getCoordsTable2(coords)
@@ -123,6 +125,7 @@ func clockwiseCountRectangles2(coord []int, coordsTable CoordsTable2, direction 
 	return 0
 }
 
+// RectangleMania1
 // O(n^2) time | O(n^2) space - where n is the number of coordinates
 func RectangleMania1(coords [][]int) int {
 	coordsTable := getCoordsTable1(coords)

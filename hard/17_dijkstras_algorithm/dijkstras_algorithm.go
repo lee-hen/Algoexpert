@@ -11,6 +11,7 @@ import (
 //[],
 //[],
 
+// https://www.quora.com/Why-doesnt-Dijkstra-work-with-negative-weight-graphs
 func dijkstrasAlgorithm(start int, edges [][][]int) []int {
 	shortestPaths := make([]int, len(edges))
 	for i := range edges {
@@ -31,9 +32,7 @@ func dijkstrasHelper(shortestPaths []int, edges [][][]int) {
 			break
 		}
 
-		edge := edges[currNode]
-
-		for _, pair := range edge {
+		for _, pair := range edges[currNode] {
 			dist := pair[0]
 			distance := pair[1]
 			shortestPaths[dist] = min(shortestPaths[dist], distance+currShortest)
