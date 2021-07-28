@@ -2,28 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/hints.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/notes.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/solution_image9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/back_edge.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/back_edge1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/back_edge2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/solution_image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/solution_image10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/solution_image11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/solution_image2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/solution_image3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/solution_image4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/solution_image5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/solution_image6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/solution_image7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/solution_image8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/solution_image9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/tree_edge.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/19_rectangle_mania/rectangle_mania.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/19_rectangle_mania/rectangle_mania.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/19_rectangle_mania/rectangle_mania_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/19_rectangle_mania/rectangle_mania_test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/two_edge_connected_graph.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/two_edge_connected_graph.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/two_edge_connected_graph_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/two_edge_connected_graph_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,67 +78,68 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
       <recent name="$PROJECT_DIR$/very_hard/20_detect_arbitrage" />
       <recent name="$PROJECT_DIR$/very_hard/34_longest_balanced_substring" />
       <recent name="$PROJECT_DIR$/very_hard/33_smallest_substring_containing" />
       <recent name="$PROJECT_DIR$/very_hard/31_merge_sort" />
-      <recent name="$PROJECT_DIR$/very_hard/28_node_swap" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/19_rectangle_mania" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/19_rectangle_mania" />
+      <working_directory value="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/19_rectangle_mania" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/20_detect_arbitrage" />
+      <working_directory value="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/20_detect_arbitrage" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle" />
+      <working_directory value="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
+      <pattern value="^\QTestCase6\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase7 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/20_detect_arbitrage" />
+      <working_directory value="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase7\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -150,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/20_detect_arbitrage" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/19_rectangle_mania" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/04_minimum_area_rectangle" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
+        <item itemvalue="Go Test.TestCase7 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
+        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
       </list>
     </recent_temporary>
   </component>
@@ -188,47 +185,18 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
-        <watch expression="cache.ll" />
-        <watch expression="head" />
-        <watch expression="curr" />
-        <watch expression="tail" />
-        <watch expression="curr.Next" />
-        <watch expression="firstHalfNode" />
-        <watch expression="secondHalfNode" />
-        <watch expression="slowNode" />
-        <watch expression="fastNode" />
-        <watch expression="rightIdx" />
-        <watch expression="leftIdx" />
-        <watch expression="indicesHeap" />
-        <watch expression="currLen" />
-        <watch expression="isMatchLeftIdx" />
-        <watch expression="matchedIdx" />
-        <watch expression="str" />
-        <watch expression="smallStr" />
-        <watch expression="i" />
-        <watch expression="smallStr[str][idx]" />
-        <watch expression="indicesHeap[0]" />
-        <watch expression="rightIdx - leftIdx" />
-        <watch expression="tempLeftIdx" />
-        <watch expression="tempRightIdx" />
-        <watch expression="firstMatch" />
-        <watch expression="indices" />
+        <watch expression="edges[idx][i]" />
         <watch expression="idx" />
-        <watch expression="indicesHeapPosition" />
-        <watch expression="position" />
-        <watch expression="smallStr[str][0]" />
-        <watch expression="rightIdx-leftIdx" />
-        <watch expression="nextLeftIdx" />
-        <watch expression="str[idx]" />
-        <watch expression="brackets" />
-        <watch expression="currentExchange" />
-        <watch expression="exchangeRates[idx][i]" />
-        <watch expression="exchangeRates[idx][currencyUnit]" />
-        <watch expression="currentExchange * exchangeRates[idx][currencyUnit]" />
-        <watch expression="exchangeRates[i][currencyUnit]" />
-        <watch expression="currentExchange * exchangeRates[idx][i] * exchangeRates[i][currencyUnit]" />
-        <watch expression="exchangeRates[i]" />
-        <watch expression="currentExchange * exchangeRates[idx][i]" />
+        <watch expression="ancestor" />
+        <watch expression="previous" />
+        <watch expression="isBackEdge" />
+        <watch expression="dfs(i, i, i-1, i-1, edges, visited)" />
+        <watch expression="edges[idx][i] " />
+        <watch expression="start" />
+        <watch expression="visited" />
+        <watch expression="visited[edges[idx][i]]" />
+        <watch expression="!visited[ancestor] " />
+        <watch expression="ancestor == idx" />
       </configuration>
     </watches-manager>
   </component>
