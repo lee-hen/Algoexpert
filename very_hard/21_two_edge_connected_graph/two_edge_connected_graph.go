@@ -85,7 +85,7 @@ func twoEdgeConnectedGraph(edges [][]int) bool {
 	return true
 }
 
-func dfs(idx, start, previous, ancestor int, edges [][]int, visited []bool) bool {
+func dfs(idx, start, parent, successor int, edges [][]int, visited []bool) bool {
 	if visited[edges[start][len(edges[start])-1]] {
 		return true
 	}
@@ -93,26 +93,26 @@ func dfs(idx, start, previous, ancestor int, edges [][]int, visited []bool) bool
 	var comeBackThroughSuccessor bool
 
 	for i := 0; i < len(edges[idx]); i++ {
-		if edges[idx][i] == previous || idx == start && visited[edges[idx][i]]  {
+		if edges[idx][i] == parent || idx == start && visited[edges[idx][i]]  {
 			continue
 		}
 
-		if ancestor != previous && ancestor == idx && edges[idx][i] == start {
+		if successor != parent && successor == idx && edges[idx][i] == start {
 			return false
 		}
 
 		if edges[idx][i] == start || visited[edges[idx][i]] {
 			visited[start] = true
-			visited[ancestor] = true
+			visited[successor] = true
 			visited[idx] = true
 			return true
 		}
 
 		if idx == start {
-			ancestor = edges[idx][i]
+			successor = edges[idx][i]
 		}
 
-		comeBackThroughSuccessor = dfs(edges[idx][i], start, idx, ancestor, edges, visited)
+		comeBackThroughSuccessor = dfs(edges[idx][i], start, idx, successor, edges, visited)
 	}
 	return comeBackThroughSuccessor
 }
