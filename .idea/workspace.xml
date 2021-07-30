@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/not_work_with_negative_weight_edges.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/22_airport_connections/graph_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/22_airport_connections/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/22_airport_connections/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/22_airport_connections/solution_image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/two_edge_connected_graph.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/two_edge_connected_graph.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/22_airport_connections/airport_connections.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/22_airport_connections/airport_connections.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,14 +68,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/22_airport_connections" />
+      <recent name="$PROJECT_DIR$/hard/17_dijkstras_algorithm" />
       <recent name="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
       <recent name="$PROJECT_DIR$/very_hard/20_detect_arbitrage" />
       <recent name="$PROJECT_DIR$/very_hard/34_longest_balanced_substring" />
-      <recent name="$PROJECT_DIR$/very_hard/33_smallest_substring_containing" />
-      <recent name="$PROJECT_DIR$/very_hard/31_merge_sort" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/22_airport_connections">
     <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
@@ -82,28 +88,16 @@
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
+      <working_directory value="$PROJECT_DIR$/very_hard/22_airport_connections" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase2\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase6\E$" />
+      <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCase7 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -129,13 +123,24 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/22_airport_connections" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" />
         <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
         <item itemvalue="Go Test.TestCase7 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
-        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
       </list>
     </recent_temporary>
   </component>
@@ -169,18 +174,11 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
-        <watch expression="edges[idx][i]" />
-        <watch expression="idx" />
-        <watch expression="ancestor" />
-        <watch expression="previous" />
-        <watch expression="isBackEdge" />
-        <watch expression="dfs(i, i, i-1, i-1, edges, visited)" />
-        <watch expression="edges[idx][i] " />
-        <watch expression="start" />
-        <watch expression="visited" />
-        <watch expression="visited[edges[idx][i]]" />
-        <watch expression="!visited[ancestor] " />
-        <watch expression="ancestor == idx" />
+        <watch expression="destination" />
+        <watch expression="startingAirportNode" />
+        <watch expression="airportNode.Score" />
+        <watch expression="airportNode" />
+        <watch expression="unReachableAirports" />
       </configuration>
     </watches-manager>
   </component>
