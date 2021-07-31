@@ -16,3 +16,14 @@ func TestCase1(t *testing.T) {
 	actual := DetectArbitrage(input)
 	require.Equal(t, expected, actual)
 }
+
+func TestCase2(t *testing.T) {
+	input := [][]float64{
+		{1.0, 1.27, 0.718},
+		{0.74,  1.0,  0.56},
+		{1.39, 1.77,   1.0},
+	}
+	expected := false
+	actual := DetectArbitrage(input)
+	require.Equal(t, expected, actual)
+}

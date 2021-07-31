@@ -12,3 +12,10 @@ func TestCase1(t *testing.T) {
 	actual := NonAttackingQueens(input)
 	require.Equal(t, expected, actual)
 }
+
+func TestCase2(t *testing.T) {
+	input := 5
+	expected := 10
+	actual := NonAttackingQueens(input)
+	require.Equal(t, expected, actual)
+}

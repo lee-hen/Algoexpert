@@ -31,9 +31,7 @@ func dijkstrasHelper(shortestPaths []int, edges [][][]int) {
 			break
 		}
 
-		edge := edges[currNode]
-
-		for _, pair := range edge {
+		for _, pair := range edges[currNode] {
 			dist := pair[0]
 			distance := pair[1]
 			shortestPaths[dist] = min(shortestPaths[dist], distance+currShortest)
