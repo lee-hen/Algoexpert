@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/not_work_with_negative_weight_edges.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/22_airport_connections/graph_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/22_airport_connections/hints.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/22_airport_connections/question.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/22_airport_connections/solution_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/solution_image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/solution_image1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/22_airport_connections/airport_connections.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/22_airport_connections/airport_connections.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/non_attacking_queens.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/non_attacking_queens.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/non_attacking_queens_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/non_attacking_queens_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,26 +65,14 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/30_non_attacking_queens" />
       <recent name="$PROJECT_DIR$/very_hard/22_airport_connections" />
       <recent name="$PROJECT_DIR$/hard/17_dijkstras_algorithm" />
       <recent name="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
       <recent name="$PROJECT_DIR$/very_hard/20_detect_arbitrage" />
-      <recent name="$PROJECT_DIR$/very_hard/34_longest_balanced_substring" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/22_airport_connections">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens">
     <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/very_hard/22_airport_connections" />
@@ -100,27 +85,28 @@
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase7 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
+      <working_directory value="$PROJECT_DIR$/very_hard/30_non_attacking_queens" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase7\E$" />
+      <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
+      <working_directory value="$PROJECT_DIR$/very_hard/30_non_attacking_queens" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
+      <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
     <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -134,13 +120,24 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/30_non_attacking_queens" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" />
         <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
-        <item itemvalue="Go Test.TestCase7 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/21_two_edge_connected_graph" />
       </list>
     </recent_temporary>
   </component>
@@ -174,16 +171,32 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
-        <watch expression="destination" />
-        <watch expression="startingAirportNode" />
-        <watch expression="airportNode.Score" />
-        <watch expression="airportNode" />
-        <watch expression="unReachableAirports" />
+        <watch expression="board" />
+        <watch expression="i" />
+        <watch expression="j" />
+        <watch expression="visit" />
+        <watch expression="numOfQueensToPlace" />
+        <watch expression="numOfWaysToPlaceAttackingQueens" />
+        <watch expression="startRow" />
+        <watch expression="numOfQueensToPlace-1" />
+        <watch expression="startCol" />
+        <watch expression="placements" />
+        <watch expression="row" />
+        <watch expression="validWithDirection(i, j, n, Up, placements)" />
+        <watch expression="next" />
+        <watch expression="placements[next[0]]" />
+        <watch expression="next[0]" />
+        <watch expression="placements[next[0]] " />
+        <watch expression="next[1]" />
       </configuration>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/very_hard/30_non_attacking_queens/non_attacking_queens.go" line="104">
+        <watch expression="next[1]" />
+      </inline-watch>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase4_in_github_com_lee_hen_Algoexpert_very_hard_12_max_profit_with_k_transactions.out" NAME="TestCase4 in github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions Coverage Results" MODIFIED="1626439417779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Algoexpert$TestCase1_in_github_com_lee_hen_Algoexpert_very_hard_30_non_attacking_queens.out" NAME="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens Coverage Results" MODIFIED="1627708800418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase1_in_github_com_lee_hen_Algoexpert_medium_55_next_greater_element.out" NAME="TestCase1 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element Coverage Results" MODIFIED="1623474222585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase3_in_github_com_lee_hen_Algoexpert_hard_33_ambiguous_measurements.out" NAME="TestCase3 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements Coverage Results" MODIFIED="1624082014230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Algoexpert$go_test_github_com_lee_hen_Algoexpert_very_hard_33_smallest_substring_containing.out" NAME="go test github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing Coverage Results" MODIFIED="1627172912752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
