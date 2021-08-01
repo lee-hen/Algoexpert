@@ -32,6 +32,12 @@ func getNumberOfBinaryTreeTopologies(n int, cache map[int]int) int {
 
 	var result int
 	for x := 0; x <= n-1; x++ {
+		//3 0 2 map[]
+		//2 0 1 map[]
+		//1 0 0 map[]
+		//2 1 0 map[1:1 2:1]
+		//3 1 1 map[1:1 2:2 3:2]
+		//3 2 0 map[1:1 2:2 3:3]
 		result += getNumberOfBinaryTreeTopologies(x, cache) * getNumberOfBinaryTreeTopologies(n-1-x, cache)
 		cache[n] = result
 	}

@@ -8,7 +8,7 @@ import (
 
 func TestCase1(t *testing.T) {
 	expected := 5
-	output := NumberOfBinaryTreeTopologies(3)
+	output := numberOfBinaryTreeTopologies(3)
 	require.Equal(t, expected, output)
 }
 
