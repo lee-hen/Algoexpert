@@ -11,3 +11,15 @@ func TestCase1(t *testing.T) {
 	output := NumberOfBinaryTreeTopologies(3)
 	require.Equal(t, expected, output)
 }
+
+func TestCase2(t *testing.T) {
+	expected := 14
+	output := NumberOfBinaryTreeTopologies(4)
+	require.Equal(t, expected, output)
+}
+
+func TestCase3(t *testing.T) {
+	expected := 42
+	output := NumberOfBinaryTreeTopologies(5)
+	require.Equal(t, expected, output)
+}

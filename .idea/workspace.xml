@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/solution_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/solution_image1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies/hints.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies/question.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies/solution_image.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/non_attacking_queens.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/non_attacking_queens.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/non_attacking_queens_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/non_attacking_queens_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies/number_of_binary_tree_topologies.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies/number_of_binary_tree_topologies.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies/number_of_binary_tree_topologies_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies/number_of_binary_tree_topologies_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,56 +66,56 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies" />
       <recent name="$PROJECT_DIR$/very_hard/30_non_attacking_queens" />
       <recent name="$PROJECT_DIR$/very_hard/22_airport_connections" />
       <recent name="$PROJECT_DIR$/hard/17_dijkstras_algorithm" />
       <recent name="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
-      <recent name="$PROJECT_DIR$/very_hard/20_detect_arbitrage" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/29_number_of_binary_tree_topologies">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/29_number_of_binary_tree_topologies" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/22_airport_connections" />
+      <working_directory value="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/29_number_of_binary_tree_topologies" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/29_number_of_binary_tree_topologies" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/30_non_attacking_queens" />
+      <working_directory value="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/30_non_attacking_queens" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/29_number_of_binary_tree_topologies" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/very_hard/29_number_of_binary_tree_topologies" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/22_airport_connections" />
+      <working_directory value="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/29_number_of_binary_tree_topologies" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase3\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/29_number_of_binary_tree_topologies" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/29_number_of_binary_tree_topologies" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -133,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/29_number_of_binary_tree_topologies" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/29_number_of_binary_tree_topologies" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/29_number_of_binary_tree_topologies" />
+        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/29_number_of_binary_tree_topologies" />
         <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/22_airport_connections" />
       </list>
     </recent_temporary>
   </component>
@@ -188,6 +189,8 @@
         <watch expression="next[0]" />
         <watch expression="placements[next[0]] " />
         <watch expression="next[1]" />
+        <watch expression="left" />
+        <watch expression="right" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/very_hard/30_non_attacking_queens/non_attacking_queens.go" line="104">
         <watch expression="next[1]" />
