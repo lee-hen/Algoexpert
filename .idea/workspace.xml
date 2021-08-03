@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assessments/01_glob_matching/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/01_glob_matching/summary.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/02_inverted_bisection/inverted_bisection.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/02_inverted_bisection/inverted_bisection_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/02_inverted_bisection/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessments/01_glob_matching/glob_matching.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/01_glob_matching/glob_matching.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessments/01_glob_matching/glob_matching_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/01_glob_matching/glob_matching_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/27_zip_linked_list/zip_linked_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/27_zip_linked_list/zip_linked_list.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +72,13 @@
       <recent name="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase10 in github.com/lee-hen/Algoexpert/assessments/01_glob_matching">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/assessments/01_glob_matching" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/assessments/02_inverted_bisection">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/assessments/02_inverted_bisection" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/01_glob_matching" />
+      <working_directory value="$PROJECT_DIR$/assessments/02_inverted_bisection" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/01_glob_matching" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/02_inverted_bisection" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -97,28 +97,16 @@
       <pattern value="^\QTestCase10\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase11 in github.com/lee-hen/Algoexpert/assessments/01_glob_matching" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/assessments/02_inverted_bisection" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/01_glob_matching" />
+      <working_directory value="$PROJECT_DIR$/assessments/02_inverted_bisection" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/01_glob_matching" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/02_inverted_bisection" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase11\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase8 in github.com/lee-hen/Algoexpert/assessments/01_glob_matching" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/01_glob_matching" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/01_glob_matching" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase8\E$" />
+      <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
     <configuration name="go test github.com/lee-hen/Algoexpert/assessments/01_glob_matching" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -132,13 +120,24 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="go test github.com/lee-hen/Algoexpert/assessments/02_inverted_bisection" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/assessments/02_inverted_bisection" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/02_inverted_bisection" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/assessments/02_inverted_bisection" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/assessments/02_inverted_bisection" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/02_inverted_bisection" />
         <item itemvalue="Go Test.TestCase10 in github.com/lee-hen/Algoexpert/assessments/01_glob_matching" />
         <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/assessments/01_glob_matching" />
-        <item itemvalue="Go Test.TestCase8 in github.com/lee-hen/Algoexpert/assessments/01_glob_matching" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/01_glob_matching" />
-        <item itemvalue="Go Test.TestCase11 in github.com/lee-hen/Algoexpert/assessments/01_glob_matching" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +195,12 @@
         <watch expression="patternMatching" />
         <watch expression="pattern[i+1" />
         <watch expression="pattern[i+1]" />
+        <watch expression="secondHalfNode" />
+        <watch expression="slowNode" />
+        <watch expression="secondHalfHead" />
+        <watch expression="head" />
+        <watch expression="firstHalfNode" />
+        <watch expression="firstHalfHeadNode" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/very_hard/30_non_attacking_queens/non_attacking_queens.go" line="104">
         <watch expression="next[1]" />
