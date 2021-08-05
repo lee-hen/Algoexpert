@@ -42,11 +42,11 @@ func degreesOfSeparation(friendsLists FriendsGraph, personOne, personTwo string)
 	numOfDegreeSeparation1 := getNumOfDegreeSeparation(personOne, friendsLists, anyConnections)
 	numOfDegreeSeparation2 := getNumOfDegreeSeparation(personTwo, friendsLists, anyConnections)
 
-	 if numOfDegreeSeparation1 < numOfDegreeSeparation2 {
+	if numOfDegreeSeparation1 < numOfDegreeSeparation2 {
 		return personOne
 	} else if numOfDegreeSeparation1 > numOfDegreeSeparation2 {
 		return personTwo
-	 }
+	}
 
 	return ""
 }
@@ -63,22 +63,23 @@ func getNumOfDegreeSeparation(person string, friendsLists FriendsGraph, anyConne
 
 	numDegreesOverSix := 0
 	for _, degree := range degrees {
-		if  degree > 6 {
+		if degree > 6 {
 			numDegreesOverSix++
 		}
 	}
 	return numDegreesOverSix + anyConnections
 }
 
-// iddfs can not handle cycles, so we must calculate the min degree every time we try go to next vertex(friend) we must set it to false
-func dfs(person string, depth int, friendsLists FriendsGraph, degrees map[string] int, visited map[string]bool) {
+// iddfs can not handle cycles, so we must calculate the min degree every time,
+//  and when iterate to next vertex(friend) we must set it to false
+func dfs(person string, depth int, friendsLists FriendsGraph, degrees map[string]int, visited map[string]bool) {
 	if _, ok := degrees[person]; ok {
 		degrees[person] = min(degrees[person], depth)
 	} else {
 		degrees[person] = depth
 	}
 
-	if len(friendsLists[person]) == 1 && visited[friendsLists[person][0]]  {
+	if len(friendsLists[person]) == 1 && visited[friendsLists[person][0]] {
 		return
 	}
 
