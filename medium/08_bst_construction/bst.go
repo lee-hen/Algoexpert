@@ -26,15 +26,15 @@ func remove(tree *BST, value int) *BST {
 	} else if value > tree.Value {
 		tree.Right = remove(tree.Right, value)
 	} else {
-		if tree.Right == nil && tree.Left == nil {// 左と右全部nilの場合、nilを設定する。
+		if tree.Right == nil && tree.Left == nil { // 左と右全部nilの場合、nilを設定する。
 			tree = nil
-		} else if tree.Right == nil && tree.Left != nil {// 右だけnilの場合、左の値を設定する
+		} else if tree.Right == nil && tree.Left != nil { // 右だけnilの場合、左の値を設定する
 			tree.Value = tree.Left.Value
 			tree.Right = tree.Left.Right // 先に左の右側を設定して
 			tree.Left = tree.Left.Left   // 次に左を上書きする
-		}  else if tree.Left == nil && tree.Right != nil {// 左だけがnilの場合、右の値を設定する
+		} else if tree.Left == nil && tree.Right != nil { // 左だけがnilの場合、右の値を設定する
 			tree.Value = tree.Right.Value
-			tree.Left = tree.Right.Left // 先に右の左側を設定して
+			tree.Left = tree.Right.Left   // 先に右の左側を設定して
 			tree.Right = tree.Right.Right // 次に右を上書きする
 		} else { // 両方側がnilじゃない時
 			// 右側最小の値を探し、削除のnodeにその値を設定する
@@ -131,9 +131,9 @@ func (tree *BST) Rank(value int) int {
 	}
 }
 
-// BFS
+// IDDFS
 // https://en.wikipedia.org/wiki/Iterative_deepening_depth-first_search
-func (tree *BST) BFS() []int {
+func (tree *BST) IDDFS() []int {
 	depth := tree.Depth()
 	nums := make([]int, 0)
 	for i := 0; i < depth; i++ {
@@ -157,7 +157,6 @@ func (tree *BST) DFS(level int, arr *[]int) {
 
 	current.Left.DFS(level-1, arr)
 	current.Right.DFS(level-1, arr)
-	return
 }
 
 func (tree *BST) Height() int {

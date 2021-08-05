@@ -76,7 +76,6 @@ func nodeDepths(node *BinaryTree, depth int) int {
 	return depth + nodeDepths(node.Left, depth+1) + nodeDepths(node.Right, depth+1)
 }
 
-
 type TreeInfo struct {
 	NumNodesInTree int
 	SumOfDepths    int
@@ -114,7 +113,7 @@ func getTreeInfo(tree *BinaryTree) TreeInfo {
 //        /     \
 //       2       3     level    1)        node 2:   6     node 3:　 2
 //     /   \   /   \
-//    4     5 6     7  level    2)        node 4:   2     node 5:   0   node 6:  0   node 7:　 0　　
+//    4     5 6     7  level    2)        node 4:   2     node 5:   0   node 6:  0   node 7:　 0
 //  /   \
 // 8     9             level    3)        node 8:   0     node 9:　　0
 
@@ -129,7 +128,7 @@ func (tree *BinaryTree) dfs2(depthSum, depth, level int) int {
 		return 0
 	}
 
-	depthSum += depth-level
+	depthSum += depth - level
 	depthLeftSum := tree.Left.dfs2(depthSum, depth, level-1)
 	depthRightSum := tree.Right.dfs2(depthSum, depth, level-1)
 	return depthSum + depthLeftSum + depthRightSum
@@ -147,7 +146,7 @@ func traverseBinaryTree(node *BinaryTree, depth int) int {
 		return 0
 	}
 
-	//sumDepth := node.bfs(depth)
+	//sumDepth := node.iddfs(depth)
 	sumDepth := node.dfs(depth, depth, 0)
 	sumDepth += traverseBinaryTree(node.Left, depth-1)
 	sumDepth += traverseBinaryTree(node.Right, depth-1)
@@ -160,7 +159,7 @@ func (tree *BinaryTree) dfs(level, depth, sum int) int {
 		return sum
 	}
 
-	sum += depth-level
+	sum += depth - level
 	sum = tree.Left.dfs(level-1, depth, sum)
 	sum = tree.Right.dfs(level-1, depth, sum)
 	return sum
@@ -181,8 +180,8 @@ func max(a, b int) int {
 	return b
 }
 
-// bfs approach O(b^d)
-//func (tree *BinaryTree) bfs(depth int) int {
+// iddfs approach O(b^d)
+//func (tree *BinaryTree) iddfs(depth int) int {
 //	var sumDepth int
 //	for i := 0; i < depth; i++ {
 //		sum := tree.dfs(i)

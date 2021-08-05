@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assessments/04_longest_streak_of_adjacent_ones/longest_streak_of_adjacent_ones.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/04_longest_streak_of_adjacent_ones/longest_streak_of_adjacent_ones_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/04_longest_streak_of_adjacent_ones/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/04_longest_streak_of_adjacent_ones/summary.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/05_degrees_of_separation/degree_of_separation.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/05_degrees_of_separation/degrees_of_separation_my_solution.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/05_degrees_of_separation/degrees_of_separation_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/05_degrees_of_separation/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/05_degrees_of_separation/summary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/08_bst_construction/bst.go" beforeDir="false" afterPath="$PROJECT_DIR$/medium/08_bst_construction/bst.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/10_all_kinds_of_node_depths/all_kinds_of_node_depths.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/10_all_kinds_of_node_depths/all_kinds_of_node_depths.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,61 +75,61 @@
       <recent name="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/04_longest_streak_of_adjacent_ones" />
+      <working_directory value="$PROJECT_DIR$/assessments/05_degrees_of_separation" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/04_longest_streak_of_adjacent_ones" />
+      <working_directory value="$PROJECT_DIR$/assessments/05_degrees_of_separation" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase4\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/assessments/05_degrees_of_separation" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase5\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/assessments/05_degrees_of_separation" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase6\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase7 in github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/04_longest_streak_of_adjacent_ones" />
+      <working_directory value="$PROJECT_DIR$/assessments/05_degrees_of_separation" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase7\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase8 in github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/04_longest_streak_of_adjacent_ones" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase8\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/04_longest_streak_of_adjacent_ones" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -134,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones" />
-        <item itemvalue="Go Test.TestCase8 in github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones" />
-        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones" />
-        <item itemvalue="Go Test.TestCase7 in github.com/lee-hen/Algoexpert/assessments/04_longest_streak_of_adjacent_ones" />
+        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" />
+        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" />
+        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" />
       </list>
     </recent_temporary>
   </component>
@@ -172,16 +175,21 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
-        <watch expression="trie" />
-        <watch expression="current" />
-        <watch expression="next" />
-        <watch expression="char" />
-        <watch expression="previous" />
-        <watch expression="previous.children[char]" />
-        <watch expression="endNode.idx" />
-        <watch expression="currentIdx" />
-        <watch expression="zeroIdx" />
-        <watch expression="count" />
+        <watch expression="friendsLists[person]" />
+        <watch expression="degreeSeparation1" />
+        <watch expression="degreeSeparation2" />
+        <watch expression="isFriendPerson1And2" />
+        <watch expression="personOne" />
+        <watch expression="person" />
+        <watch expression="personTwo" />
+        <watch expression="isEndOfSeparation" />
+        <watch expression="ending" />
+        <watch expression="degree" />
+        <watch expression="degrees" />
+        <watch expression="degrees[person]" />
+        <watch expression="depth" />
+        <watch expression="connectable" />
+        <watch expression="numOfDegreeSeparation2" />
       </configuration>
     </watches-manager>
   </component>
