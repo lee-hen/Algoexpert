@@ -1,4 +1,5 @@
 package special_strings
+// important question
 
 // SpecialStrings
 // Average case: when there aren't too many strings with

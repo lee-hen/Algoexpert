@@ -1,4 +1,5 @@
 package degrees_of_separation
+// important question
 
 import (
 	"math"

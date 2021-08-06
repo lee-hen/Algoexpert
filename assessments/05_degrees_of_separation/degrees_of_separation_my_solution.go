@@ -33,7 +33,11 @@ type FriendsGraph map[string][]string
 
 func degreesOfSeparation(friendsLists FriendsGraph, personOne, personTwo string) string {
 	var anyConnections int
-	for _, friendsList := range friendsLists {
+	for person, friendsList := range friendsLists {
+		if person == personOne || person == personTwo {
+			continue
+		}
+
 		if len(friendsList) == 0 {
 			anyConnections += 1
 		}
