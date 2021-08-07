@@ -40,6 +40,7 @@ var LetterDigits = map[rune]rune{
 // phone number, m is the number of words, and w is the length of the longest word
 func WordsInPhoneNumber(phoneNumber string, words []string) []string {
 	phoneNumberSuffixTrie := NewModifiedSuffixTrie()
+	// build Suffix Trie
 	phoneNumberSuffixTrie.PopulateModifiedSuffixTrieFrom(phoneNumber)
 	output := make([]string, 0)
 	for _, word := range words {

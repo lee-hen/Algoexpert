@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assessments/09_words_in_phone_number/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/09_words_in_phone_number/summary.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/09_words_in_phone_number/words_in_phone_number_my_solution.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/09_words_in_phone_number/words_in_phone_number_solution_one.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/09_words_in_phone_number/words_in_phone_number_solution_two.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/09_words_in_phone_number/words_in_phone_number_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/10_balance_index/balance_index.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/10_balance_index/balance_index_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/10_balance_index/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/10_balance_index/summary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessments/09_words_in_phone_number/words_in_phone_number_solution_two.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/09_words_in_phone_number/words_in_phone_number_solution_two.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,61 +73,61 @@
       <recent name="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/assessments/09_words_in_phone_number">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/assessments/08_spin_rings" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/assessments/10_balance_index">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/assessments/10_balance_index" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/08_spin_rings" />
+      <working_directory value="$PROJECT_DIR$/assessments/10_balance_index" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/08_spin_rings" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/assessments/09_words_in_phone_number" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/09_words_in_phone_number" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/09_words_in_phone_number" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/assessments/08_spin_rings" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/08_spin_rings" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/08_spin_rings" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/10_balance_index" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/assessments/09_words_in_phone_number" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/assessments/10_balance_index" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/09_words_in_phone_number" />
+      <working_directory value="$PROJECT_DIR$/assessments/10_balance_index" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/09_words_in_phone_number" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/10_balance_index" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase2\E$" />
+      <pattern value="^\QTestCase3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/assessments/09_words_in_phone_number" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/assessments/10_balance_index" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/09_words_in_phone_number" />
+      <working_directory value="$PROJECT_DIR$/assessments/10_balance_index" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/09_words_in_phone_number" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/10_balance_index" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase4\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/assessments/10_balance_index" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/assessments/10_balance_index" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/10_balance_index" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase5\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go test github.com/lee-hen/Algoexpert/assessments/10_balance_index" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/assessments/10_balance_index" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/10_balance_index" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -136,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/assessments/09_words_in_phone_number" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/assessments/09_words_in_phone_number" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/09_words_in_phone_number" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/08_spin_rings" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/assessments/08_spin_rings" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/assessments/10_balance_index" />
+        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/assessments/10_balance_index" />
+        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/assessments/10_balance_index" />
+        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/assessments/10_balance_index" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/assessments/10_balance_index" />
       </list>
     </recent_temporary>
   </component>
@@ -196,6 +195,17 @@
         <watch expression="minVal" />
         <watch expression="endCol" />
         <watch expression="array" />
+        <watch expression="letter" />
+        <watch expression="node" />
+        <watch expression="trie" />
+        <watch expression="phoneNumberSuffixTrie" />
+        <watch expression="sum" />
+        <watch expression="array[len(array)-1]" />
+        <watch expression="sum[0]" />
+        <watch expression="currSum" />
+        <watch expression="prevSum" />
+        <watch expression="sum[j]" />
+        <watch expression="sum[len(array)-2]" />
       </configuration>
     </watches-manager>
   </component>
