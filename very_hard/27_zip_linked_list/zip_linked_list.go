@@ -30,10 +30,11 @@ func ZipLinkedList(head *LinkedList) *LinkedList {
 		slowNode = slowNode.Next
 		fastNode = fastNode.Next.Next
 	}
-	//secondHalfHead := slowNode
-	//slowNode.Next = nil
+	secondHalfHead := slowNode
+	//	secondHalfHead := slowNode.Next
+	//	slowNode.Next = nil
 
-	secondHalfNode := reverseLinkedList(slowNode)
+	secondHalfNode := reverseLinkedList(secondHalfHead)
 	firstHalfNode := head
 	interweaveLinkedLists(firstHalfNode, secondHalfNode)
 	return head

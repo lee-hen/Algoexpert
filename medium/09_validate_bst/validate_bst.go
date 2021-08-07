@@ -16,7 +16,9 @@ func (tree *BST) ValidateBst() bool {
 }
 
 func (tree *BST) validateBst(min, max int) bool {
-	if tree.Value < min || tree.Value >= max {
+	// tree.Value >= max -> parent.Left.Value(tree.Value) >= parent.Value(max)
+	// tree.Value < min -> parent.Right.Value(tree.Value) < parent.Value(min)
+	if tree.Value >= max || tree.Value < min {
 		return false
 	}
 	if tree.Left != nil && !tree.Left.validateBst(min, tree.Value) {

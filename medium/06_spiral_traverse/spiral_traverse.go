@@ -6,7 +6,7 @@ func SpiralTraverse(array [][]int) []int {
 	if len(array) == 0 {
 		return []int{}
 	}
-	result := []int{}
+	result := make([]int, 0)
 	spiralFill(array, 0, len(array)-1, 0, len(array[0])-1, &result)
 
 	return result
@@ -53,7 +53,7 @@ func spiralTraverse1(array [][]int) []int {
 	if len(array) == 0 {
 		return []int{}
 	}
-	result := []int{}
+	result := make([]int, 0)
 	startRow, endRow := 0, len(array)-1
 	startCol, endCol := 0, len(array[0])-1
 	for startRow <= endRow && startCol <= endCol {
