@@ -46,14 +46,14 @@ func getNextIdx(currentIdx int, array []int) int {
 
 // my solution
 func hasSingleCycle(array []int) bool {
-	expect := (len(array)-1) * len(array) / 2
+	expect := (len(array) - 1) * len(array) / 2
 	var total int
 	for idx, arr := range array {
 		nextIdx := jump(arr, idx, array)
 		nextJump := array[nextIdx]
 		nextJumpIdx := jump(nextJump, nextIdx, array)
 		total += nextJumpIdx
-		if len(array) > 2 && nextJumpIdx == idx && arr == nextJump*-1{
+		if len(array) > 2 && nextJumpIdx == idx && arr == nextJump*-1 {
 			break
 		}
 	}
@@ -64,7 +64,7 @@ func hasSingleCycle(array []int) bool {
 }
 
 func jump(k, idx int, array []int) int {
-	jumpIdx := (idx+k)%len(array)
+	jumpIdx := (idx + k) % len(array)
 	if jumpIdx < 0 {
 		return jumpIdx + len(array)
 	}
@@ -76,8 +76,8 @@ func jump(k, idx int, array []int) int {
 func cyclicRotation(array []int, k int) []int {
 	result := make([]int, len(array), len(array))
 	for idx := range array {
-		jumpIdx := (idx+k)%len(array)
-		if  jumpIdx < 0 {
+		jumpIdx := (idx + k) % len(array)
+		if jumpIdx < 0 {
 			jumpIdx += len(array)
 		}
 		result[jumpIdx] = array[idx]
