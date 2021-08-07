@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assessments/06_max_subsequence_dot_product/max_subsequence_dot_product.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/06_max_subsequence_dot_product/max_subsequence_dot_product_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/06_max_subsequence_dot_product/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/06_max_subsequence_dot_product/summary.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/07_largest_bst_size/largest_bst_size.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/07_largest_bst_size/largest_bst_size_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/07_largest_bst_size/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/07_largest_bst_size/summary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessments/01_glob_matching/glob_matching.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/01_glob_matching/glob_matching.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessments/03_special_strings/special_strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/03_special_strings/special_strings.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessments/04_longest_streak_of_adjacent_ones/longest_streak_of_adjacent_ones.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/04_longest_streak_of_adjacent_ones/longest_streak_of_adjacent_ones.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessments/05_degrees_of_separation/degree_of_separation.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/05_degrees_of_separation/degree_of_separation.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessments/05_degrees_of_separation/degrees_of_separation_my_solution.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/05_degrees_of_separation/degrees_of_separation_my_solution.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/medium/09_validate_bst/validate_bst.go" beforeDir="false" afterPath="$PROJECT_DIR$/medium/09_validate_bst/validate_bst.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +73,7 @@
       <recent name="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/06_max_subsequence_dot_product">
+  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/07_largest_bst_size">
     <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/assessments/05_degrees_of_separation" />
@@ -102,16 +98,16 @@
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/assessments/07_largest_bst_size" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/05_degrees_of_separation" />
+      <working_directory value="$PROJECT_DIR$/assessments/07_largest_bst_size" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/07_largest_bst_size" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase5\E$" />
+      <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -139,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/07_largest_bst_size" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/06_max_subsequence_dot_product" />
         <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" />
         <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" />
-        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/assessments/05_degrees_of_separation" />
       </list>
     </recent_temporary>
   </component>
@@ -192,6 +188,11 @@
         <watch expression="depth" />
         <watch expression="connectable" />
         <watch expression="numOfDegreeSeparation2" />
+        <watch expression="tree" />
+        <watch expression="validateLeft" />
+        <watch expression="validateRight" />
+        <watch expression="tree.Value" />
+        <watch expression="minVal" />
       </configuration>
     </watches-manager>
   </component>
