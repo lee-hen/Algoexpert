@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assessments/11_build_failures/build_failures.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/11_build_failures/build_failures_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/11_build_failures/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/11_build_failures/summary.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/arrays_bst_binary_tree_dynamic_programming.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graphs_greedy_algorithms_heaps.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/linked_lists_recursion_searching_sorting.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/stacks_strings_tries.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,11 +66,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies" />
       <recent name="$PROJECT_DIR$/very_hard/30_non_attacking_queens" />
       <recent name="$PROJECT_DIR$/very_hard/22_airport_connections" />
       <recent name="$PROJECT_DIR$/hard/17_dijkstras_algorithm" />
-      <recent name="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph" />
     </key>
   </component>
   <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/assessments/11_build_failures">
