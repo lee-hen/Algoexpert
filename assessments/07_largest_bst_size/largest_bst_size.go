@@ -18,7 +18,7 @@ type BinaryTree struct {
 // O(n) time | O(h) space - where n is the number of nodes in
 // the Binary Tree and h is the height of the Binary Tree
 func LargestBSTSize(tree *BinaryTree) int {
-	return getTreeInfo(tree).runningLargestBstSize
+	return getBinaryTreeInfo(tree).runningLargestBstSize
 }
 
 type treeInfo struct {
@@ -29,7 +29,7 @@ type treeInfo struct {
 	treeSize              int
 }
 
-func getTreeInfo(tree *BinaryTree) treeInfo {
+func getBinaryTreeInfo(tree *BinaryTree) treeInfo {
 	if tree == nil {
 		return treeInfo{
 			isBst:                 true,
@@ -40,8 +40,8 @@ func getTreeInfo(tree *BinaryTree) treeInfo {
 		}
 	}
 
-	leftTreeInfo := getTreeInfo(tree.Left)
-	rightTreeInfo := getTreeInfo(tree.Right)
+	leftTreeInfo := getBinaryTreeInfo(tree.Left)
+	rightTreeInfo := getBinaryTreeInfo(tree.Right)
 
 	treeSize := 1 + leftTreeInfo.treeSize + rightTreeInfo.treeSize
 

@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assessments/07_largest_bst_size/largest_bst_size.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/07_largest_bst_size/largest_bst_size_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/07_largest_bst_size/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/07_largest_bst_size/summary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/medium/09_validate_bst/validate_bst.go" beforeDir="false" afterPath="$PROJECT_DIR$/medium/09_validate_bst/validate_bst.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessments/07_largest_bst_size/largest_bst_size.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/07_largest_bst_size/largest_bst_size.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
