@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes/reverse_alternating_k_nodes.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes/reverse_alternating_k_nodes.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes/reverse_alternating_k_nodes_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes/reverse_alternating_k_nodes_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
