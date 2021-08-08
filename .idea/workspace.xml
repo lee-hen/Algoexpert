@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assessments/12_subtrees_within_range/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/12_subtrees_within_range/subtrees_within_range.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/12_subtrees_within_range/subtrees_within_range_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/12_subtrees_within_range/summary.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes/reverse_alternating_k_nodes.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes/reverse_alternating_k_nodes_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes/summary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,7 +55,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.formatter.settings.were.checked" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -72,61 +77,61 @@
       <recent name="$PROJECT_DIR$/hard/17_dijkstras_algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/assessments/13_repeated_matrix_values" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/12_subtrees_within_range" />
+      <working_directory value="$PROJECT_DIR$/assessments/13_repeated_matrix_values" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/13_repeated_matrix_values" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/12_subtrees_within_range" />
+      <working_directory value="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/assessments/13_repeated_matrix_values" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/assessments/13_repeated_matrix_values" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/13_repeated_matrix_values" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase5 in github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/12_subtrees_within_range" />
+      <working_directory value="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase5\E$" />
+      <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/12_subtrees_within_range" />
+      <working_directory value="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase6\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/12_subtrees_within_range" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -134,11 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range" />
-        <item itemvalue="Go Test.TestCase5 in github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range" />
-        <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/assessments/13_repeated_matrix_values" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/13_repeated_matrix_values" />
       </list>
     </recent_temporary>
   </component>
@@ -172,73 +177,25 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="GoTestRunConfiguration">
-        <watch expression="friendsLists[person]" />
-        <watch expression="degreeSeparation1" />
-        <watch expression="degreeSeparation2" />
-        <watch expression="isFriendPerson1And2" />
-        <watch expression="personOne" />
-        <watch expression="person" />
-        <watch expression="personTwo" />
-        <watch expression="isEndOfSeparation" />
-        <watch expression="ending" />
-        <watch expression="degree" />
-        <watch expression="degrees" />
-        <watch expression="degrees[person]" />
-        <watch expression="depth" />
-        <watch expression="connectable" />
-        <watch expression="numOfDegreeSeparation2" />
-        <watch expression="tree" />
-        <watch expression="validateLeft" />
-        <watch expression="validateRight" />
-        <watch expression="tree.Value" />
-        <watch expression="minVal" />
-        <watch expression="endCol" />
-        <watch expression="array" />
-        <watch expression="letter" />
-        <watch expression="node" />
-        <watch expression="trie" />
-        <watch expression="phoneNumberSuffixTrie" />
-        <watch expression="sum" />
-        <watch expression="array[len(array)-1]" />
-        <watch expression="sum[0]" />
-        <watch expression="currSum" />
-        <watch expression="prevSum" />
-        <watch expression="sum[j]" />
-        <watch expression="sum[len(array)-2]" />
-        <watch expression="greens" />
-        <watch expression="left.Left" />
-        <watch expression="rangeNodeInfo[rangeOfNodes[0]][1]" />
-        <watch expression="rangeNodeInfo[rangeOfNodes[len(rangeOfNodes)-1]][0]" />
-        <watch expression="right" />
-        <watch expression="left" />
-        <watch expression="target" />
-        <watch expression="rangeOfNodes[i].Left" />
-        <watch expression="getAllLeftParentSubTreeSize(rangeOfNodes, rangeNodeInfo, left)" />
-        <watch expression="rangeNodeInfo[left][1]" />
-        <watch expression="rangeOfNodes[j]" />
-        <watch expression="rangeOfNodes[i]" language="go" />
-        <watch expression="rangeOfNodes[j].Right" />
-        <watch expression="rangeOfNodes[j].Right " />
-        <watch expression="rangeOfNodes[j].Left" />
-        <watch expression="rangeNodeInfo[rangeOfNodes[j]][0]" />
-        <watch expression="rangeNodeInfo[rangeOfNodes[j]]" />
-        <watch expression="rangeOfNodes[j].Left == left " />
-        <watch expression="size" />
-        <watch expression="rangeOfNodes[i]." />
-        <watch expression="rangeOfNodes[i]" />
-        <watch expression="targetRangeNodeInfo" />
-        <watch expression="leftSize" />
-        <watch expression="rightSize" />
+        <watch expression="nextNode" />
+        <watch expression="currNode" />
+        <watch expression="currNode.Next" />
+        <watch expression="pairOfNode[0]" />
+        <watch expression="pairOfNode[1]" />
+        <watch expression="pairOfNodes[0][1]" />
+        <watch expression="tail" />
+        <watch expression="pairOfNode" />
+        <watch expression="pairOfNodes" />
       </configuration>
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Algoexpert$TestCase1_in_github_com_lee_hen_Algoexpert_assessments_12_subtrees_within_range.out" NAME="TestCase1 in github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range Coverage Results" MODIFIED="1628396221039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Algoexpert$TestCase4_in_github_com_lee_hen_Algoexpert_very_hard_12_max_profit_with_k_transactions.out" NAME="TestCase4 in github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions Coverage Results" MODIFIED="1626439417779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase1_in_github_com_lee_hen_Algoexpert_very_hard_30_non_attacking_queens.out" NAME="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens Coverage Results" MODIFIED="1627708800418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Algoexpert$TestCase4_in_github_com_lee_hen_Algoexpert_very_hard_12_max_profit_with_k_transactions.out" NAME="TestCase4 in github.com/lee-hen/Algoexpert/very_hard/12_max_profit_with_k_transactions Coverage Results" MODIFIED="1626439417779" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Algoexpert$TestCase1_in_github_com_lee_hen_Algoexpert_assessments_12_subtrees_within_range.out" NAME="TestCase1 in github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range Coverage Results" MODIFIED="1628396221039" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase6_in_github_com_lee_hen_Algoexpert_assessments_12_subtrees_within_range.out" NAME="TestCase6 in github.com/lee-hen/Algoexpert/assessments/12_subtrees_within_range Coverage Results" MODIFIED="1628377134948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/Algoexpert$go_test_github_com_lee_hen_Algoexpert_very_hard_33_smallest_substring_containing.out" NAME="go test github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing Coverage Results" MODIFIED="1627172912752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase1_in_github_com_lee_hen_Algoexpert_medium_55_next_greater_element.out" NAME="TestCase1 in github.com/lee-hen/Algoexpert/medium/55_next_greater_element Coverage Results" MODIFIED="1623474222585" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase3_in_github_com_lee_hen_Algoexpert_hard_33_ambiguous_measurements.out" NAME="TestCase3 in github.com/lee-hen/Algoexpert/hard/33_ambiguous_measurements Coverage Results" MODIFIED="1624082014230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/Algoexpert$go_test_github_com_lee_hen_Algoexpert_very_hard_33_smallest_substring_containing.out" NAME="go test github.com/lee-hen/Algoexpert/very_hard/33_smallest_substring_containing Coverage Results" MODIFIED="1627172912752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
