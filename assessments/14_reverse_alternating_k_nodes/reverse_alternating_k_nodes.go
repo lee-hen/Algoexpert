@@ -106,7 +106,7 @@ func ReverseAlternatingKNodes1(head *LinkedList, k int) *LinkedList {
 	return finalHead
 }
 
-// my solution well can change to O(1) space
+// my solution
 
 //        0    1    2    3    4    5    6                                         -> 15 - 16 - 17 - 18
 // head = 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10 -> 11 -> 12 -> 13 -> 14  // the head node with value 1
@@ -117,7 +117,69 @@ func ReverseAlternatingKNodes1(head *LinkedList, k int) *LinkedList {
 
 // 3 -> 2 -> 1 -> 4 -> 5 -> 6 -> 9 -> 8 -> 7 -> 10 -> 11 -> 12 -> 14 -> 13 // the new head node with value 3
 
+// O(1) space
 func reverseAlternatingKNodes(head *LinkedList, k int) *LinkedList {
+	pairOfNode := make([]*LinkedList, 2, 2)
+	pairOfNode[0] = head
+
+	currPtr := head
+	var newHead *LinkedList
+	var idx, prevIdx int
+	for currPtr != nil {
+		nextPtr := currPtr.Next
+
+		if idx == k-1 {
+			pairOfNode[1] = currPtr
+			prevIdx = idx
+
+			nextNode := pairOfNode[1].Next
+			pairOfNode[1].Next = nil
+			reverseLinkedList(pairOfNode[0])
+			pairOfNode[0].Next = nextNode
+
+			newHead = pairOfNode[1]
+			pairOfNode = nil
+		}
+
+		if idx == prevIdx + k  {
+			pairOfNode = make([]*LinkedList, 2, 2)
+			pairOfNode[0] = currPtr
+		}
+
+		if pairOfNode != nil &&
+			(idx == prevIdx + 2*k || nextPtr == nil && pairOfNode[0] != currPtr) {
+
+			pairOfNode[1] = currPtr
+			if pairOfNode[0] == head && nextPtr == nil {
+				newHead = reverseLinkedList(head)
+			} else {
+				reversePairOfNode(pairOfNode)
+			}
+
+			prevIdx = idx
+		}
+
+		idx++
+		currPtr = nextPtr
+	}
+
+	return newHead
+}
+
+func reversePairOfNode(pairOfNode []*LinkedList) {
+	var nextNode *LinkedList
+	nextNode = pairOfNode[1].Next
+	pairOfNode[1].Next = nil
+	tail := pairOfNode[0].Next
+	tempNext := nextNode
+	nextNode = pairOfNode[1]
+	reverseLinkedList(pairOfNode[0].Next)
+	tail.Next = tempNext
+	pairOfNode[0].Next = nextNode
+}
+
+// O(n) space
+func reverseAlternatingKNodes1(head *LinkedList, k int) *LinkedList {
 	pairOfNodes := make([][]*LinkedList, 1)
 	pairOfNodes[0] = make([]*LinkedList, 2, 2)
 	pairOfNodes[0][0] = head
