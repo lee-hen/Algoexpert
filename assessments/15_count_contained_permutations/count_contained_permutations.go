@@ -1,4 +1,5 @@
 package count_contained_permutations
+// important question
 
 // CountContainedPermutations
 // O(b + s) time | O(s) space - where b is the length of the big
@@ -6,7 +7,7 @@ package count_contained_permutations
 func CountContainedPermutations(bigString, smallString string) int {
 	smallStringCharCounts := getCharCounts(smallString)
 	numUniqueChars := len(smallStringCharCounts)
-	runningCharCounts := map[rune]int{}
+	runningCharCounts := make(map[rune]int)
 	permutationsCount := 0
 	numUniqueCharsDone := 0
 	leftIdx := 0
@@ -48,7 +49,7 @@ func CountContainedPermutations(bigString, smallString string) int {
 }
 
 func getCharCounts(str string) map[rune]int {
-	charCounts := map[rune]int{}
+	charCounts := make(map[rune]int)
 	for _, char := range str {
 		increaseCharCount(char, charCounts)
 	}
@@ -63,7 +64,7 @@ func decreaseCharCount(char rune, charCounts map[rune]int) {
 	charCounts[char]--
 }
 
-// my solution
+// my solution(naive)
 
 func countContainedPermutations(bigString, smallString string) int {
 	smallStrings := getPermutations([]byte(smallString))

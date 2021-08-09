@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assessments/15_count_contained_permutations/count_contained_permutations.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/15_count_contained_permutations/count_contained_permutations_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/15_count_contained_permutations/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assessments/15_count_contained_permutations/summary.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessments/15_count_contained_permutations/count_contained_permutations.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/15_count_contained_permutations/count_contained_permutations.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
