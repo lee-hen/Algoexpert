@@ -8,6 +8,7 @@ import (
 // DegreesOfSeparation
 // O(v + e) time | O(v) space - where v is the number of vertices (people) in the
 // friends graph and e is the number of edges (total friends) in the friends graph
+// https://stackoverflow.com/questions/18604803/why-is-the-complexity-of-bfs-ove-instead-of-ove
 func DegreesOfSeparation(friendsLists FriendsGraph, personOne, personTwo string) string {
 	degreesOne := getDegreesOfSeparation(friendsLists, personOne)
 	degreesTwo := getDegreesOfSeparation(friendsLists, personTwo)

@@ -15,6 +15,7 @@ func DetectArbitrage(exchangeRates [][]float64) bool {
 }
 
 // Runs the Bellman–Ford Algorithm to detect any negative-weight cycles.
+// Bellman–Ford runs in O(|V|*|E|) time, where |V| and |E| are the number of vertices and edges respectively.
 func foundNegativeWeightCycle(graph [][]float64, start int) bool {
 	distancesFromStart := make([]float64, len(graph))
 	for i := range distancesFromStart {

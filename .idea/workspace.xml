@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/AlgoExpert_Certificate.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/20_topological_sort/example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/dijkstra_bellman-ford_dags.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assessments/15_count_contained_permutations/count_contained_permutations.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/15_count_contained_permutations/count_contained_permutations.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessments/05_degrees_of_separation/degree_of_separation.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/05_degrees_of_separation/degree_of_separation.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +73,13 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/very_hard/20_detect_arbitrage" />
+      <recent name="$PROJECT_DIR$/assessments/05_degrees_of_separation" />
+      <recent name="$PROJECT_DIR$/hard/20_topological_sort" />
       <recent name="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies" />
-      <recent name="$PROJECT_DIR$/very_hard/30_non_attacking_queens" />
-      <recent name="$PROJECT_DIR$/very_hard/22_airport_connections" />
-      <recent name="$PROJECT_DIR$/hard/17_dijkstras_algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/15_count_contained_permutations">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm">
     <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/assessments/15_count_contained_permutations" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/assessments/15_count_contained_permutations" />
@@ -87,48 +92,48 @@
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/assessments/16_longestIncreasing_matrix_path" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/16_longestIncreasing_matrix_path" />
+      <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/16_longestIncreasing_matrix_path" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/assessments/16_longestIncreasing_matrix_path" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/16_longestIncreasing_matrix_path" />
+      <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/16_longestIncreasing_matrix_path" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/assessments/16_longestIncreasing_matrix_path" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/16_longestIncreasing_matrix_path" />
+      <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/16_longestIncreasing_matrix_path" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
-      <pattern value="^\QTestCase4\E$" />
+      <pattern value="^\QTestCase3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/assessments/16_longestIncreasing_matrix_path" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/16_longestIncreasing_matrix_path" />
+      <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/16_longestIncreasing_matrix_path" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -136,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
+        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
         <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/15_count_contained_permutations" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/assessments/16_longestIncreasing_matrix_path" />
-        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/assessments/16_longestIncreasing_matrix_path" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/assessments/16_longestIncreasing_matrix_path" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/16_longestIncreasing_matrix_path" />
       </list>
     </recent_temporary>
   </component>
