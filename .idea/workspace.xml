@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes/reverse_alternating_k_nodes_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes/reverse_alternating_k_nodes_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AlgoExpert_Certificate.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hard/20_topological_sort/example.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/dijkstra_bellman-ford_dags.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assessments/05_degrees_of_separation/degree_of_separation.go" beforeDir="false" afterPath="$PROJECT_DIR$/assessments/05_degrees_of_separation/degree_of_separation.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,67 +73,67 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/very_hard/20_detect_arbitrage" />
+      <recent name="$PROJECT_DIR$/assessments/05_degrees_of_separation" />
+      <recent name="$PROJECT_DIR$/hard/20_topological_sort" />
       <recent name="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies" />
-      <recent name="$PROJECT_DIR$/very_hard/30_non_attacking_queens" />
-      <recent name="$PROJECT_DIR$/very_hard/22_airport_connections" />
-      <recent name="$PROJECT_DIR$/hard/17_dijkstras_algorithm" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/assessments/15_count_contained_permutations" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes" />
+      <working_directory value="$PROJECT_DIR$/assessments/15_count_contained_permutations" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
+      <package value="github.com/lee-hen/Algoexpert/assessments/15_count_contained_permutations" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase1\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes" />
+      <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes" />
+      <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase3\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCase4 in github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes" />
+      <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase4\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/assessments/14_reverse_alternating_k_nodes" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -135,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
-        <item itemvalue="Go Test.TestCase4 in github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/assessments/14_reverse_alternating_k_nodes" />
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
+        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/assessments/15_count_contained_permutations" />
       </list>
     </recent_temporary>
   </component>
@@ -171,25 +177,6 @@
         <breakpoint suspend="NONE" type="DlvErrorBreakpoint" />
       </default-breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="GoTestRunConfiguration">
-        <watch expression="nextNode" />
-        <watch expression="currNode" />
-        <watch expression="currNode.Next" />
-        <watch expression="pairOfNode[0]" />
-        <watch expression="pairOfNode[1]" />
-        <watch expression="pairOfNodes[0][1]" />
-        <watch expression="tail" />
-        <watch expression="pairOfNode" />
-        <watch expression="pairOfNodes" />
-        <watch expression="pairOfNode[0].Next" />
-        <watch expression="currPtr" />
-        <watch expression="previousNode" />
-        <watch expression="head" />
-        <watch expression="newHead" />
-        <watch expression="lastNode" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase1_in_github_com_lee_hen_Algoexpert_very_hard_30_non_attacking_queens.out" NAME="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens Coverage Results" MODIFIED="1627708800418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
