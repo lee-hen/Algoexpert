@@ -1,4 +1,5 @@
 package merge_sorted_arrays
+// important question
 
 import (
 	heapSort "github.com/lee-hen/Algoexpert/hard/39_heap_sort"

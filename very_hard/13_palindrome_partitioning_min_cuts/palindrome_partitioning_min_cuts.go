@@ -1,4 +1,5 @@
 package palindrome_partitioning_min_cuts
+// important question
 
 import (
 	p "github.com/lee-hen/Algoexpert/easy/14_is_palindrome"

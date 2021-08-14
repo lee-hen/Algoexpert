@@ -1,4 +1,5 @@
 package rectangle_mania
+// important question
 
 import "fmt"
 

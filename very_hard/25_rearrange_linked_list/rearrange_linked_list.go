@@ -1,4 +1,5 @@
 package rearrange_linked_list
+// important question
 
 type LinkedList struct {
 	Value int

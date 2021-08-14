@@ -1,4 +1,5 @@
 package square_of_zeroes
+// important question
 
 import "fmt"
 
