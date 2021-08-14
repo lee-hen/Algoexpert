@@ -1,4 +1,5 @@
 package compare_leaf_traversal
+// important question
 
 type BinaryTree struct {
 	Value int

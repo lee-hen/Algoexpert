@@ -1,4 +1,5 @@
 package line_through_points
+// important question
 
 import (
 	"fmt"

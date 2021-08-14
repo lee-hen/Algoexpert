@@ -1,4 +1,5 @@
 package longest_string_chain
+// important question
 
 import (
 	"math"

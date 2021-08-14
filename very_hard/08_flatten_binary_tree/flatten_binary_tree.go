@@ -1,4 +1,5 @@
 package flatten_binary_tree
+// important question
 
 type BinaryTree struct {
 	Value int

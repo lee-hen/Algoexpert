@@ -5,186 +5,139 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/hard/01_four_number_sum/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/02_subarray_sort/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/03_largest_range/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/04_min_rewards/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/05_zigzag_traverse/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/06_same_bsts/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/07_validate_three_nodes/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/08_max_path_sum/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/09_find_nodes_distance_k/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/10_max_sumIncreasing_subsequence/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/11_longest_common_subsequence/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/12_min_number_of_jumps/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/13_water_area/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/14_knapsack_problem/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/15_disk_stacking/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/16_numbers_in_pi/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/18_maximize_expression/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/19_maximum_sum_submatrix/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/20_topological_sort/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/21_boggle_board/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/22_continuous_median/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/23_sort_k_sorted_array/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/24_laptop_rentals/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/25_find_loop/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/26_reverse_linked_list/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/27_merge_linked_lists/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/28_shift_linked_list/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/29_lowest_common_manager/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/30_interweaving_strings/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/31_solve_sudoku/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/32_generate_div_tags/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/34_shifted_binary_search/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/35_search_for_range/Readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/36_index_equals_value/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/37_quick_select/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/38_quick_sort/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/39_heap_sort/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/40_radix_sort/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/41_shorten_path/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/43_underscorify_substring/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/44_pattern_matcher/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hard/45_multi_string_search/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/01_apartment_hunting/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/02_calendar_matching/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/03_waterfall_streams/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/05_line_through_points/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/06_right_smaller_than/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/07_iterative_in_order_traversal/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/09_right_sibling_tree/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/10_all_kinds_of_node_depths/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/11_compare_leaf_traversal/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/13_palindrome_partitioning_min_cuts/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/14_longest_increasing_subsequence/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/15_longest_string_chain/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/19_rectangle_mania/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/22_airport_connections/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/24_LRU_cache/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/26_linked_list_palindrome/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/27_zip_linked_list/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/28_node_swap/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/31_merge_sort/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/32_count_inversions/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/Readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/very_hard/34_longest_balanced_substring/Readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/01_four_number_sum/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/01_four_number_sum/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/02_subarray_sort/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/02_subarray_sort/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/02_subarray_sort/subarray_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/02_subarray_sort/subarray_sort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/03_largest_range/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/03_largest_range/largest_range.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/03_largest_range/largest_range.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/03_largest_range/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/04_min_rewards/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/04_min_rewards/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/05_zigzag_traverse/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/05_zigzag_traverse/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/05_zigzag_traverse/zigzag_traverse.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/05_zigzag_traverse/zigzag_traverse.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/06_same_bsts/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/06_same_bsts/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/06_same_bsts/same_bsts.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/06_same_bsts/same_bsts.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/07_validate_three_nodes/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/07_validate_three_nodes/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/08_max_path_sum/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/08_max_path_sum/max_path_sum.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/08_max_path_sum/max_path_sum.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/08_max_path_sum/notes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/08_max_path_sum/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/09_find_nodes_distance_k/find_nodes_distance_k.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/09_find_nodes_distance_k/find_nodes_distance_k.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/09_find_nodes_distance_k/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/09_find_nodes_distance_k/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/10_max_sumIncreasing_subsequence/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/10_max_sumIncreasing_subsequence/max_sumIncreasing_subsequence.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/10_max_sumIncreasing_subsequence/max_sumIncreasing_subsequence.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/10_max_sumIncreasing_subsequence/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/11_longest_common_subsequence/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/11_longest_common_subsequence/longest_common_subsequence.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/11_longest_common_subsequence/longest_common_subsequence.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/11_longest_common_subsequence/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/12_min_number_of_jumps/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/12_min_number_of_jumps/min_number_of_jumps.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/12_min_number_of_jumps/min_number_of_jumps.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/12_min_number_of_jumps/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/13_water_area/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/13_water_area/notes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/13_water_area/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/13_water_area/water_area.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/13_water_area/water_area.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/14_knapsack_problem/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/14_knapsack_problem/knapsack_problem.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/14_knapsack_problem/knapsack_problem.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/14_knapsack_problem/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/15_disk_stacking/disk_stacking.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/15_disk_stacking/disk_stacking.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/15_disk_stacking/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/15_disk_stacking/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/16_numbers_in_pi/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/16_numbers_in_pi/numbers_in_pi.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/16_numbers_in_pi/numbers_in_pi.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/16_numbers_in_pi/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm_using_min_heap.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/dijkstras_algorithm_using_min_heap.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/17_dijkstras_algorithm/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/18_maximize_expression/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/18_maximize_expression/maximize_expression.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/18_maximize_expression/maximize_expression.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/18_maximize_expression/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/19_maximum_sum_submatrix/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/19_maximum_sum_submatrix/maximum_sum_submatrix.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/19_maximum_sum_submatrix/maximum_sum_submatrix.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/19_maximum_sum_submatrix/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/20_topological_sort/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/20_topological_sort/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/20_topological_sort/topological_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/20_topological_sort/topological_sort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/21_boggle_board/boggle_board.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/21_boggle_board/boggle_board.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/21_boggle_board/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/21_boggle_board/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/22_continuous_median/continuous_median.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/22_continuous_median/continuous_median.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/22_continuous_median/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/22_continuous_median/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/23_sort_k_sorted_array/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/23_sort_k_sorted_array/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/23_sort_k_sorted_array/sort_k_sorted_array.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/23_sort_k_sorted_array/sort_k_sorted_array.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/24_laptop_rentals/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/24_laptop_rentals/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/24_laptop_rentals/time_and_space.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/25_find_loop/find_loop.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/25_find_loop/find_loop.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/25_find_loop/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/25_find_loop/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/26_reverse_linked_list/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/26_reverse_linked_list/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/27_merge_linked_lists/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/27_merge_linked_lists/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/28_shift_linked_list/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/28_shift_linked_list/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/29_lowest_common_manager/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/29_lowest_common_manager/lowest_common_manager.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/29_lowest_common_manager/lowest_common_manager.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/29_lowest_common_manager/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/30_interweaving_strings/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/30_interweaving_strings/interweaving_strings.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/30_interweaving_strings/interweaving_strings.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/30_interweaving_strings/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/31_solve_sudoku/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/31_solve_sudoku/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/31_solve_sudoku/solve_sudoku.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/31_solve_sudoku/solve_sudoku.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/32_generate_div_tags/generate_div_tags.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/32_generate_div_tags/generate_div_tags.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/32_generate_div_tags/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/32_generate_div_tags/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/33_ambiguous_measurements/ambiguous_measurements.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/33_ambiguous_measurements/ambiguous_measurements.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/33_ambiguous_measurements/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/33_ambiguous_measurements/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/34_shifted_binary_search/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/34_shifted_binary_search/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/34_shifted_binary_search/shifted_binary_search.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/34_shifted_binary_search/shifted_binary_search.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/35_search_for_range/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/35_search_for_range/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/35_search_for_range/search_for_range.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/35_search_for_range/search_for_range.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/36_index_equals_value/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/36_index_equals_value/index_equals_value.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/36_index_equals_value/index_equals_value.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/36_index_equals_value/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/37_quick_select/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/37_quick_select/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/37_quick_select/quick_select.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/37_quick_select/quick_select.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/38_quick_sort/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/38_quick_sort/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/38_quick_sort/quick_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/38_quick_sort/quick_sort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/39_heap_sort/heap_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/39_heap_sort/heap_sort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/39_heap_sort/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/39_heap_sort/questiion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/40_radix_sort/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/40_radix_sort/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/40_radix_sort/radix_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/40_radix_sort/radix_sort.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/41_shorten_path/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/41_shorten_path/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/41_shorten_path/shorten_path.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/41_shorten_path/shorten_path.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/largest_rectangle_under_skyline.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/largest_rectangle_under_skyline.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/42_largest_rectangle_under_skyline/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/43_underscorify_substring/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/43_underscorify_substring/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/43_underscorify_substring/underscorify_substring.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/43_underscorify_substring/underscorify_substring.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/44_pattern_matcher/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/44_pattern_matcher/pattern_matcher.go" beforeDir="false" afterPath="$PROJECT_DIR$/hard/44_pattern_matcher/pattern_matcher.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/44_pattern_matcher/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/45_multi_string_search/hints.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/45_multi_string_search/question.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/hard/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/very_hard/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/01_apartment_hunting/apartment_hunting.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/01_apartment_hunting/apartment_hunting.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/01_apartment_hunting/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/01_apartment_hunting/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/02_calendar_matching/calendar_matching.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/02_calendar_matching/calendar_matching.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/02_calendar_matching/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/02_calendar_matching/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/03_waterfall_streams/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/03_waterfall_streams/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/03_waterfall_streams/sample.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/03_waterfall_streams/waterfall_streams.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/03_waterfall_streams/waterfall_streams.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/minimum_area_rectangle.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/minimum_area_rectangle.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/04_minimum_area_rectangle/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/05_line_through_points/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/05_line_through_points/line_through_points.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/05_line_through_points/line_through_points.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/05_line_through_points/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/06_right_smaller_than/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/06_right_smaller_than/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/06_right_smaller_than/right_smaller_than.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/06_right_smaller_than/right_smaller_than.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/07_iterative_in_order_traversal/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/07_iterative_in_order_traversal/iterative_in_order_traversal.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/07_iterative_in_order_traversal/iterative_in_order_traversal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/07_iterative_in_order_traversal/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/flatten_binary_tree.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/flatten_binary_tree.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/08_flatten_binary_tree/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/09_right_sibling_tree/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/09_right_sibling_tree/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/09_right_sibling_tree/right_sibling_tree.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/09_right_sibling_tree/right_sibling_tree.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/10_all_kinds_of_node_depths/all_kinds_of_node_depths.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/10_all_kinds_of_node_depths/all_kinds_of_node_depths.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/10_all_kinds_of_node_depths/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/10_all_kinds_of_node_depths/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/11_compare_leaf_traversal/compare_leaf_traversal.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/11_compare_leaf_traversal/compare_leaf_traversal.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/11_compare_leaf_traversal/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/11_compare_leaf_traversal/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions/max_profit_with_k_transactions.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions/max_profit_with_k_transactions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/12_max_profit_with_k_transactions/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/13_palindrome_partitioning_min_cuts/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/13_palindrome_partitioning_min_cuts/palindrome_partitioning_min_cuts.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/13_palindrome_partitioning_min_cuts/palindrome_partitioning_min_cuts.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/13_palindrome_partitioning_min_cuts/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/14_longest_increasing_subsequence/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/14_longest_increasing_subsequence/longest_increasing_subsequence.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/14_longest_increasing_subsequence/longest_increasing_subsequence.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/14_longest_increasing_subsequence/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/15_longest_string_chain/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/15_longest_string_chain/longest_string_chain.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/15_longest_string_chain/longest_string_chain.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/15_longest_string_chain/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/square_of_zeroes.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/16_square_of_zeroes/square_of_zeroes.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm/knuth_morris_pratt_algorithm.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm/knuth_morris_pratt_algorithm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/a_star_algo_using_heap.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/a_star_algo_using_heap.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/a_star_algorithm.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/a_star_algorithm.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/18_a_star_algorithm/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/19_rectangle_mania/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/19_rectangle_mania/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/19_rectangle_mania/rectangle_mania.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/19_rectangle_mania/rectangle_mania.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/detect_arbitrage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/20_detect_arbitrage/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/two_edge_connected_graph.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/21_two_edge_connected_graph/two_edge_connected_graph.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/22_airport_connections/airport_connections.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/22_airport_connections/airport_connections.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/22_airport_connections/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/22_airport_connections/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays/merge_sorted_arrays.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays/merge_sorted_arrays.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/23_merge_sorted_arrays/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/24_LRU_cache/LRU_cache.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/24_LRU_cache/LRU_cache.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/24_LRU_cache/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/24_LRU_cache/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/rearrange_linked_list.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/25_rearrange_linked_list/rearrange_linked_list.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/26_linked_list_palindrome/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/26_linked_list_palindrome/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/27_zip_linked_list/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/27_zip_linked_list/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/28_node_swap/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/28_node_swap/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies/number_of_binary_tree_topologies.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies/number_of_binary_tree_topologies.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/29_number_of_binary_tree_topologies/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/non_attacking_queens.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/non_attacking_queens.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/30_non_attacking_queens/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/31_merge_sort/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/31_merge_sort/merge_sort.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/31_merge_sort/merge_sort.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/31_merge_sort/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/32_count_inversions/count_inversions.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/32_count_inversions/count_inversions.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/32_count_inversions/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/32_count_inversions/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/question.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/smallest_substring_containing.go" beforeDir="false" afterPath="$PROJECT_DIR$/very_hard/33_smallest_substring_containing/smallest_substring_containing.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/34_longest_balanced_substring/hints.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/very_hard/34_longest_balanced_substring/question.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -238,7 +191,7 @@
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/medium/47_sunset_views" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/very_hard/06_right_smaller_than" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -248,6 +201,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/very_hard/06_right_smaller_than" />
       <recent name="$PROJECT_DIR$/medium/47_sunset_views" />
       <recent name="$PROJECT_DIR$/medium/46_sum_of_linked_lists" />
       <recent name="$PROJECT_DIR$/hard" />
@@ -260,19 +214,7 @@
       <recent name="$PROJECT_DIR$/assessments/05_degrees_of_separation" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions">
-    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase1\E$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring">
     <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
       <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
@@ -320,13 +262,24 @@
       <framework value="gotest" />
       <method v="2" />
     </configuration>
+    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/very_hard/34_longest_balanced_substring" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" />
         <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
         <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
         <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
         <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
-        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
       </list>
     </recent_temporary>
   </component>

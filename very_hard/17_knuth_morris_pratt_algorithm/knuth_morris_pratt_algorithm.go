@@ -1,4 +1,5 @@
 package knuth_morris_pratt_algorithm
+// important question
 
 func KnuthMorrisPrattAlgorithm(str, substr string) bool {
 	pattern := buildPattern(substr)

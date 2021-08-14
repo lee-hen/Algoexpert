@@ -1,4 +1,5 @@
 package apartment_hunting
+// important question
 
 import (
 	"math"
