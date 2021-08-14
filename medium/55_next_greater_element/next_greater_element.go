@@ -1,4 +1,5 @@
 package next_greater_element
+// important question
 
 import (
 	"math"
