@@ -1,4 +1,5 @@
 package minimum_waiting_time
+// important question
 
 import "sort"
 

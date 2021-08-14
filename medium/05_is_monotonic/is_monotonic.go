@@ -1,5 +1,7 @@
 package is_monotonic
+// important question
 
+// IsMonotonic
 // Better solution
 func IsMonotonic(array []int) bool {
 	if len(array) <= 2 {

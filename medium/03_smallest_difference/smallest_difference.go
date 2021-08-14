@@ -1,4 +1,5 @@
 package smallest_difference
+// important question
 
 import (
 	"math"

@@ -1,4 +1,5 @@
 package sum_of_linked_lists
+// important question
 
 type LinkedList struct {
 	Value int

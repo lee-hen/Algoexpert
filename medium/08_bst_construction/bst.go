@@ -1,4 +1,5 @@
 package bst_construction
+// important question
 
 type BST struct {
 	Value, Size int

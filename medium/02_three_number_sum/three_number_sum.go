@@ -4,6 +4,7 @@ import (
 	"sort"
 )
 
+// ThreeNumberSum
 // Better solution
 func ThreeNumberSum(array []int, target int) [][]int {
 	sort.Ints(array)
