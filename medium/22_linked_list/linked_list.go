@@ -1,4 +1,5 @@
 package linked_list
+// important question
 
 type Node struct {
 	Key string

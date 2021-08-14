@@ -14,8 +14,9 @@ func CaesarCipherEncryptor(str string, key int) string {
 	return string(buff)
 }
 
+// caesarCipherEncryptor
 // My solution
-func CaesarCipherEncryptor1(str string, key int) string {
+func caesarCipherEncryptor(str string, key int) string {
 	key = key % 26
 	var buff []byte
 	for i := range str {

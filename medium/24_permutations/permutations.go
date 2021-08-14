@@ -1,4 +1,5 @@
 package permutations
+// important question
 
 func GetPermutations(array []int) [][]int {
 	permutations := make([][]int, 0)

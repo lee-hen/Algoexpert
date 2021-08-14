@@ -1,4 +1,5 @@
 package staircase_traversal
+// important question
 
 // maxSteps  2
 // height    4

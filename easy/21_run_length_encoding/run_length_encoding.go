@@ -1,4 +1,5 @@
 package run_length_encoding
+// important question
 
 import (
 	"strconv"

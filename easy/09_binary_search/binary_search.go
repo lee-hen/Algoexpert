@@ -1,4 +1,5 @@
 package binary_search
+// important question
 
 func BinarySearch(array []int, target int) int {
 	return binarySearch(array, target, 0, len(array)-1)

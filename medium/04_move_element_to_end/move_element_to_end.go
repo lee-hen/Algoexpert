@@ -1,5 +1,6 @@
 package move_element_to_end
 
+// MoveElementToEnd
 // better solution
 func MoveElementToEnd(array []int, toMove int) []int {
 	i, j := 0, len(array)-1

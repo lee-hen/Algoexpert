@@ -1,4 +1,5 @@
 package longest_peak
+// important question
 
 func LongestPeak(array []int) int {
 	longestPeakLength := 0
