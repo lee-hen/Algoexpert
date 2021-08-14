@@ -1,4 +1,5 @@
 package index_equals_value
+// important question
 
 // IndexEqualsValue
 // O(log(n)) time | O(log(n)) space - where n is the length of the input array

@@ -1,4 +1,5 @@
 package largest_rectangle_under_skyline
+// important question
 
 func LargestRectangleUnderSkyline(buildings []int) int {
 	var currentArea int
