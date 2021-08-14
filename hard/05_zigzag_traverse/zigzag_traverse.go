@@ -1,4 +1,5 @@
 package zigzag_traverse
+// important question
 
 func ZigzagTraverse(array [][]int) []int {
 	if len(array) == 0 {

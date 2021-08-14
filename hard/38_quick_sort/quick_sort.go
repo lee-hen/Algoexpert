@@ -1,4 +1,5 @@
 package quick_sort
+// important question
 
 func QuickSort(array []int) []int {
 	sort(0, len(array)-1, array)

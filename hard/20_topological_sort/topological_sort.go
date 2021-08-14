@@ -1,4 +1,5 @@
 package topological_sort
+// important question
 
 type Dep struct {
 	PreReq int

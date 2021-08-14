@@ -1,4 +1,5 @@
 package shorten_path
+// important question
 
 import (
 	"strings"

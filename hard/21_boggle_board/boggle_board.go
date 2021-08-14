@@ -1,4 +1,5 @@
 package boggle_board
+// important question
 
 func BoggleBoard(board [][]rune, words []string) []string {
 	trie := Trie{children: map[rune]Trie{}}

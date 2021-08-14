@@ -1,4 +1,5 @@
 package find_loop
+// important question
 
 type LinkedList struct {
 	Value int

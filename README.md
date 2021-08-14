@@ -34,6 +34,8 @@ Smallest Difference
 
 Non-Constructible Change
 
+Longest Streak Of Adjacent Ones
+
 ### Binary Search Trees
 
 Right Smaller Than
@@ -49,6 +51,10 @@ Validate BST
 Min Height BST
 
 Reconstruct BST
+
+Largest Bst Size
+
+Subtrees Within Range
 
 ### Binary Trees
 
@@ -110,6 +116,8 @@ Water Area
 
 Number Of Ways To Traverse Graph
 
+Glob Matching
+
 ### Famous Algorithms
 
 Topological Sort
@@ -137,6 +145,8 @@ Boggle Board
 Cycle In Graph
 
 River Sizes
+
+Degrees Of Separation
 
 ### Greedy Algorithms
 
@@ -252,9 +262,13 @@ Group Anagrams
 
 Run-Length Encoding
 
+Count Contained Permutations
+
 ### Tries
 
 Multi String Search
+
+Special Strings
 
 ---
 
