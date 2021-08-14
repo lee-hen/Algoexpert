@@ -1,4 +1,5 @@
 package longest_substring_without_duplication
+// important question
 
 import (
 	"strings"

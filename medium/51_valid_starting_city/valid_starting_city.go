@@ -1,4 +1,5 @@
 package valid_starting_city
+// important question
 
 func ValidStartingCity(distances []int, fuel []int, mpg int) int {
 	indexOfStartingCityCandidate := 0

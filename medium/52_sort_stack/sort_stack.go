@@ -1,4 +1,5 @@
 package sort_stack
+// important question
 
 func SortStack(stack []int) []int {
 	if len(stack) == 0 {
