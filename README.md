@@ -90,7 +90,7 @@
 
 [Square of Zeroes](https://github.com/lee-hen/Algoexpert/tree/master/very_hard/16_square_of_zeroes)
 
-[Longest Common Subsequence](https://github.com/lee-hen/Algoexpert/tree/master/very_hard/14_longest_increasing_subsequence)
+[Longest Common Subsequence](https://github.com/lee-hen/Algoexpert/tree/master/very_hard/11_longest_common_subsequence)
 
 [Max Sum Increasing Subsequence](https://github.com/lee-hen/Algoexpert/tree/master/hard/10_max_sumIncreasing_subsequence)
 

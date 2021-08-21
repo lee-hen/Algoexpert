@@ -7,7 +7,6 @@
     <list default="true" id="e1040290-ba1e-4b35-ae46-1b2e9bc9bd81" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hard/35_search_for_range/Readme" beforeDir="false" afterPath="$PROJECT_DIR$/hard/35_search_for_range/Readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="MTHome" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -84,29 +83,29 @@
       <recent name="$PROJECT_DIR$/assessments/05_degrees_of_separation" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring">
-    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Test.go test github.com/lee-hen/Algoexpert/medium/08_bst_construction">
+    <configuration name="TestCase1 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
+      <working_directory value="$PROJECT_DIR$/medium/08_bst_construction" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
+      <package value="github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <pattern value="^\QTestCase1\E$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestCase2 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Algoexpert" />
+      <working_directory value="$PROJECT_DIR$/medium/08_bst_construction" />
+      <root_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <package value="github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
       <pattern value="^\QTestCase2\E$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestCase3 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
-      <root_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <framework value="gotest" />
-      <pattern value="^\QTestCase3\E$" />
       <method v="2" />
     </configuration>
     <configuration name="TestCase6 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -121,12 +120,12 @@
       <pattern value="^\QTestCase6\E$" />
       <method v="2" />
     </configuration>
-    <configuration name="go test github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="go test github.com/lee-hen/Algoexpert/medium/08_bst_construction" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Algoexpert" />
-      <working_directory value="$PROJECT_DIR$/very_hard/17_knuth_morris_pratt_algorithm" />
+      <working_directory value="$PROJECT_DIR$/medium/08_bst_construction" />
       <root_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <package value="github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
+      <package value="github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <framework value="gotest" />
@@ -145,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
+        <item itemvalue="Go Test.TestCase1 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
+        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/medium/08_bst_construction" />
         <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/34_longest_balanced_substring" />
         <item itemvalue="Go Test.TestCase6 in github.com/lee-hen/Algoexpert/very_hard/32_count_inversions" />
-        <item itemvalue="Go Test.go test github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
-        <item itemvalue="Go Test.TestCase2 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
-        <item itemvalue="Go Test.TestCase3 in github.com/lee-hen/Algoexpert/very_hard/17_knuth_morris_pratt_algorithm" />
       </list>
     </recent_temporary>
   </component>
@@ -181,6 +180,12 @@
         <breakpoint suspend="NONE" type="DlvErrorBreakpoint" />
       </default-breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoTestRunConfiguration">
+        <watch expression="root" />
+        <watch expression="remove(tree, value)" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Algoexpert$TestCase1_in_github_com_lee_hen_Algoexpert_very_hard_30_non_attacking_queens.out" NAME="TestCase1 in github.com/lee-hen/Algoexpert/very_hard/30_non_attacking_queens Coverage Results" MODIFIED="1627708800418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="GoCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
