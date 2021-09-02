@@ -32,5 +32,3 @@ Hint 3
 Optimal Space & Time Complexity
 O(j + d) time | O(j + d) space - where j is the number of jobs and d is the number of dependencies
 ```
-
-![solution](example.png)

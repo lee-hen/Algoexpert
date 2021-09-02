@@ -248,6 +248,8 @@
 
 [Smallest Substring Containing](https://github.com/lee-hen/Algoexpert/tree/master/very_hard/33_smallest_substring_containing)
 
+[Count Contained Permutations](https://github.com/lee-hen/Algoexpert/tree/master/assessments/15_count_contained_permutations)
+
 [Underscorify Substring](https://github.com/lee-hen/Algoexpert/tree/master/hard/43_underscorify_substring)
 
 [Longest Substring Without Duplication](https://github.com/lee-hen/Algoexpert/tree/master/medium/56_longest_substring_without_duplication)
@@ -261,8 +263,6 @@
 [Group Anagrams](https://github.com/lee-hen/Algoexpert/tree/master/medium/30_group_anagrams)
 
 [Run-Length Encoding](https://github.com/lee-hen/Algoexpert/tree/master/easy/21_run_length_encoding)
-
-[Count Contained Permutations](https://github.com/lee-hen/Algoexpert/tree/master/assessments/15_count_contained_permutations)
 
 ### Tries
 
