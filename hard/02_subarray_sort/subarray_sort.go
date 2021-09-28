@@ -97,6 +97,7 @@ func subarraySort(slice []int) []int {
 	}
 
 	i := 0
+	var i int
 	for ; i < len(slice); i++ {
 		if slice[i] > minVal {
 			break
