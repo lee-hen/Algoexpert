@@ -34,9 +34,6 @@
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/medium/Readme.md" root0="FORCE_HIGHLIGHTING" />
-  </component>
   <component name="ProjectId" id="1tkr9gc1tRo9U7NOciHES0R6CRL" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
