@@ -69,7 +69,7 @@ func getPermutations(array []int) (perms [][]int) {
 	newPerm := make([]int, len(array))
 	copy(newPerm, array)
 
-	return append(perms, GetPermutations(nextPermutation(newPerm))...)
+	return append(perms, getPermutations(nextPermutation(newPerm))...)
 }
 
 // ex.
